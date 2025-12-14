@@ -1,0 +1,34 @@
+# General cache files
+# No need to track those.
+usercache.json
+cache
+realms_persistence.json
+downloads
+.fabric
+
+# Possibly confidental information
+command_history.txt
+logs
+
+# This stores the backpack preview cache
+# No need to track it as it updates every time you open a backpack
+# Losing the cache would only mean it will re-gen it the next time you open the backpack
+config/skyblocker/backpack-preview
+
+# Similarly, it's for the equipment preview
+config/skyblocker/equipment
+
+# Contains garden plots cache
+config/skyblocker/garden_plots
+
+# NEU Repository, has 15k+ files and is downloaded/updated each startup
+# The NEU Repository is already a git repo, no need to track it
+config/skyblocker/item-repo
+
+# Skyblocker config backups
+# We already track the main files, no need to track the backups in Git
+config/skyblocker/config_backups
+
+# SBO Config, Loot Tracker and Achievement data backups
+# We already track the main files, no need to track the backups in Git
+config/sbo/backup
