@@ -20,7 +20,6 @@
   "sleepDelay": 153,
   "hitboxLimit": 90,
   "captureRate": 5,
-  "skipMarkerArmorStands": true,
   "tickCulling": true,
   "tickCullingWhitelist": [
     "minecraft:block_display",
@@ -63,5 +62,7 @@
   ],
   "disableF3": true,
   "skipEntityCulling": false,
-  "skipBlockEntityCulling": false
+  "skipBlockEntityCulling": false,
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": true
 }

@@ -55,6 +55,7 @@
     },
     "specialEffects": {
       "rareDungeonDropEffects": false,
+      "rareDropEffects": false,
       "rareDyeDropEffects": false
     },
     "hitbox": {
@@ -99,7 +100,10 @@
     "museumOverlay": false,
     "slotText": {
       "slotTextMode": "DISABLED",
-      "textEnabled": {},
+      "textEnabled": {
+        "enchantment_abbreviation": false,
+        "enchantment_level": false
+      },
       "slotTextToggled": false
     },
     "inventorySearch": {
@@ -178,14 +182,14 @@
       "historyLength": 3,
       "enableCommands": false,
       "bazaarHistory": [
-        "prot",
-        "crit",
-        "critical"
+        "Jelly",
+        "Enchanted Sunflower",
+        "Scorched Power Crystal"
       ],
       "auctionHistory": [
-        "Minos Relic",
-        "Crochet Tiger Plushie",
-        "Antique Remedies"
+        "Harvest Harbinger V Potion",
+        "Treasure Talisman",
+        "Fire in a Bottle"
       ],
       "museumHistory": []
     },
@@ -511,6 +515,10 @@
     "callMismyla": false,
     "redialOnBadSignal": false,
     "enablePickobulusHelper": false,
+    "pickobulusHelper": {
+      "enablePickobulusHud": false,
+      "hideHudOnCooldown": false
+    },
     "dwarvenMines": {
       "solveFetchur": false,
       "solvePuzzler": false,

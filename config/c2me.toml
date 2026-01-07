@@ -65,14 +65,9 @@ globalExecutorParallelism = "default"
 		enableExtRenderDistanceProtocol = "default"
 
 [noTickViewDistance]
-	# (Default: true) Whether to enable no-tick view distance
-	enabled = "default"
 	# (Default: 2) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
-	# (Default: true) Whether to use compatibility mode to send chunks 
-	#  This may fix some mod compatibility issues
-	compatibilityMode = "default"
 	# (Default: true) Enable server-side support for extended render distance protocol (c2me:ext_render_distance_v1)
 	# This allows requesting render distances higher than 127 chunks from the server
 	# 
@@ -82,6 +77,13 @@ globalExecutorParallelism = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: true) Whether to attempt to smooth out chunk sending rate
+	# 
+	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
+	# which can cause frame time stability if the server also delivers chunks in a bursty way
+	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
+	# 
+	smoothChunkSendingRate = "default"
 
 [ioSystem]
 	# (Default: 8192) Soft limit for io worker nbt cache

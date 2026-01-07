@@ -33,12 +33,12 @@
       "minecraft:happy_villager": true,
       "minecraft:heart": true,
       "minecraft:explosion_emitter": true,
-      "minecraft:campfire_cosy_smoke": true,
+      "minecraft:campfire_cosy_smoke": false,
       "minecraft:scrape": true,
       "minecraft:glow": true,
       "minecraft:wax_on": true,
       "minecraft:gust": true,
-      "minecraft:campfire_signal_smoke": true,
+      "minecraft:campfire_signal_smoke": false,
       "minecraft:bubble_column_up": true,
       "minecraft:smoke": true,
       "minecraft:lava": true,
@@ -127,7 +127,8 @@
       "minecraft:trial_spawner_detection_ominous": true,
       "minecraft:vibration": true,
       "minecraft:falling_dripstone_lava": true,
-      "minecraft:dripping_dripstone_lava": true
+      "minecraft:dripping_dripstone_lava": true,
+      "minecraft:copper_fire_flame": true
     }
   },
   "detail_settings": {
