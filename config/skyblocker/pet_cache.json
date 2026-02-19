@@ -2,9 +2,15 @@
   "d5c721ce1b124f719c1d0f4e36829f99": {
     "d5c721ce-1b12-4f71-9c1d-0f4e36829f99": {
       "tier": "LEGENDARY",
-      "name": "Golden Dragon",
-      "type": "GOLDEN_DRAGON",
+      "name": "Rose Dragon",
+      "type": "ROSE_DRAGON",
       "exp": 2.10255385E8
+    },
+    "": {
+      "tier": "MYTHIC",
+      "name": "Griffin",
+      "type": "GRIFFIN",
+      "exp": 2.535323E7
     }
   }
 }

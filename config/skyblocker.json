@@ -36,7 +36,8 @@
       "dungeonQuality": false,
       "showEssenceCost": false,
       "enableEstimatedItemValue": false,
-      "enableStackingEnchantProgress": false
+      "enableStackingEnchantProgress": false,
+      "enableEvolvingItemProgress": false
     },
     "itemInfoDisplay": {
       "itemBackgroundStyle": "SQUARE",
@@ -101,10 +102,39 @@
     "slotText": {
       "slotTextMode": "DISABLED",
       "textEnabled": {
+        "hotf_perk_level": false,
+        "hunting_toolkit_indicator": false,
+        "rancher_boots": false,
+        "potion_level": false,
+        "essence_shop": false,
+        "your_essence": false,
+        "hotm_perk_level": false,
+        "attribute_levels": false,
+        "enchantment_level": false,
+        "stats_tuning": false,
+        "catacombs_level": false,
+        "collection": false,
+        "skyblock_guide": false,
+        "skill_level": false,
+        "minion_level": false,
         "enchantment_abbreviation": false,
-        "enchantment_level": false
+        "pet_level": false,
+        "bestiary_level": false,
+        "evolving_items": false,
+        "chip_level": false,
+        "prehistoric_egg": false,
+        "community_shop": false,
+        "choose_pet_pet_level": false,
+        "skyblock_level": false,
+        "new_year_cake_year": false,
+        "power_stones_guide": false
       },
       "slotTextToggled": false
+    },
+    "radialMenu": {
+      "enabled": false,
+      "tooltipsWithoutShift": false,
+      "enabledMenus": {}
     },
     "inventorySearch": {
       "enabled": "SKYBLOCK",
@@ -136,6 +166,9 @@
     },
     "bars": {
       "enableBars": false,
+      "enableBarsRift": false,
+      "riftHealthHP": false,
+      "enableVanillaStyleManaBar": false,
       "intelligenceDisplay": "ORIGINAL",
       "barPositions": {
         "healthBarPosition": "LAYER1",
@@ -147,11 +180,11 @@
     "waypoints": {
       "enableWaypoints": false,
       "waypointType": "WAYPOINT",
-      "renderLine": true,
+      "renderLine": false,
       "lineColor": -16711936,
       "lineWidth": 5.0,
-      "allowSkippingWaypoints": true,
-      "allowGoingBackwards": true,
+      "allowSkippingWaypoints": false,
+      "allowGoingBackwards": false,
       "enableChatWaypoints": false
     },
     "teleportOverlay": {
@@ -182,14 +215,14 @@
       "historyLength": 3,
       "enableCommands": false,
       "bazaarHistory": [
-        "Jelly",
-        "Enchanted Sunflower",
-        "Scorched Power Crystal"
+        "Scorched Power Crystal",
+        "Jungle Log",
+        "Scorched Books"
       ],
       "auctionHistory": [
-        "Harvest Harbinger V Potion",
-        "Treasure Talisman",
-        "Fire in a Bottle"
+        "Shimmering Wool",
+        "Crochet Tiger Plushie",
+        "Chirping Stereo"
       ],
       "museumHistory": []
     },
@@ -211,7 +244,7 @@
     },
     "compactDamage": {
       "enabled": false,
-      "precision": 1,
+      "maxPrecision": 4,
       "normalDamageColor": -1,
       "critDamageGradientStart": -171,
       "critDamageGradientEnd": -43691
@@ -247,6 +280,7 @@
     "enableCopyUnderbidPrice": false,
     "enableBuildersWandPreview": false,
     "enableAnvilHelper": false,
+    "enableAccessoriesHelperWidget": false,
     "mythologicalRitual": {
       "enableMythologicalRitualHelper": false
     },
@@ -349,14 +383,18 @@
       "fancyMap": true,
       "showSelfHead": true,
       "showRoomLabels": false,
+      "roomLabelType": "ROOM_NAME_AND_SECRETS_FOUND",
+      "hideCheckmarks": false,
+      "showOutline": false,
+      "backgroundBlur": false,
       "mapScaling": 1.0,
       "mapX": 2,
       "mapY": 2
     },
     "leapOverlay": {
       "enableLeapOverlay": false,
-      "leapKeybinds": true,
-      "showMap": true,
+      "leapKeybinds": false,
+      "showMap": false,
       "scale": 1.2,
       "enableLeapMessage": false,
       "leapMessage": "Leaped to [name]!"
@@ -405,9 +443,19 @@
       "enableGoldorWaypoints": true,
       "waypointType": "HIGHLIGHT"
     },
+    "terminalHud": {
+      "enableTerminalHud": true,
+      "showTerminalStatus": true,
+      "showPlayerAtTerminal": true,
+      "showTerminals": true,
+      "showDevice": true,
+      "showLevers": true,
+      "showGate": true
+    },
     "secretWaypoints": {
       "enableSecretWaypoints": true,
       "waypointType": "HIGHLIGHT",
+      "adaptiveBoxSize": false,
       "showSecretText": true,
       "enableEntranceWaypoints": false,
       "enableSuperboomWaypoints": true,
@@ -452,8 +500,8 @@
       "dungeonCryptsMessageThreshold": 250,
       "dungeonCryptsMessage": "Crypts: [crypts]/5",
       "enableScoreHUD": true,
-      "scoreX": 29,
-      "scoreY": 134,
+      "scoreX": 30,
+      "scoreY": 126,
       "scoreScaling": 1.0
     },
     "dungeonChestProfit": {
@@ -562,7 +610,11 @@
       "enableParsingChatCorpseFinder": false,
       "autoShareCorpses": false,
       "enableCorpseProfitTracker": false,
-      "forceEnglishCorpseProfitTracker": true
+      "forceEnglishCorpseProfitTracker": false
+    },
+    "blockBreakPrediction": {
+      "enabled": false,
+      "playSound": false
     }
   },
   "farming": {
@@ -639,11 +691,16 @@
   "slayers": {
     "highlightMinis": "OFF",
     "highlightBosses": "OFF",
+    "highlightColor": -47104,
     "displayBossbar": false,
     "bossSpawnAlert": false,
     "miniBossSpawnAlert": false,
+    "alertOtherMinibosses": false,
+    "showMiniBossNameInAlert": false,
     "slainTime": false,
     "enableHud": false,
+    "hideSlayerMinibossSpawn": "PASS",
+    "highlightUnclaimedRewards": false,
     "callMaddox": {
       "sendMessageOnFail": false,
       "sendMessageOnKill": false
@@ -670,12 +727,22 @@
     },
     "blazeSlayer": {
       "firePillarCountdown": "SOUND_AND_VISUAL",
-      "attunementHighlights": false
+      "attunementHighlights": false,
+      "muteBlazeSounds": false,
+      "hideHellionShield": "PASS"
+    },
+    "wolfSlayer": {
+      "muteWolfSounds": false,
+      "hideSvenPupNametag": false
+    },
+    "spiderSlayer": {
+      "muteSpiderSounds": false
     }
   },
   "chat": {
     "skyblockXpMessages": true,
     "confirmationPromptHelper": false,
+    "toastDisplayDuration": 4.0,
     "hideAbility": "PASS",
     "hideHeal": "PASS",
     "hideAOTE": "PASS",
@@ -691,7 +758,6 @@
     "hideMimicKill": "PASS",
     "hideDeath": "PASS",
     "hideMana": false,
-    "hideDicer": "PASS",
     "hideDungeonBreaker": "PASS",
     "chatRuleConfig": {
       "announcementLength": 60

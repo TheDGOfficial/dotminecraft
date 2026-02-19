@@ -56,7 +56,7 @@ damageTiltStrength:0.0
 highContrast:true
 highContrastBlockOutline:true
 narratorHotkey:false
-resourcePacks:["vanilla","high_contrast","fabric","file/Fast Better Grass.zip"]
+resourcePacks:["vanilla","high_contrast","fabric","file/skt-bfl v2.1.zip","file/Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -153,7 +153,6 @@ key_key.skyblocker.wikiLookup.official:key.keyboard.unknown
 key_key.skyblocker.wikiLookup.fandom:key.keyboard.unknown
 key_key.skyblocker.toggleA:key.keyboard.unknown
 key_key.skyblocker.defaultTgl:key.keyboard.unknown
-key_substrate.toggle:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c
 key_zoomify.key.zoom.secondary:key.keyboard.unknown
 soundCategory_master:0.5
