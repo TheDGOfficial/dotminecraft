@@ -29,6 +29,7 @@
   "arrowAlignmentDeviceSolverBlockIncorrectClicks": true,
   "arrowStackWaypoints": true,
   "dungeonTimer": true,
+  "bloodClearedNotification": true,
   "hideEffectsHud": true,
   "hideEffectsInInventory": true,
   "transparentPlayerList": true,
