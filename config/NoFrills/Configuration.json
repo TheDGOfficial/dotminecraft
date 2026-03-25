@@ -152,7 +152,8 @@
   },
   "fullbright": {
     "noEffect": false,
-    "enabled": false
+    "enabled": false,
+    "mode": "Ambient"
   },
   "noRender": {
     "explosions": false,
@@ -171,7 +172,8 @@
     "nausea": true,
     "vignette": true,
     "expOrbs": true,
-    "stuckArrows": true
+    "stuckArrows": true,
+    "vignetteMode": "Both"
   },
   "pearlRefill": {
     "enabled": false
@@ -481,7 +483,8 @@
   },
   "terracottaTimer": {
     "enabled": true,
-    "color": -256
+    "color": -256,
+    "scale": 0.4
   },
   "witherDragons": {
     "alert": true,
@@ -742,7 +745,7 @@
   },
   "dungeonChestValue": {
     "background": -870309856,
-    "enabled": false
+    "enabled": true
   },
   "noCursorReset": {
     "clearTicks": 200,
@@ -955,5 +958,45 @@
     "msg300": "/pc 300 Score!",
     "title300": "\u0026c\u0026l300",
     "enabled": false
+  },
+  "wateringHelper": {
+    "enabled": true,
+    "hideParticles": true
+  },
+  "dungeonMapElement": {
+    "selfMarkerScale": 7.0,
+    "playerMarkerScale": 1.5,
+    "playerNameScale": 0.8,
+    "scale": 1.0
+  },
+  "commandShortcuts": {
+    "enabled": false
+  },
+  "eyeHeightFix": {
+    "enabled": false
+  },
+  "noDamageSplash": {
+    "enabled": false
+  },
+  "platformHighlight": {
+    "enabled": true
+  },
+  "croesusSolver": {
+    "enabled": true
+  },
+  "pickaxeAbilityTimerElement": {
+    "scale": 1.0
+  },
+  "spiritBearTimerElement": {
+    "scale": 1.0
+  },
+  "terracottaGyroTimerElement": {
+    "scale": 1.0
+  },
+  "freshToolsTimerElement": {
+    "scale": 1.0
+  },
+  "equipmentHighlight": {
+    "enabled": true
   }
 }

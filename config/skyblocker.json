@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 8,
   "general": {
     "enableTips": false,
     "acceptReparty": false,
@@ -58,11 +58,6 @@
       "rareDungeonDropEffects": false,
       "rareDropEffects": false,
       "rareDyeDropEffects": false
-    },
-    "hitbox": {
-      "oldCactusHitbox": false,
-      "oldLeverHitbox": false,
-      "oldMushroomHitbox": false
     },
     "lockedSlots": [],
     "protectedItems": [],
@@ -278,9 +273,12 @@
     "enableWardrobeHelper": false,
     "enableDateCalculator": false,
     "enableCopyUnderbidPrice": false,
-    "enableBuildersWandPreview": false,
     "enableAnvilHelper": false,
     "enableAccessoriesHelperWidget": false,
+    "buildersWand": {
+      "enableBuildersWandPreview": false,
+      "previewOpacity": 0.5
+    },
     "mythologicalRitual": {
       "enableMythologicalRitualHelper": false
     },
@@ -365,7 +363,7 @@
   },
   "dungeons": {
     "fancyPartyFinder": false,
-    "croesusHelper": true,
+    "croesusHelper": false,
     "salvageHelper": false,
     "onlyHighlightDonatedItems": false,
     "sellableItemsHighlighter": false,
@@ -477,6 +475,12 @@
       "receiveRoomSecretCount": false,
       "hideReceivedWaypoints": false
     },
+    "rareRoomAlert": {
+      "enabled": false,
+      "showForTrinity": false,
+      "showForTomioka": false,
+      "showForDuncan": false
+    },
     "mimicMessage": {
       "sendMimicMessage": false
     },
@@ -505,10 +509,10 @@
       "scoreScaling": 1.0
     },
     "dungeonChestProfit": {
-      "enableProfitCalculator": true,
+      "enableProfitCalculator": false,
       "includeKismet": false,
-      "includeEssence": true,
-      "croesusProfit": true,
+      "includeEssence": false,
+      "croesusProfit": false,
       "neutralThreshold": 1000,
       "neutralColor": "DARK_GRAY",
       "profitColor": "DARK_GREEN",
@@ -618,25 +622,27 @@
     }
   },
   "farming": {
-    "garden": {
-      "farmingHud": {
-        "enableHud": false,
-        "x": 0,
-        "y": 0,
-        "type": "BOTH"
-      },
-      "dicerTitlePrevent": false,
-      "pestHighlighter": false,
-      "lockMouseTool": false,
-      "lockMouseGroundOnly": false,
-      "gardenPlotsWidget": false,
-      "closeScreenOnPlotClick": false,
+    "farmingHud": {
+      "enabled": false,
+      "type": "BOTH"
+    },
+    "pestHighlighter": {
+      "enabled": false,
+      "vinylHighlighter": false,
       "enableStereoHarmonyHelperForContest": false
     },
+    "mouseLock": {
+      "lockMouseTool": false,
+      "lockMouseGroundOnly": false
+    },
+    "plotsWidget": {
+      "enabled": false,
+      "closeScreenOnPlotClick": false
+    },
     "visitorHelper": {
-      "visitorHelper": false,
-      "visitorHelperGardenOnly": false,
-      "showStacksInVisitorHelper": false
+      "enabled": false,
+      "showInGardenOnly": false,
+      "showInStacks": false
     }
   },
   "hunting": {
@@ -661,7 +667,8 @@
       "enableGlowingMushroomHelper": false,
       "solveHungryHiker": false,
       "solveTreasureHunter": false,
-      "enableCallTrevorMessage": false
+      "enableCallTrevorMessage": false,
+      "enablePeltAnimalHighlighter": false
     },
     "rift": {
       "mirrorverseWaypoints": false,

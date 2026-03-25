@@ -103,7 +103,7 @@
   "MC-298066": true,
   "MC-298225": true,
   "MC-298558": true,
-  "opt_out_updater": false,
+  "opt_out_updater": true,
   "gameplay_fixes_in_multiplayer": false,
   "default_disabled": false
 }
