@@ -1,16 +1,19 @@
 {
   "d5c721ce1b124f719c1d0f4e36829f99": {
-    "d5c721ce-1b12-4f71-9c1d-0f4e36829f99": {
-      "tier": "MYTHIC",
-      "name": "Griffin",
-      "type": "GRIFFIN",
-      "exp": 2.535323E7
-    },
     "": {
-      "tier": "MYTHIC",
       "name": "Griffin",
       "type": "GRIFFIN",
-      "exp": 2.535323E7
+      "exp": 2.535323E7,
+      "tier": "MYTHIC"
+    },
+    "d5c721ce-1b12-4f71-9c1d-0f4e36829f99": {
+      "name": "[Lvl 100] Rabbit ✦",
+      "type": "RABBIT",
+      "exp": 2.2824253194915906E8,
+      "tier": "MYTHIC",
+      "uuid": "1a1c8217-7b87-4a1c-8417-84870ce6bd28",
+      "heldItem": "GREEN_BANDANA",
+      "skin": "RABBIT_LUNAR"
     }
   }
 }

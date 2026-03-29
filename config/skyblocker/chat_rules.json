@@ -1,37 +1,37 @@
 {
   "rules": [
     {
-      "locations": [
-        "hub"
-      ],
-      "hideOriginalMessage": true,
+      "name": "Clean Hub Chat",
+      "enabled": false,
+      "partialMatch": true,
       "regex": true,
       "ignoreCase": true,
       "filter": "(selling)|(buying)|(lowb)|(visit)|(/p)|(/ah)|(my ah)",
-      "name": "Clean Hub Chat",
-      "enabled": false,
-      "partialMatch": true
+      "locations": [
+        "hub"
+      ],
+      "hideOriginalMessage": true
     },
     {
-      "announcementMessage": {
-        "message": "\u00261Ability",
-        "displayDuration": 3000
-      },
-      "customSound": {
-        "sound_id": "minecraft:entity.arrow.hit_player"
-      },
+      "name": "Mining Ability Alert",
+      "enabled": false,
+      "partialMatch": true,
+      "regex": false,
+      "ignoreCase": true,
+      "filter": "is now available!",
       "locations": [
         "mining_3",
         "crystal_hollows"
       ],
       "hideOriginalMessage": false,
       "chatMessage": "\u00261Ability",
-      "regex": false,
-      "ignoreCase": true,
-      "filter": "is now available!",
-      "name": "Mining Ability Alert",
-      "enabled": false,
-      "partialMatch": true
+      "announcementMessage": {
+        "message": "\u00261Ability",
+        "displayDuration": 3000
+      },
+      "customSound": {
+        "sound_id": "minecraft:entity.arrow.hit_player"
+      }
     }
   ]
 }
