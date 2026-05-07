@@ -1,0 +1,15 @@
+# Add additional domains to whitelist in this file, one per line
+# Lines starting with # will be ignored.
+#
+# Example:
+github.com
+api.github.com
+raw.githubusercontent.com
+hysky.de
+api.hypixel.net
+api.azureaaron.net
+whatyouth.ing
+rewards.hypixel.net
+api.modrinth.com
+spark-usercontent.lucko.me
+api.skyblockoverhaul.com

@@ -167,6 +167,8 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.darkutils.createGhostBlock:key.keyboard.g
+key_key.entityculling.toggle:key.keyboard.unknown
+key_key.entityculling.toggleBoxes:key.keyboard.unknown
 key_key.debug.reloadLanguages:key.keyboard.unknown
 key_key.tooltipscroll.moveUp:key.keyboard.page.up
 key_key.tooltipscroll.moveDown:key.keyboard.page.down
@@ -179,7 +181,7 @@ key_key.skyblocker.itemProtection:key.keyboard.unknown
 key_key.skyblocker.valueBreadownPopup:key.keyboard.unknown
 key_key.skyblocker.slottext:key.keyboard.unknown
 key_key.skyblocker.wikiLookup.official:key.keyboard.unknown
-key_key.skyblocker.wikiLookup.fandom:key.keyboard.unknown
+key_key.skyblocker.wikiLookup.independent:key.keyboard.unknown
 key_key.skyblocker.toggleA:key.keyboard.unknown
 key_key.skyblocker.defaultTgl:key.keyboard.unknown
 key_zoomify.key.zoom:key.keyboard.c

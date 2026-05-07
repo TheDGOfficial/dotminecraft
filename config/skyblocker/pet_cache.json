@@ -1,19 +1,19 @@
 {
   "d5c721ce1b124f719c1d0f4e36829f99": {
+    "d5c721ce-1b12-4f71-9c1d-0f4e36829f99": {
+      "name": "[Lvl 100] Ammonite ✦",
+      "type": "AMMONITE",
+      "exp": 7.411764383040793E7,
+      "tier": "LEGENDARY",
+      "uuid": "89791bb6-a9bd-4acd-9cd2-9306a1c346b8",
+      "heldItem": "BURNT_TEXTS",
+      "skin": "AMMONITE_MAGMA"
+    },
     "": {
       "name": "Griffin",
       "type": "GRIFFIN",
       "exp": 2.535323E7,
       "tier": "MYTHIC"
-    },
-    "d5c721ce-1b12-4f71-9c1d-0f4e36829f99": {
-      "name": "[Lvl 100] Rabbit ✦",
-      "type": "RABBIT",
-      "exp": 2.2824253194915906E8,
-      "tier": "MYTHIC",
-      "uuid": "1a1c8217-7b87-4a1c-8417-84870ce6bd28",
-      "heldItem": "GREEN_BANDANA",
-      "skin": "RABBIT_LUNAR"
     }
   }
 }

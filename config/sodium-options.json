@@ -1,7 +1,8 @@
 {
   "quality": {
     "hidden_fluid_culling": true,
-    "improved_fluid_shaping": false
+    "improved_fluid_shaping": false,
+    "pixel_filtering_mode": "NEAREST"
   },
   "performance": {
     "chunk_builder_threads": 0,

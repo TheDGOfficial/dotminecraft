@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 10,
   "general": {
     "enableTips": false,
     "acceptReparty": false,
@@ -18,11 +18,13 @@
       "enableQuiverWarningAfterDungeon": false
     },
     "itemList": {
+      "enableRecipeBook": false,
       "enableItemList": false,
       "enableCollapsibleEntries": false
     },
     "itemTooltip": {
       "enableNPCPrice": false,
+      "enableGeorgePrice": false,
       "enableMotesPrice": false,
       "enableAvgBIN": false,
       "avg": "THREE_DAY",
@@ -132,7 +134,7 @@
       "enabledMenus": {}
     },
     "inventorySearch": {
-      "enabled": "SKYBLOCK",
+      "enabled": "OFF",
       "ctrlK": false,
       "clickableText": false
     },
@@ -180,6 +182,7 @@
       "lineWidth": 5.0,
       "allowSkippingWaypoints": false,
       "allowGoingBackwards": false,
+      "waypointActivationRadius": 2.0,
       "enableChatWaypoints": false
     },
     "teleportOverlay": {
@@ -322,7 +325,7 @@
         "UNKNOWN"
       ],
       "enableSeaCreatureCounter": false,
-      "fishingHookDisplay": "HUD",
+      "fishingHookDisplay": "OFF",
       "onlyShowHudInBarn": false,
       "timerLength": 340,
       "seaCreatureTimerNotification": false,
@@ -601,7 +604,7 @@
       "shareFairyGrotto": false
     },
     "commissionWaypoints": {
-      "mode": "BOTH",
+      "mode": "OFF",
       "useColor": false,
       "showBaseCamp": false,
       "showEmissary": false,
@@ -624,7 +627,10 @@
   "farming": {
     "farmingHud": {
       "enabled": false,
-      "type": "BOTH"
+      "counter": false,
+      "coins": false,
+      "type": "BOTH",
+      "experience": false
     },
     "pestHighlighter": {
       "enabled": false,
@@ -675,6 +681,7 @@
       "blobbercystGlow": false,
       "enigmaSoulWaypoints": false,
       "highlightFoundEnigmaSouls": false,
+      "autoDetectMcGrubber": false,
       "mcGrubberStacks": 0
     },
     "end": {
@@ -733,7 +740,7 @@
       "maniaUpdateFrequency": 5
     },
     "blazeSlayer": {
-      "firePillarCountdown": "SOUND_AND_VISUAL",
+      "firePillarCountdown": "OFF",
       "attunementHighlights": false,
       "muteBlazeSounds": false,
       "hideHellionShield": "PASS"
@@ -754,6 +761,7 @@
     "hideHeal": "PASS",
     "hideAOTE": "PASS",
     "hideImplosion": "PASS",
+    "hideSpiritSceptre": "PASS",
     "hideMoltenWave": "PASS",
     "hideAds": "PASS",
     "hideTeleportPad": "PASS",
@@ -944,67 +952,112 @@
   "eventNotifications": {
     "criterion": "NONE",
     "reminderSound": "NONE",
-    "eventsReminderTimes": {
-      "Bonus Fishing Festival": [
-        60,
-        300
-      ],
-      "New Year Celebration": [
-        60,
-        300
-      ],
-      "Cult of the Fallen Star": [
-        60,
-        300
-      ],
-      "Dark Auction": [
-        60,
-        300
-      ],
-      "Jerry\u0027s Workshop Opens": [
-        60,
-        300
-      ],
-      "Season of Jerry": [
-        60,
-        300
-      ],
-      "Jacob\u0027s Farming Contest": [
-        60,
-        300
-      ],
-      "Spooky Festival": [
-        60,
-        300
-      ],
-      "Traveling Zoo": [
-        60,
-        300
-      ],
-      "Election Booth Opens": [
-        60,
-        300
-      ],
-      "Hoppity\u0027s Hunt Begins": [
-        60,
-        300
-      ],
-      "Election Over!": [
-        60,
-        300
-      ],
-      "Year of the Pig Begins": [
-        60,
-        300
-      ],
-      "Election Booth Closes": [
-        60,
-        300
-      ],
-      "Bonus Mining Fiesta": [
-        60,
-        300
-      ]
+    "events": {
+      "New Year Celebration": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Election Booth Opens": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Election Booth Closes": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Dark Auction": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Election Over!": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Jacob\u0027s Farming Contest": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Cult of the Fallen Star": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Year of the Pig Begins": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Bonus Fishing Festival": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Spooky Festival": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Traveling Zoo": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Season of Jerry": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Bonus Mining Fiesta": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Jerry\u0027s Workshop Opens": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      },
+      "Hoppity\u0027s Hunt Begins": {
+        "enabled": false,
+        "reminderTimes": [
+          60,
+          300
+        ]
+      }
     }
   },
   "misc": {

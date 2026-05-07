@@ -39,7 +39,8 @@
     "timer": false,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "lagMeterElement": {
     "shadow": true,
@@ -53,7 +54,8 @@
     "dungeon": true,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "shardTrackerElement": {
     "shadow": true,
@@ -218,31 +220,38 @@
           "key": 82,
           "command": "/eq",
           "enabled": true,
-          "modifier": "Any"
+          "modifier": "Any",
+          "name": "Equipment Menu"
         },
         {
           "key": 70,
           "command": "/wd",
           "enabled": true,
-          "modifier": "Any"
+          "modifier": "Any",
+          "name": "Wardrobe Menu"
         },
         {
           "key": 86,
           "command": "/pets",
           "enabled": true,
-          "modifier": "Any"
+          "modifier": "Any",
+          "name": "Pets Menu"
         },
         {
           "key": 269,
           "command": "/pc In Tunnel",
           "enabled": true,
-          "modifier": "Any"
+          "modifier": "Any",
+          "name": "Tunnel Announce",
+          "islandFilter": "catacombs"
         },
         {
           "key": 268,
           "command": "/pc At Core!",
           "enabled": true,
-          "modifier": "Any"
+          "modifier": "Any",
+          "name": "Core Announce",
+          "islandFilter": "catacombs"
         }
       ]
     },
@@ -554,7 +563,7 @@
     "auricOutline": -256,
     "crystalFill": 1426128895,
     "crystalOutline": -16711681,
-    "enabled": false
+    "enabled": true
   },
   "infernoDemonlord": {
     "pillarAlert": false,
@@ -562,7 +571,7 @@
     "enabled": false
   },
   "killTimer": {
-    "enabled": false
+    "enabled": true
   },
   "riftstalkerBloodfiend": {
     "ice": false,
@@ -578,7 +587,7 @@
     "enabled": false
   },
   "abilityAlert": {
-    "enabled": false,
+    "enabled": true,
     "override": 0
   },
   "corpseHighlight": {
@@ -670,10 +679,10 @@
     "enabled": true
   },
   "pillarAlert": {
-    "enabled": false
+    "enabled": true
   },
   "noAttunementSpam": {
-    "enabled": false
+    "enabled": true
   },
   "chaliceHighlight": {
     "color": -1431371521,
@@ -708,7 +717,7 @@
     "enabled": false
   },
   "cocoonAlert": {
-    "enabled": false
+    "enabled": true
   },
   "noConfirmScreen": {
     "enabled": false
@@ -821,11 +830,13 @@
   },
   "armorElement": {
     "background": 1073741824,
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "inventoryElement": {
     "background": 1073741824,
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "tickTimerElement": {
     "background": 1073741824,
@@ -837,7 +848,8 @@
   "bossHealthElement": {
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "dungeonBossHealth": {
     "enabled": false
@@ -850,7 +862,7 @@
     "enabled": true,
     "protectStarred": true,
     "protectUUID": true,
-    "uuidKey": 301,
+    "uuidKey": -1,
     "data": {
       "uuids": [
         "e5653a16-b30e-4758-ae1c-211b9c878711",
@@ -905,7 +917,7 @@
   },
   "shaftAnnounce": {
     "msg": "/pc !pt Entered Mineshaft: {id}. Corpses: {corpses}.",
-    "enabled": false
+    "enabled": true
   },
   "dungeonScoreElement": {
     "textColor": -10706753,
@@ -985,18 +997,62 @@
     "enabled": true
   },
   "pickaxeAbilityTimerElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "spiritBearTimerElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "added": false
   },
   "terracottaGyroTimerElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "added": true,
+    "enabled": true,
+    "x": 0.45613037109375,
+    "y": 0.2770182291666666
   },
   "freshToolsTimerElement": {
     "scale": 1.0
   },
   "equipmentHighlight": {
     "enabled": true
+  },
+  "queueCooldownTimerElement": {
+    "scale": 1.0,
+    "added": false
+  },
+  "slayerHealthElement": {
+    "scale": 1.0,
+    "added": false
+  },
+  "slayerTimerElement": {
+    "scale": 1.0
+  },
+  "spiritMaskTimerElement": {
+    "scale": 1.0,
+    "added": false
+  },
+  "phoenixPetTimerElement": {
+    "scale": 1.0,
+    "added": false
+  },
+  "bonzoMaskTimerElement": {
+    "scale": 1.0,
+    "added": false
+  },
+  "commissionHighlight": {
+    "enabled": true
+  },
+  "noGhostPlace": {
+    "enabled": false
+  },
+  "blockList": {
+    "enabled": true
+  "streamerMode": {
+    "baseName": "nostrils-{}{}{}{}",
+    "enabled": false
+  },
+  "mouseLock": {
+    "enabled": false
   }
 }

@@ -155,6 +155,31 @@
         "value": "AUTO"
       }
     },
+    "darkutils:corpses_per_shaft_display": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "darkutils:mineshaft_display": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "darkutils:will_o_wisp_display": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "darkutils:littlefoot_display": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "darkutils:pickaxe_ability_display": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
     "darkutils:rejoin_cooldown_display": {
       "enabled": {
         "value": "AUTO"
@@ -172,7 +197,7 @@
     },
     "debug_overlay": {
       "enabled": {
-        "value": "AUTO"
+        "value": "ON"
       }
     }
   }
