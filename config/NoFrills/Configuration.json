@@ -28,10 +28,14 @@
   },
   "seaCreaturesElement": {
     "shadow": true,
-    "zero": false,
+    "zero": true,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "added": true,
+    "enabled": true,
+    "x": 0.436181640625,
+    "y": 0.31703993055555557
   },
   "bobberElement": {
     "shadow": true,
@@ -386,15 +390,6 @@
     "color": -1426085376,
     "enabled": false
   },
-  "capTracker": {
-    "target": 50,
-    "title": false,
-    "sound": false,
-    "send": false,
-    "msg": "/pc SEA CREATURE CAP REACHED",
-    "delay": 30,
-    "enabled": false
-  },
   "muteDrake": {
     "enabled": false
   },
@@ -403,12 +398,12 @@
     "enabled": false
   },
   "rareAnnounce": {
-    "title": false,
-    "sound": false,
+    "title": true,
+    "sound": true,
     "replace": false,
     "send": false,
     "msg": "/pc {spawnmsg}",
-    "enabled": false
+    "enabled": true
   },
   "invisibugHighlight": {
     "color": 2147418112,
@@ -530,7 +525,7 @@
   "kuudraHitbox": {
     "walls": false,
     "color": -256,
-    "enabled": false
+    "enabled": true
   },
   "kuudraWaypoints": {
     "supply": false,
@@ -549,7 +544,7 @@
   },
   "kuudraChestValue": {
     "petBonus": 0,
-    "enabled": false,
+    "enabled": true,
     "background": -870309856
   },
   "bossHighlight": {
@@ -795,7 +790,7 @@
   "radarSolver": {
     "color": -1426106881,
     "tracerColor": -43521,
-    "enabled": false
+    "enabled": true
   },
   "vacuumSolver": {
     "color": -1426107051,
@@ -1002,7 +997,10 @@
   },
   "spiritBearTimerElement": {
     "scale": 1.0,
-    "added": false
+    "added": true,
+    "x": 0.436708984375,
+    "y": 0.20481770833333313,
+    "enabled": true
   },
   "terracottaGyroTimerElement": {
     "scale": 1.0,
@@ -1019,7 +1017,10 @@
   },
   "queueCooldownTimerElement": {
     "scale": 1.0,
-    "added": false
+    "added": true,
+    "x": 0.42444580078125,
+    "y": 0.2409852430555554,
+    "enabled": true
   },
   "slayerHealthElement": {
     "scale": 1.0,
@@ -1048,11 +1049,34 @@
   },
   "blockList": {
     "enabled": true
+  },
+  "buildPileHighlight": {
+    "enabled": true
+  },
+  "supplyHighlight": {
+    "enabled": true
+  },
+  "dropOffHighlight": {
+    "enabled": true
+  },
+  "phantomleafSolver": {
+    "enabled": true
+  },
   "streamerMode": {
     "baseName": "nostrils-{}{}{}{}",
     "enabled": false
   },
   "mouseLock": {
+    "enabled": false
+  },
+  "fishingBagElement": {
+    "scale": 1.0,
+    "added": true,
+    "enabled": true,
+    "x": 0.43718505859375,
+    "y": 0.35659722222222223
+  },
+  "muteComposter": {
     "enabled": false
   }
 }
