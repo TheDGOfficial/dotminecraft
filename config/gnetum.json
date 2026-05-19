@@ -90,7 +90,7 @@
         "value": "AUTO"
       }
     },
-    "status_effects": {
+    "mob_effects": {
       "enabled": {
         "value": "AUTO"
       }

@@ -59,11 +59,6 @@ globalExecutorParallelism = "default"
 		enableExtRenderDistanceProtocol = "default"
 
 [noTickViewDistance]
-	# (Default: true) Whether to enable no-tick view distance
-	# 
-	# Faster alternative implementation of simulation distance, and additionally support up to 65530 view distance
-	# 
-	enabled = "default"
 	# (Default: 2) No-tick view distance max concurrent chunk loads 
 	#  Lower this for a better latency and higher this for a faster loading
 	maxConcurrentChunkLoads = "default"
@@ -73,16 +68,15 @@ globalExecutorParallelism = "default"
 	# Requires Fabric API (currently available)
 	# 
 	enableExtRenderDistanceProtocol = "default"
-	# (Default: true) Whether to attempt to smooth out chunk sending rate
-	# 
-	# Due to the nature of chunk loading and generation, chunks reach full status in bursts,
-	# which can cause frame time stability if the server also delivers chunks in a bursty way
-	# This config attempts to smooth out the bursty stream of chunks to help frame time stability
-	# 
-	smoothChunkSendingRate = "default"
 	# (Default: false) Whether to ensure correct chunks within normal render distance 
 	#  This will send chunks twice increasing network load
 	ensureChunkCorrectness = "default"
+	# (Default: 200) Applies a multiplier *in percentage* to the target chunk sending rate from vanilla
+	# Setting this to 0 disables rate limiting
+	# 
+	# Defaults to 200, which is 200%
+	# 
+	chunkSendingSpeedMultiplierPercentage = "default"
 
 [ioSystem]
 	# (Default: 8192) Soft limit for io worker nbt cache
@@ -225,3 +219,10 @@ globalExecutorParallelism = "default"
 	# Only applies when useLegacyScheduling is disabled.
 	# 
 	lowMemoryMode = "default"
+	# (Default: false) Whether to delay full chunk events to after full chunk future have been completed
+	# This restores the buggy behavior in NeoForge that the ecosystem have been relying on
+	# 
+	# Enabling this will almost certainly break vanilla behavior, disabled by default on fabric
+	# Do not change this unless you know what you are doing
+	# 
+	delayFullChunkEvents = "default"

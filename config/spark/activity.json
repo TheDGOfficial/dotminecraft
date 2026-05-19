@@ -5,6 +5,19 @@
       "name": "TheDark_Gamer",
       "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
     },
+    "time": 1779137567879,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/c9IXLZOfpc"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
     "time": 1778150937836,
     "type": "Profiler",
     "data": {
@@ -192,19 +205,6 @@
     "data": {
       "type": "url",
       "value": "https://spark.lucko.me/9r6JwARUgO"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "TheDark_Gamer",
-      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
-    },
-    "time": 1773949939628,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/2dcZbjCetZ"
     }
   }
 ]
