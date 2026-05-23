@@ -64,7 +64,6 @@
   "hideMountHealth": true,
   "noLightningBolts": true,
   "noWitherHearts": true,
-  "disableYield": true,
   "alwaysPrioritizeRenderThread": true,
   "optimizeExceptions": true,
   "alwaysUseNoErrorContext": true,
@@ -88,7 +87,6 @@
   "itemFrameSoundFix": true,
   "middleClickFix": true,
   "cursorPosWaylandGLErrorFix": true,
-  "fixCtrlAndAltOnWayland": true,
   "fixGameIconOnWayland": true,
   "ingameLogLevel": "WARN",
   "debugMode": false

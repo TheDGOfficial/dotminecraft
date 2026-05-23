@@ -5,6 +5,45 @@
       "name": "TheDark_Gamer",
       "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
     },
+    "time": 1779372680490,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/S8OIrtgMQT"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1779242320288,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WVMtXno3Je"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1779226023264,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/s2IBuGR5vP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
     "time": 1779137567879,
     "type": "Profiler",
     "data": {
