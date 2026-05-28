@@ -356,8 +356,7 @@
       "enableOrderTracker": false
     },
     "itemPrice": {
-      "enableItemPriceLookup": false,
-      "enableItemPriceRefresh": false
+      "enableItemPriceLookup": false
     },
     "greatSpookEvent": {
       "enableMathTeacherHelper": false
@@ -1079,6 +1078,7 @@
     "dumpFormat": "SNBT",
     "showInvisibleArmorStands": false,
     "webSocketDebug": false,
-    "corpseFinderDebug": false
+    "corpseFinderDebug": false,
+    "enableRepoDev": false
   }
 }
