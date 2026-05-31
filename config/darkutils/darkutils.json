@@ -25,6 +25,7 @@
   "treeGiftsPerHour": true,
   "pestCooldownDisplay": true,
   "pestCooldown": 135,
+  "openEquipmentMenuWhenOverOrSpawn": true,
   "persistentTabListWhileFarming": true,
   "stickyFarmingKeys": true,
   "stickyForward": false,
