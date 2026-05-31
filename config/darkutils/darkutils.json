@@ -82,6 +82,7 @@
   "disableSignatureVerification": true,
   "blockEntityUnloadLagFix": true,
   "preferWayland": true,
+  "disableGlDebug": true,
   "fixGuiScaleAfterFullscreen": true,
   "fixInactivityFpsLimiter": true,
   "itemFrameSoundFix": true,
