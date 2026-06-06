@@ -218,9 +218,9 @@
         "Scorched Books"
       ],
       "auctionHistory": [
-        "Antique Remedies",
+        "Washed-up Souvenir",
         "Dwarf Turtle Shelmet",
-        "Crochet Tiger Plushie"
+        "Antique Remedies"
       ],
       "museumHistory": []
     },
@@ -628,6 +628,7 @@
       "counter": false,
       "coins": false,
       "type": "BOTH",
+      "includeSeedsPrice": false,
       "experience": false
     },
     "pestHighlighter": {
@@ -648,6 +649,10 @@
       "enabled": false,
       "showInGardenOnly": false,
       "showInStacks": false
+    },
+    "greenhouse": {
+      "enabled": false,
+      "showMutationSlot": false
     }
   },
   "hunting": {
