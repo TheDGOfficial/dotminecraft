@@ -1,8 +1,8 @@
 {
   "fullscreenMode": "OFF",
   "preferredFullscreenMode": "BORDERLESS",
-  "fullscreenType": "minecraft:default",
+  "fullscreenType": "linux:borderless",
   "borderlessFullscreenType": "linux:borderless",
-  "useScaledFramebuffer": true,
+  "useScaledFramebuffer": false,
   "pauseOnLostFocusDuringMultiplayer": true
 }
