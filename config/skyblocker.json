@@ -444,13 +444,13 @@
       "waypointType": "HIGHLIGHT"
     },
     "terminalHud": {
-      "enableTerminalHud": true,
-      "showTerminalStatus": true,
-      "showPlayerAtTerminal": true,
-      "showTerminals": true,
-      "showDevice": true,
-      "showLevers": true,
-      "showGate": true
+      "enableTerminalHud": false,
+      "showTerminalStatus": false,
+      "showPlayerAtTerminal": false,
+      "showTerminals": false,
+      "showDevice": false,
+      "showLevers": false,
+      "showGate": false
     },
     "secretWaypoints": {
       "enableSecretWaypoints": true,
@@ -759,7 +759,7 @@
     }
   },
   "chat": {
-    "skyblockXpMessages": true,
+    "skyblockXpMessages": false,
     "confirmationPromptHelper": false,
     "toastDisplayDuration": 4.0,
     "hideAbility": "PASS",

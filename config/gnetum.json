@@ -185,6 +185,11 @@
         "value": "AUTO"
       }
     },
+    "darkutils:section_done_display": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
     "owo:owo_ui_hud": {
       "enabled": {
         "value": "AUTO"

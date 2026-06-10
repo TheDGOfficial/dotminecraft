@@ -172,13 +172,13 @@
     "lightning": false,
     "fallingBlocks": false,
     "mageBeam": false,
-    "treeBits": true,
+    "treeBits": false,
     "nametagInvisibility": false,
     "enabled": true,
     "nausea": true,
     "vignette": true,
-    "expOrbs": true,
-    "stuckArrows": true,
+    "expOrbs": false,
+    "stuckArrows": false,
     "vignetteMode": "Both"
   },
   "pearlRefill": {
@@ -890,7 +890,7 @@
     "bersColor": -1264372,
     "archColor": -6944765,
     "tankColor": -9007290,
-    "enabled": true
+    "enabled": false
   },
   "cratePriority": {
     "enabled": false
@@ -986,7 +986,7 @@
     "enabled": false
   },
   "platformHighlight": {
-    "enabled": true
+    "enabled": false
   },
   "croesusSolver": {
     "enabled": true

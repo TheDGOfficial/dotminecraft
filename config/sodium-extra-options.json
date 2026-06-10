@@ -52,7 +52,7 @@
       "minecraft:enchanted_hit": true,
       "minecraft:end_rod": true,
       "minecraft:entity_effect": true,
-      "minecraft:explosion": false,
+      "minecraft:explosion": true,
       "minecraft:explosion_emitter": true,
       "minecraft:falling_dripstone_lava": true,
       "minecraft:falling_dripstone_water": true,
@@ -128,7 +128,9 @@
       "minecraft:wax_on": true,
       "minecraft:white_ash": true,
       "minecraft:white_smoke": true,
-      "minecraft:witch": true
+      "minecraft:witch": true,
+      "minecraft:pause_mob_growth": true,
+      "minecraft:reset_mob_growth": true
     }
   },
   "detail_settings": {

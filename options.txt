@@ -105,7 +105,7 @@ telemetryOptInExtra:false
 onboardAccessibility:false
 menuBackgroundBlurriness:0
 startedCleanly:true
-musicToast:"pause_and_toast"
+musicToast:"pause"
 musicFrequency:"CONSTANT"
 key_key.attack:key.mouse.left
 key_key.use:key.mouse.right
