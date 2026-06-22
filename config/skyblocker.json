@@ -1070,6 +1070,14 @@
       "SkyBlock Anniversary": {
         "enabled": false,
         "reminderTimes": []
+      },
+      "Mayor Jerry": {
+        "enabled": false,
+        "reminderTimes": []
+      },
+      "Year of the Seal Begins": {
+        "enabled": false,
+        "reminderTimes": []
       }
     }
   },

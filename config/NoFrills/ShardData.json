@@ -1,0 +1,22 @@
+{
+  "harpy": {
+    "skill": "Hunting",
+    "rarity": "COMMON"
+  },
+  "cretan bull": {
+    "skill": "Combat",
+    "rarity": "COMMON"
+  },
+  "minotaur": {
+    "skill": "Combat",
+    "rarity": "RARE"
+  },
+  "sphinx": {
+    "skill": "Combat",
+    "rarity": "EPIC"
+  },
+  "king minos": {
+    "skill": "Combat",
+    "rarity": "EPIC"
+  }
+}
