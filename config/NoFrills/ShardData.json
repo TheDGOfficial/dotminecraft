@@ -18,5 +18,53 @@
   "king minos": {
     "skill": "Combat",
     "rarity": "EPIC"
+  },
+  "phanpyre": {
+    "skill": "Foraging",
+    "rarity": "COMMON"
+  },
+  "tank zombie": {
+    "skill": "Combat",
+    "rarity": "COMMON"
+  },
+  "pest": {
+    "skill": "Farming",
+    "rarity": "UNCOMMON"
+  },
+  "zombie soldier": {
+    "skill": "Combat",
+    "rarity": "UNCOMMON"
+  },
+  "zealot": {
+    "skill": "Combat",
+    "rarity": "COMMON"
+  },
+  "bruiser": {
+    "skill": "Combat",
+    "rarity": "UNCOMMON"
+  },
+  "shinyfish": {
+    "skill": "Combat",
+    "rarity": "LEGENDARY"
+  },
+  "verdant": {
+    "skill": "Fishing",
+    "rarity": "COMMON"
+  },
+  "golden ghoul": {
+    "skill": "Global",
+    "rarity": "COMMON"
+  },
+  "azure": {
+    "skill": "Combat",
+    "rarity": "COMMON"
+  },
+  "cod": {
+    "skill": "Fishing",
+    "rarity": "COMMON"
+  },
+  "piranha": {
+    "skill": "Global",
+    "rarity": "RARE"
   }
 }

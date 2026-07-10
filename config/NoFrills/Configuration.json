@@ -130,7 +130,7 @@
   "wardrobeKeybinds": {
     "noUnequip": true,
     "sound": true,
-    "enabled": true,
+    "enabled": false,
     "style": "Custom",
     "custom6": 82,
     "custom7": 70
@@ -179,7 +179,8 @@
     "vignette": true,
     "expOrbs": false,
     "stuckArrows": false,
-    "vignetteMode": "Both"
+    "vignetteMode": "Both",
+    "recipeBook": true
   },
   "pearlRefill": {
     "enabled": false
@@ -194,7 +195,8 @@
     "downtime": "Automatic",
     "queue": "Automatic",
     "coords": "Automatic",
-    "kick": "Automatic"
+    "kick": "Automatic",
+    "gracePeriod": 10
   },
   "viewmodel": {
     "noHaste": false,
@@ -222,7 +224,7 @@
       "binds": [
         {
           "key": 82,
-          "command": "/eq",
+          "command": "/stats",
           "enabled": true,
           "modifier": "Any",
           "name": "Equipment Menu"
@@ -230,7 +232,7 @@
         {
           "key": 70,
           "command": "/wd",
-          "enabled": true,
+          "enabled": false,
           "modifier": "Any",
           "name": "Wardrobe Menu"
         },
@@ -256,6 +258,15 @@
           "modifier": "Any",
           "name": "Core Announce",
           "islandFilter": "catacombs"
+        },
+        {
+          "name": "Loadout Menu",
+          "key": 70,
+          "command": "/ld",
+          "enabled": true,
+          "allowInGui": false,
+          "modifier": "Any",
+          "islandFilter": ""
         }
       ]
     },
@@ -467,7 +478,11 @@
     "send": false,
     "message": "/pc Leaped to {name}!",
     "scale": 3.0,
-    "enabled": true
+    "enabled": true,
+    "firstKey": 49,
+    "secondKey": 50,
+    "thirdKey": 51,
+    "fourthKey": 52
   },
   "terminalSolvers": {
     "panes": true,
@@ -478,7 +493,15 @@
     "instant": true,
     "melody": true,
     "melodyMsg": "/pc Melody terminal start!",
-    "enabled": true
+    "enabled": true,
+    "colorsColorFirst": -14363109,
+    "selectColor": -14363109,
+    "startsWithColor": -14363109,
+    "inOrderColorFirst": -14363109,
+    "panesColor": -14363109,
+    "inOrderColorSecond": -1838840,
+    "inOrderColorThird": -14081245,
+    "colorsColorSecond": -1825242
   },
   "terracottaTimer": {
     "enabled": true,
@@ -496,7 +519,9 @@
     "health": true,
     "enabled": true,
     "stackType": "Simple",
-    "tracers": false
+    "tracers": false,
+    "trackIceSpray": true,
+    "trackArrowHits": true
   },
   "secretBatHighlight": {
     "color": -11141291,
@@ -1043,7 +1068,8 @@
     "enabled": false
   },
   "blockList": {
-    "enabled": true
+    "enabled": true,
+    "joinAlert": true
   },
   "buildPileHighlight": {
     "enabled": true
@@ -1072,6 +1098,39 @@
     "y": 0.35659722222222223
   },
   "muteComposter": {
+    "enabled": true
+  },
+  "clockElement": {
+    "scale": 1.0
+  },
+  "activePetHighlight": {
+    "enabled": true
+  },
+  "dupeClassAlert": {
+    "enabled": true
+  },
+  "slayerMinibossHighlight": {
+    "enabled": true
+  },
+  "slayerMinibossAlert": {
+    "enabled": true
+  },
+  "beaconPowerElement": {
+    "scale": 1.0,
+    "enabled": true,
+    "added": true,
+    "x": 0.6224780273437497,
+    "y": 0.9642274305555556
+  },
+  "loadoutKeybinds": {
+    "enabled": true,
+    "editBindKey": 260,
+    "data": {
+      "82": "RCM",
+      "70": "LCM"
+    }
+  },
+  "legacyTextures": {
     "enabled": false
   }
 }

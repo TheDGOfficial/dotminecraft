@@ -13,3 +13,5 @@ rewards.hypixel.net
 api.modrinth.com
 spark-usercontent.lucko.me
 api.skyblockoverhaul.com
+resourcepacks.hypixel.net
+resourcepacks2.hypixel.net

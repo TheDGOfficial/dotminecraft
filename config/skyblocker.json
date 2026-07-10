@@ -60,7 +60,8 @@
       "rareDungeonDropEffects": false,
       "rareDropEffects": false,
       "rareDyeDropEffects": false,
-      "trophyDropEffects": false
+      "trophyDropEffects": false,
+      "displayItemName": false
     },
     "lockedSlots": [],
     "protectedItems": [],
@@ -88,6 +89,9 @@
     "showCustomizeButton": false,
     "showConfigButton": false,
     "trueQuiverCount": false,
+    "skyblockInventoryScreen": {
+      "openEquipmentToStatsPage": false
+    },
     "chestValue": {
       "enableChestValue": false,
       "color": "DARK_GREEN",
@@ -109,6 +113,7 @@
         "hotm_perk_level": false,
         "attribute_levels": false,
         "enchantment_level": false,
+        "crop_milestones": false,
         "stats_tuning": false,
         "catacombs_level": false,
         "collection": false,
@@ -120,6 +125,7 @@
         "bestiary_level": false,
         "evolving_items": false,
         "chip_level": false,
+        "garden_upgrades": false,
         "prehistoric_egg": false,
         "community_shop": false,
         "choose_pet_pet_level": false,
@@ -167,6 +173,8 @@
       "enableBarsRift": false,
       "riftHealthHP": false,
       "enableVanillaStyleManaBar": false,
+      "enableVanillaStyleManaBarBlinking": false,
+      "useHungerBarSprites": false,
       "intelligenceDisplay": "ORIGINAL",
       "barPositions": {
         "healthBarPosition": "LAYER1",
@@ -198,6 +206,7 @@
     },
     "smoothAOTE": {
       "predictive": false,
+      "thirdPerson": false,
       "enableWeirdTransmission": false,
       "enableInstantTransmission": false,
       "enableEtherTransmission": false,
@@ -219,9 +228,9 @@
         "Scorched Books"
       ],
       "auctionHistory": [
+        "Crochet Tiger Plushie",
         "Washed-up Souvenir",
-        "Dwarf Turtle Shelmet",
-        "Antique Remedies"
+        "Dwarf Turtle Shelmet"
       ],
       "museumHistory": []
     },
@@ -361,6 +370,10 @@
     },
     "greatSpookEvent": {
       "enableMathTeacherHelper": false
+    },
+    "centuryRaffle": {
+      "enableRaffleTaskHighlight": false,
+      "enableRaffleRewardHighlight": false
     }
   },
   "dungeons": {
@@ -612,6 +625,7 @@
     "glacite": {
       "coldOverlay": false,
       "fossilSolver": false,
+      "solveFossilMuncher": false,
       "enableCorpseFinder": false,
       "enableParsingChatCorpseFinder": false,
       "autoShareCorpses": false,
@@ -644,7 +658,9 @@
     },
     "plotsWidget": {
       "enabled": false,
-      "closeScreenOnPlotClick": false
+      "closeScreenOnPlotClick": false,
+      "x": 0,
+      "y": 0
     },
     "visitorHelper": {
       "enabled": false,
@@ -1076,6 +1092,10 @@
         "reminderTimes": []
       },
       "Year of the Seal Begins": {
+        "enabled": false,
+        "reminderTimes": []
+      },
+      "Year of the Witch Begins": {
         "enabled": false,
         "reminderTimes": []
       }
