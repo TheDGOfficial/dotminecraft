@@ -228,8 +228,8 @@
         "Scorched Books"
       ],
       "auctionHistory": [
-        "Crochet Tiger Plushie",
         "Washed-up Souvenir",
+        "Crochet Tiger Plushie",
         "Dwarf Turtle Shelmet"
       ],
       "museumHistory": []
@@ -450,7 +450,7 @@
       "solveSimonSays": true,
       "solveLightsOn": true,
       "solveArrowAlign": false,
-      "solveTargetPractice": true
+      "solveTargetPractice": false
     },
     "goldor": {
       "enableGoldorWaypoints": true,
@@ -1117,6 +1117,9 @@
     "showInvisibleArmorStands": false,
     "webSocketDebug": false,
     "corpseFinderDebug": false,
-    "enableRepoDev": false
+    "enableRepoDev": false,
+    "skyblockResourcePack": {
+      "downloadResourcePack": false
+    }
   }
 }

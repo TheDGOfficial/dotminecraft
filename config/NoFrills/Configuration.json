@@ -230,9 +230,9 @@
           "name": "Equipment Menu"
         },
         {
-          "key": 70,
+          "key": 72,
           "command": "/wd",
-          "enabled": false,
+          "enabled": true,
           "modifier": "Any",
           "name": "Wardrobe Menu"
         },
@@ -445,10 +445,11 @@
     "enabled": false
   },
   "deviceSolvers": {
-    "sharpshooter": false,
-    "enabled": false,
+    "sharpshooter": true,
+    "enabled": true,
     "sharpTargetColor": -11141291,
-    "sharpHitColor": -43691
+    "sharpHitColor": -43691,
+    "sharpDoneAlert": true
   },
   "starredMobHighlight": {
     "color": -16711681,
@@ -501,7 +502,13 @@
     "panesColor": -14363109,
     "inOrderColorSecond": -1838840,
     "inOrderColorThird": -14081245,
-    "colorsColorSecond": -1825242
+    "colorsColorSecond": -1825242,
+    "firstClickTicks": 10,
+    "clickSound": "minecraft:entity.blaze.hurt",
+    "clickSoundVolume": 2.0,
+    "clickSoundPitch": 2.0,
+    "inOrderDrawNumbers": true,
+    "soundOnClick": true
   },
   "terracottaTimer": {
     "enabled": true,
@@ -1006,7 +1013,8 @@
     "enabled": false
   },
   "platformHighlight": {
-    "enabled": false
+    "enabled": true,
+    "healerOnly": false
   },
   "croesusSolver": {
     "enabled": true

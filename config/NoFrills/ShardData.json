@@ -66,5 +66,29 @@
   "piranha": {
     "skill": "Global",
     "rarity": "RARE"
+  },
+  "power dragon": {
+    "skill": "Combat",
+    "rarity": "LEGENDARY"
+  },
+  "apex dragon": {
+    "skill": "Combat",
+    "rarity": "LEGENDARY"
+  },
+  "salmon": {
+    "skill": "Fishing",
+    "rarity": "UNCOMMON"
+  },
+  "barbarian duke x": {
+    "skill": "Combat",
+    "rarity": "EPIC"
+  },
+  "spike": {
+    "skill": "Combat",
+    "rarity": "LEGENDARY"
+  },
+  "inkling": {
+    "skill": "Fishing",
+    "rarity": "COMMON"
   }
 }
