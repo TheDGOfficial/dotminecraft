@@ -1,8 +1,15 @@
 {
   "d5c721ce1b124f719c1d0f4e36829f99": {
     "d5c721ce-1b12-4f71-9c1d-0f4e36829f99": {
-      "lastResync": 1760902480907,
-      "collectedItemIds": [],
+      "lastResync": 0,
+      "collectedItemIds": [
+        "SHADOW_ASSASSIN_CHESTPLATE",
+        "STARRED_SHADOW_ASSASSIN_CLOAK",
+        "SHADOW_ASSASSIN_CLOAK",
+        "STARRED_SHADOW_ASSASSIN_LEGGINGS",
+        "SHADOW_ASSASSIN_HELMET",
+        "SHADOW_ASSASSIN_BOOTS"
+      ],
       "dataVersion": 1
     }
   }

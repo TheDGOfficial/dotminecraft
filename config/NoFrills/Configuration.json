@@ -503,7 +503,7 @@
     "inOrderColorSecond": -1838840,
     "inOrderColorThird": -14081245,
     "colorsColorSecond": -1825242,
-    "firstClickTicks": 10,
+    "firstClickTicks": 8,
     "clickSound": "minecraft:entity.blaze.hurt",
     "clickSoundVolume": 2.0,
     "clickSoundPitch": 2.0,

@@ -64,7 +64,7 @@ damageTiltStrength:0.0
 highContrast:true
 highContrastBlockOutline:true
 narratorHotkey:false
-resourcePacks:["vanilla","high_contrast","file/Fast Better Grass.zip"]
+resourcePacks:["vanilla","high_contrast","file/OBExHypixelSkyblock.zip","file/Fast Better Grass.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -176,7 +176,6 @@ key_key.tooltipscroll.moveDown:key.keyboard.page.down
 key_key.tooltipscroll.reset:key.keyboard.unknown
 key_key.tooltipscroll.horizontal:key.keyboard.unknown
 key_key.modmenu.open_menu:key.keyboard.unknown
-key_key.skyblocker.hotbarSlotLock:key.keyboard.unknown
 key_key.skyblocker.loadout.01:key.keyboard.unknown
 key_key.skyblocker.loadout.02:key.keyboard.unknown
 key_key.skyblocker.loadout.03:key.keyboard.unknown
