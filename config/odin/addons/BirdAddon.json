@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Particle Logger",
+    "enabled": false,
+    "settings": {
+      "Render Particle trails": false,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Hide Messages",
+    "enabled": true,
+    "settings": {
+      "Crowd": true,
+      "Thorn": true,
+      "Sheep Explosion": true,
+      "Chicken Mines": true,
+      "Chicken Lightning": true,
+      "Bear Spawn": true,
+      "Bow Drop": true,
+      "Bow Pickup": true,
+      "Bow Shot": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Spirit Bear",
+    "enabled": true,
+    "settings": {
+      "Spirit Bear": {
+        "x": 687,
+        "y": 377,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Spirit Bear Splits": {
+        "x": 1095,
+        "y": 517,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Kill Phase Text": "§6Bear $bear: §a$kills/$cap",
+      "Spawning Text": "§6Bear $bear: §c$timer",
+      "Spawned Text": "§6Bear $bear: §4!",
+      "Split Text": "§6Bear $bear: §b$spawn Kill: $kill",
+      "Split Total Text": "§7Total: §b$total",
+      "Show Timer in Ticks": false,
+      "Decimals": 2.0,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Trajectories",
+    "enabled": true,
+    "settings": {
+      "Render Style": "Filled Outline",
+      "Cows": true,
+      "Sheep": true,
+      "Chicken": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Rabbit Countdown",
+    "enabled": true,
+    "settings": {
+      "Rabbit Countdown": {
+        "x": 641,
+        "y": 407,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Decimals": 2.0,
+      "Show on boss start": true,
+      "Show after b1 start": true,
+      "Seconds before": 4.0,
+      "Hide counters when 0": true,
+      "Display text:": "Rabbits spawning in",
+      "Show Ground Mobs": true,
+      "Show Bats": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Titles",
+    "enabled": true,
+    "settings": {
+      "Hide Default Titles": true,
+      "Title Duration Ticks": 20.0,
+      "Miss Warning": "§cBow Missed",
+      "Non-Tank Pickup Warning": "§cBow Picked Up",
+      "Tank Bow Pickup": "§aBow Picked Up",
+      "Bear Timer Started": "§cSTOP KILLING",
+      "Bear Spawned": "§5Bear Spawned",
+      "Bear Killed": "§aResume Killing",
+      "Wish Title": "§dWISH WISH WISH",
+      "Wish Threshold": 100000.0,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Replay",
+    "enabled": false,
+    "settings": {
+      "Render Style": "Outline",
+      "Show timer": {
+        "x": 10,
+        "y": 10,
+        "scale": 2.0,
+        "enabled": false
+      },
+      "Bear timer": {
+        "x": 10,
+        "y": 10,
+        "scale": 2.0,
+        "enabled": false
+      },
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Stun",
+    "enabled": false,
+    "settings": {
+      "Stun": {
+        "x": 1099,
+        "y": 570,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Only show on healer": true,
+      "Decimals": 2.0,
+      "Stunned Text": "§5Stunned for $timer",
+      "Not Stunned Text": "§5Stunned for §cN/A",
+      "Stun Helper": true,
+      "second stun offset": 5.0,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Waypoints",
+    "enabled": true,
+    "settings": {
+      "Render Style": "Outline",
+      "depth": true,
+      "Show on cgm4": true,
+      "Show on m4miku": true,
+      "Bear Spawn Waypoint": true,
+      "Bear wp only on Mage": true,
+      "Bear wp only when spawning": false,
+      "Bear wp change colors": true,
+      "Default": "#5555FFFF",
+      "Looking at": "#55FF55FF",
+      "Not looking at": "#FF5555FF",
+      "Too close": "#FFAA00FF",
+      "Bow Pickup Waypoint": true,
+      "Bow wp only on tank": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Highlight",
+    "enabled": true,
+    "settings": {
+      "Render Style": "Filled Outline",
+      "Hide Name tags": true,
+      "Hide highlighted mobs": false,
+      "Thorn Highlight": true,
+      "Trans Thorn": false,
+      "Thorn Damage Flash": true,
+      "Damage duration ticks": 10.0,
+      "Bear Highlight": true,
+      "Only Show Bear On Mage": false,
+      "No Bear Interpolation": true,
+      "Bear Color": "#AA00AAFF",
+      "Wolf Highlight": true,
+      "Bat Highlight": true,
+      "Sheep Highlight": true,
+      "Cow Highlight": true,
+      "Chicken Highlight": true,
+      "Rabbit Highlight": true,
+      "Thorn Color": "#FFFFFFFF",
+      "Thorn Damaged Color": "#FF5555FF",
+      "Wolf Color": "#FFAA00FF",
+      "Bat Color": "#0000AAFF",
+      "Sheep Color": "#FFFF55FF",
+      "Cow Color": "#55FFFFFF",
+      "Chicken Color": "#FF5555FF",
+      "Rabbit Color": "#00AA00FF",
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Timer",
+    "enabled": true,
+    "settings": {
+      "Timer": {
+        "x": 1092,
+        "y": 177,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Sounds",
+    "enabled": true,
+    "settings": {
+      "Mute animals": true,
+      "Mute Thorn": true,
+      "Mute Misc Sounds": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Render Optimizer",
+    "enabled": true,
+    "settings": {
+      "Hide Particles": true,
+      "Except Healer Circle": true,
+      "Except Mage Beam": true,
+      "NPC Visibility": "Relevant only",
+      "Render Style": "Outline",
+      "NPC Highlight": "None",
+      "Hide Invis Armorstands": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Tac",
+    "enabled": false,
+    "settings": {
+      "Tac": {
+        "x": 1104,
+        "y": 605,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Tac Timer": true,
+      "Show Tac Timer out of m4": false,
+      "Tac Timer Prefix": "§6Tac: ",
+      "Print Tac Time": true,
+      "Print Time Only On Tank": true,
+      "Print Tac to pchat": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Logging",
+    "enabled": false,
+    "settings": {
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Overkill Display",
+    "enabled": false,
+    "settings": {
+      "Overkill Display": {
+        "x": 1096,
+        "y": 379,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Hide Zero": false,
+      "Prefixes": true,
+      "Compact Mode": false,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Mob Counter",
+    "enabled": false,
+    "settings": {
+      "Mob Counter": {
+        "x": 1094,
+        "y": 207,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Total Mobs": true,
+      "Cows": true,
+      "Sheep": true,
+      "Chickens": true,
+      "Bats": true,
+      "Wolves": true,
+      "Rabbits": true,
+      "Mobs Under Thorn": true,
+      "Rabbits Not Under Thorn": true,
+      "Prefixes": true,
+      "Compact Mode": false,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Decoy",
+    "enabled": false,
+    "settings": {
+      "Show best decoy spot": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
+    "name": "Extra Stats",
+    "enabled": false,
+    "settings": {
+      "Extra Stats Menu": true,
+      "Print Run Time": true,
+      "Print Last Bear Breakdown": true,
+      "Keybind": "key.keyboard.unknown"
+    }
+  }
+]

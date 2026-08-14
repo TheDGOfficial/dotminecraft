@@ -27,7 +27,7 @@
   "pestCooldownDisplay": true,
   "pestCooldown": 135,
   "openEquipmentMenuWhenOverOrSpawn": true,
-  "persistentTabListWhileFarming": true,
+  "persistentTabListWhileFarming": false,
   "stickyFarmingKeys": false,
   "stickyForward": false,
   "stickyBackward": false,

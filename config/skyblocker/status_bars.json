@@ -5,15 +5,32 @@
       "ffdc00"
     ],
     "text_color": "ff5555",
-    "anchor": "HOTBAR_TOP",
-    "x": 0,
-    "y": 0,
-    "size": 6,
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
     "icon_position": "LEFT",
     "text_position": "BAR_CENTER",
     "show_max": false,
     "show_overflow": false,
-    "enabled": true
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
+  },
+  "vitality": {
+    "colors": [
+      "c83228"
+    ],
+    "text_color": "dc3c3c",
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
+    "icon_position": "LEFT",
+    "text_position": "BAR_CENTER",
+    "show_max": false,
+    "show_overflow": false,
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
   },
   "intelligence": {
     "colors": [
@@ -21,74 +38,79 @@
       "b400ff"
     ],
     "text_color": "55ffff",
-    "anchor": "HOTBAR_TOP",
-    "x": 1,
-    "y": 0,
-    "size": 6,
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
     "icon_position": "LEFT",
     "text_position": "BAR_CENTER",
     "show_max": false,
     "show_overflow": false,
-    "enabled": true
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
   },
   "defense": {
     "colors": [
       "ffffff"
     ],
     "text_color": "b9b9b9",
-    "anchor": "HOTBAR_RIGHT",
-    "x": 0,
-    "y": 0,
-    "size": 2,
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
     "icon_position": "LEFT",
     "text_position": "BAR_CENTER",
     "show_max": false,
     "show_overflow": false,
-    "enabled": true
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
   },
   "experience": {
     "colors": [
       "64e646"
     ],
     "text_color": "80ff20",
-    "anchor": "HOTBAR_TOP",
-    "x": 0,
-    "y": 1,
-    "size": 12,
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
     "icon_position": "LEFT",
     "text_position": "BAR_CENTER",
     "show_max": false,
     "show_overflow": false,
-    "enabled": true
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
   },
   "speed": {
     "colors": [
       "ffffff"
     ],
     "text_color": "b9b9b9",
-    "anchor": "HOTBAR_RIGHT",
-    "x": 1,
-    "y": 0,
-    "size": 2,
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
     "icon_position": "LEFT",
     "text_position": "BAR_CENTER",
     "show_max": false,
     "show_overflow": false,
-    "enabled": true
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
   },
   "air": {
     "colors": [
       "87cefa"
     ],
     "text_color": "96e6ff",
-    "anchor": "HOTBAR_RIGHT",
-    "x": 2,
-    "y": 0,
-    "size": 2,
+    "anchor": "null",
+    "size": 0.0,
+    "x": 0.0,
+    "y": 0.0,
     "icon_position": "LEFT",
     "text_position": "BAR_CENTER",
     "show_max": false,
     "show_overflow": false,
-    "enabled": true
+    "direction": "LEFT_TO_RIGHT",
+    "enabled": false
   }
 }

@@ -44,7 +44,8 @@
     "background": 1073741824,
     "textColor": -10706753,
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "slugfishTimer": 0
   },
   "lagMeterElement": {
     "shadow": true,
@@ -428,7 +429,7 @@
     "enabled": false
   },
   "lassoAlert": {
-    "enabled": false
+    "enabled": true
   },
   "instantFog": {
     "enabled": false
@@ -445,7 +446,7 @@
     "enabled": false
   },
   "deviceSolvers": {
-    "sharpshooter": true,
+    "sharpshooter": false,
     "enabled": true,
     "sharpTargetColor": -11141291,
     "sharpHitColor": -43691,
@@ -503,7 +504,7 @@
     "inOrderColorSecond": -1838840,
     "inOrderColorThird": -14081245,
     "colorsColorSecond": -1825242,
-    "firstClickTicks": 8,
+    "firstClickTicks": -1,
     "clickSound": "minecraft:entity.blaze.hurt",
     "clickSoundVolume": 2.0,
     "clickSoundPitch": 2.0,
@@ -570,9 +571,12 @@
     "enabled": false
   },
   "kuudraChestValue": {
-    "petBonus": 0,
+    "petBonus": 20,
     "enabled": true,
-    "background": -870309856
+    "background": -870309856,
+    "faction": "Mage",
+    "reputation": "Twelve",
+    "discountItem": "SealOfTheFamily"
   },
   "bossHighlight": {
     "fillColor": 1426128895,
@@ -959,7 +963,11 @@
   "goldorTickTimerElement": {
     "textColor": -10706753,
     "scale": 1.0,
-    "background": 1073741824
+    "background": 1073741824,
+    "enabled": true,
+    "added": true,
+    "x": 0.43835693359375,
+    "y": 0.39536024305555556
   },
   "skillTrackerElement": {
     "textColor": -10706753,
@@ -1017,7 +1025,8 @@
     "healerOnly": false
   },
   "croesusSolver": {
-    "enabled": true
+    "enabled": true,
+    "profitHighThreshold": 5000000.0
   },
   "pickaxeAbilityTimerElement": {
     "scale": 1.0,
@@ -1059,15 +1068,24 @@
   },
   "spiritMaskTimerElement": {
     "scale": 1.0,
-    "added": false
+    "added": true,
+    "enabled": true,
+    "x": 0.4438427734375,
+    "y": 0.49586805555555563
   },
   "phoenixPetTimerElement": {
     "scale": 1.0,
-    "added": false
+    "added": true,
+    "enabled": true,
+    "x": 0.44300048828125,
+    "y": 0.5200260416666668
   },
   "bonzoMaskTimerElement": {
     "scale": 1.0,
-    "added": false
+    "added": true,
+    "enabled": true,
+    "x": 0.4386572265625,
+    "y": 0.540546875
   },
   "commissionHighlight": {
     "enabled": true
@@ -1140,5 +1158,31 @@
   },
   "legacyTextures": {
     "enabled": false
+  },
+  "slotLocking": {
+    "enabled": false
+  },
+  "inventoryButtons": {
+    "enabled": false,
+    "gridPrecision": 5
+  },
+  "muteExplosion": {
+    "enabled": false
+  },
+  "vesuviusSolver": {
+    "profitHighThreshold": 5000000.0,
+    "enabled": true
+  },
+  "soundBlocker": {
+    "enabled": false
+  },
+  "honeycombTimer": {
+    "scale": 0.5,
+    "enabled": true
+  },
+  "shardScoreMessage": {
+    "msgPrince": "/pc Prince Killed!",
+    "msgBat": "/pc Bat Killed!",
+    "enabled": true
   }
 }

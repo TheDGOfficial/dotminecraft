@@ -1,5 +1,5 @@
 {
-  "version": 10,
+  "version": 11,
   "general": {
     "enableTips": false,
     "acceptReparty": false,
@@ -45,6 +45,7 @@
       "itemBackgroundStyle": "SQUARE",
       "itemBackgroundOpacity": 0.5,
       "itemRarityBackgrounds": false,
+      "itemRarityBackgroundsLegacyColors": false,
       "jacobMedalBackgrounds": false,
       "legacyAttributeBackgrounds": false
     },
@@ -135,6 +136,13 @@
       },
       "slotTextToggled": false
     },
+    "storageOverlay": {
+      "enabled": false,
+      "storagesPerRow": 3,
+      "backpackWidth": 9,
+      "rememberSearch": false,
+      "rememberOpened": false
+    },
     "radialMenu": {
       "enabled": false,
       "tooltipsWithoutShift": false,
@@ -176,6 +184,8 @@
       "enableVanillaStyleManaBarBlinking": false,
       "useHungerBarSprites": false,
       "intelligenceDisplay": "ORIGINAL",
+      "showEstimatedTilde": false,
+      "hasSeenVitalityAtLeastOnce": false,
       "barPositions": {
         "healthBarPosition": "LAYER1",
         "manaBarPosition": "LAYER1",
@@ -222,10 +232,11 @@
       "maxSuggestions": 3,
       "historyLength": 3,
       "enableCommands": false,
+      "commandAutocomplete": false,
       "bazaarHistory": [
         "Scorched Power Crystal",
-        "Jungle Log",
-        "Scorched Books"
+        "Soulflow",
+        "Jungle Log"
       ],
       "auctionHistory": [
         "Washed-up Souvenir",
@@ -309,31 +320,6 @@
       "enableFishingTimer": false,
       "hideOtherPlayersRods": false,
       "enableFishingHud": false,
-      "fishingHudEnabledLocations": [
-        "PRIVATE_ISLAND",
-        "GARDEN",
-        "HUB",
-        "THE_FARMING_ISLAND",
-        "THE_PARK",
-        "SPIDERS_DEN",
-        "BLAZING_FORTRESS",
-        "THE_END",
-        "CRIMSON_ISLE",
-        "GOLD_MINE",
-        "DEEP_CAVERNS",
-        "DWARVEN_MINES",
-        "BACKWATER_BAYOU",
-        "DUNGEON_HUB",
-        "WINTER_ISLAND",
-        "THE_RIFT",
-        "DARK_AUCTION",
-        "CRYSTAL_HOLLOWS",
-        "DUNGEON",
-        "KUUDRAS_HOLLOW",
-        null,
-        "GALATEA",
-        "UNKNOWN"
-      ],
       "enableSeaCreatureCounter": false,
       "fishingHookDisplay": "OFF",
       "onlyShowHudInBarn": false,
@@ -416,15 +402,15 @@
       "solveTicTacToe": true,
       "solveThreeWeirdos": true,
       "creeperSolver": true,
-      "waterboardOneFlow": true,
-      "previewWaterPath": true,
-      "previewLeverEffects": true,
+      "waterboardOneFlow": false,
+      "previewWaterPath": false,
+      "previewLeverEffects": false,
       "blazeSolver": true,
-      "solveBoulder": true,
-      "solveIceFill": true,
+      "solveBoulder": false,
+      "solveIceFill": false,
       "solveSilverfish": true,
       "solveTrivia": true,
-      "solveTeleportMaze": true
+      "solveTeleportMaze": false
     },
     "theProfessor": {
       "fireFreezeStaffTimer": false,
@@ -466,7 +452,7 @@
       "showGate": false
     },
     "secretWaypoints": {
-      "enableSecretWaypoints": true,
+      "enableSecretWaypoints": false,
       "waypointType": "HIGHLIGHT",
       "adaptiveBoxSize": false,
       "showSecretText": true,
@@ -502,6 +488,9 @@
     "princeMessage": {
       "sendPrinceMessage": false
     },
+    "batMessage": {
+      "sendBatMessage": false
+    },
     "doorHighlight": {
       "enableDoorHighlight": true,
       "doorHighlightType": "OUTLINED_HIGHLIGHT"
@@ -536,8 +525,8 @@
     }
   },
   "foraging": {
-    "galatea": {
-      "enableForestNodeHelper": false,
+    "enableTreeFelledNotification": false,
+    "moongladeMarsh": {
       "solveForestTemplePuzzle": false,
       "enableLushlilacHighlighter": false,
       "enableSeaLumiesHighlighter": false,
@@ -545,6 +534,11 @@
       "enableTreeBreakProgress": false,
       "enableTunerSolver": false,
       "enableSweepDetailsWidget": false
+    },
+    "torrhusCanyon": {
+      "solveDesertTemplePuzzles": false,
+      "enableRubyVeilshroomHighlighter": false,
+      "enableHoneyhiveHighlighter": false
     },
     "sweepOverlay": {
       "enableSweepOverlay": false,
@@ -676,7 +670,7 @@
     "huntingBox": {
       "enabled": false
     },
-    "huntingMobs": {
+    "moongladeMobs": {
       "silencePhantoms": false,
       "highlightHideonleaf": false,
       "hideonleafGlowColor": -256,
@@ -684,6 +678,39 @@
       "shellwiseGlowColor": -38881,
       "highlightCoralot": false,
       "coralotGlowColor": -16776961
+    },
+    "torrhusMobs": {
+      "highlightHideonsun": false,
+      "hideonsunHighlightColor": -16711681,
+      "highlightBlueJay": false,
+      "blueJayHighlightColor": -16711936
+    },
+    "safari": {
+      "silencePhantoms": false,
+      "highlightSparklingCritters": false,
+      "sparklingCritterHighlightColor": -28672
+    },
+    "cavernBiome": {
+      "highlightRockmiteMounds": false,
+      "rockmiteMoundHighlightColor": -6635315
+    },
+    "forestBiome": {
+      "highlightHideonfloor": false,
+      "hideonfloorHighlightColor": -65281
+    },
+    "hauntedBiome": {
+      "highlightDuplico": false,
+      "duplicoHighlightColor": -65536,
+      "highlightBloodbat": false,
+      "bloodbatHighlightColor": -4194560,
+      "ignoreSlotLockingForShiningCoins": false
+    },
+    "icyBiome": {
+      "hideColdOverlay": false
+    },
+    "floorDrops": {
+      "highlightFloorDrops": true,
+      "floorDropHighlightColor": -425955
     },
     "lassoHud": {
       "enabled": false
@@ -791,6 +818,7 @@
     "hideShowOff": "PASS",
     "hideToggleSkyMall": "PASS",
     "hideToggleLottery": "PASS",
+    "hideToggleBeekeeper": "PASS",
     "hideMimicKill": "PASS",
     "hideDeath": "PASS",
     "hideMana": false,
@@ -1096,6 +1124,22 @@
         "reminderTimes": []
       },
       "Year of the Witch Begins": {
+        "enabled": false,
+        "reminderTimes": []
+      },
+      "Jerry\u0027s Workshop": {
+        "enabled": false,
+        "reminderTimes": []
+      },
+      "Mayor Election": {
+        "enabled": false,
+        "reminderTimes": []
+      },
+      "Harvest Feast": {
+        "enabled": false,
+        "reminderTimes": []
+      },
+      "Hoppity\u0027s Hunt": {
         "enabled": false,
         "reminderTimes": []
       }

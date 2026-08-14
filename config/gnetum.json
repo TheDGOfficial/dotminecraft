@@ -197,7 +197,7 @@
     },
     "_unknown_": {
       "enabled": {
-        "value": "AUTO"
+        "value": "ON"
       }
     },
     "debug_overlay": {

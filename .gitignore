@@ -32,3 +32,13 @@ config/skyblocker/config_backups
 # SBO Config, Loot Tracker and Achievement data backups
 # We already track the main files, no need to track the backups in Git
 config/sbo/backup
+
+# SkyHanni downloads NEU Repository here, has so many files just like Skyblocker's copy of NEU Repository.
+# The NEU Repository is already a git repo, no need to track it
+config/notenoughupdates
+
+# SkyHanni repo - similar to NEU Repository. Has way less files (only a hundred or less) but still no reason to track.
+config/skyhanni/repo
+
+# SkyHanni backups - we already track the main files, no need to track backups in Git
+config/skyhanni/backup
