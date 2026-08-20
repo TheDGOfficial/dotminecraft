@@ -190,6 +190,16 @@
         "value": "AUTO"
       }
     },
+    "darkutils:safari_timer": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
+    "darkutils:wumpa_spawn_progress": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
     "owo:owo_ui_hud": {
       "enabled": {
         "value": "AUTO"

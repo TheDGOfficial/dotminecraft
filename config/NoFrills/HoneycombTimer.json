@@ -1,39 +1,7 @@
 {
   "waypoints": [
     {
-      "timestamp": 1786596872995,
-      "area": "Moonglade Marsh",
-      "x": -716,
-      "y": 95,
-      "z": 42,
-      "done": true
-    },
-    {
-      "timestamp": 1786596914990,
-      "area": "Moonglade Marsh",
-      "x": -732,
-      "y": 120,
-      "z": 37,
-      "done": true
-    },
-    {
-      "timestamp": 1786597009743,
-      "area": "Moonglade Marsh",
-      "x": -663,
-      "y": 114,
-      "z": -79,
-      "done": true
-    },
-    {
-      "timestamp": 1786597087822,
-      "area": "Moonglade Marsh",
-      "x": -609,
-      "y": 96,
-      "z": 93,
-      "done": true
-    },
-    {
-      "timestamp": 1786622041767,
+      "timestamp": 1787193383549,
       "area": "Torrhus Canyon",
       "x": -512,
       "y": 108,
@@ -41,23 +9,7 @@
       "done": true
     },
     {
-      "timestamp": 1786622098147,
-      "area": "Torrhus Canyon",
-      "x": -619,
-      "y": 97,
-      "z": 235,
-      "done": true
-    },
-    {
-      "timestamp": 1786622431827,
-      "area": "Torrhus Canyon",
-      "x": -540,
-      "y": 110,
-      "z": 286,
-      "done": true
-    },
-    {
-      "timestamp": 1786622462818,
+      "timestamp": 1787193402794,
       "area": "Torrhus Canyon",
       "x": -547,
       "y": 108,
@@ -65,7 +17,39 @@
       "done": true
     },
     {
-      "timestamp": 1786623359506,
+      "timestamp": 1787193416760,
+      "area": "Torrhus Canyon",
+      "x": -540,
+      "y": 110,
+      "z": 286,
+      "done": true
+    },
+    {
+      "timestamp": 1787193547586,
+      "area": "Moonglade Marsh",
+      "x": -716,
+      "y": 95,
+      "z": 42,
+      "done": true
+    },
+    {
+      "timestamp": 1787193577587,
+      "area": "Moonglade Marsh",
+      "x": -732,
+      "y": 120,
+      "z": 37,
+      "done": true
+    },
+    {
+      "timestamp": 1787193597796,
+      "area": "Moonglade Marsh",
+      "x": -615,
+      "y": 89,
+      "z": 30,
+      "done": true
+    },
+    {
+      "timestamp": 1787193614804,
       "area": "Moonglade Marsh",
       "x": -604,
       "y": 112,
@@ -73,11 +57,27 @@
       "done": true
     },
     {
-      "timestamp": 1786623374004,
+      "timestamp": 1787193632975,
       "area": "Moonglade Marsh",
-      "x": -615,
-      "y": 89,
-      "z": 30,
+      "x": -609,
+      "y": 96,
+      "z": 93,
+      "done": true
+    },
+    {
+      "timestamp": 1787193715324,
+      "area": "Moonglade Marsh",
+      "x": -663,
+      "y": 114,
+      "z": -79,
+      "done": true
+    },
+    {
+      "timestamp": 1787201239673,
+      "area": "Torrhus Canyon",
+      "x": -619,
+      "y": 97,
+      "z": 235,
       "done": true
     }
   ]
