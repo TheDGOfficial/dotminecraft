@@ -1,13 +1,5 @@
 [
   {
-    "name": "Particle Logger",
-    "enabled": false,
-    "settings": {
-      "Render Particle trails": false,
-      "Keybind": "key.keyboard.unknown"
-    }
-  },
-  {
     "name": "Hide Messages",
     "enabled": true,
     "settings": {
@@ -33,6 +25,7 @@
         "scale": 2.0,
         "enabled": true
       },
+      "Experimental Bear Timer": false,
       "Spirit Bear Splits": {
         "x": 1095,
         "y": 517,
@@ -95,26 +88,6 @@
       "Bear Killed": "§aResume Killing",
       "Wish Title": "§dWISH WISH WISH",
       "Wish Threshold": 100000.0,
-      "Keybind": "key.keyboard.unknown"
-    }
-  },
-  {
-    "name": "Replay",
-    "enabled": false,
-    "settings": {
-      "Render Style": "Outline",
-      "Show timer": {
-        "x": 10,
-        "y": 10,
-        "scale": 2.0,
-        "enabled": false
-      },
-      "Bear timer": {
-        "x": 10,
-        "y": 10,
-        "scale": 2.0,
-        "enabled": false
-      },
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -243,13 +216,6 @@
       "Print Tac Time": true,
       "Print Time Only On Tank": true,
       "Print Tac to pchat": true,
-      "Keybind": "key.keyboard.unknown"
-    }
-  },
-  {
-    "name": "Logging",
-    "enabled": false,
-    "settings": {
       "Keybind": "key.keyboard.unknown"
     }
   },

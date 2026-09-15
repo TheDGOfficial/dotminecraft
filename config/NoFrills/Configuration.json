@@ -131,7 +131,7 @@
   "wardrobeKeybinds": {
     "noUnequip": true,
     "sound": true,
-    "enabled": false,
+    "enabled": true,
     "style": "Custom",
     "custom6": 82,
     "custom7": 70
@@ -509,7 +509,8 @@
     "clickSoundVolume": 2.0,
     "clickSoundPitch": 2.0,
     "inOrderDrawNumbers": true,
-    "soundOnClick": true
+    "soundOnClick": true,
+    "throttleTicks": -1
   },
   "terracottaTimer": {
     "enabled": true,
@@ -1184,5 +1185,18 @@
     "msgPrince": "/pc Prince Killed!",
     "msgBat": "/pc Bat Killed!",
     "enabled": true
+  },
+  "bonusScoreMessage": {
+    "msgPrince": "/pc Prince Killed!",
+    "msgBat": "/pc Bat Killed!",
+    "enabled": true,
+    "sendPrince": true,
+    "sendBat": true
+  },
+  "kickCooldownTimerElement": {
+    "scale": 1.0
+  },
+  "calendarEventsElement": {
+    "scale": 1.0
   }
 }

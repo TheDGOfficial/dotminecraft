@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "general": {
     "enableTips": false,
     "acceptReparty": false,
@@ -168,9 +168,7 @@
       "displayIcons": false,
       "compactWidgets": false,
       "enableHudBackground": false,
-      "effectsFromFooter": false,
-      "defaultPositioning": "CENTERED",
-      "nameSorting": "DEFAULT"
+      "defaultPositioning": "CENTERED"
     },
     "fancyAuctionHouse": {
       "enabled": false,
@@ -227,6 +225,7 @@
     "searchOverlay": {
       "enableBazaar": true,
       "enableAuctionHouse": true,
+      "enableIronmanAuctionHouse": false,
       "enableMuseum": false,
       "keepPreviousSearches": false,
       "maxSuggestions": 3,
@@ -282,13 +281,6 @@
     "gyroOverlay": {
       "gyroOverlayMode": "OFF",
       "gyroOverlayColor": 2138445204
-    },
-    "itemPickup": {
-      "enabled": false,
-      "sackNotifications": false,
-      "showItemName": false,
-      "lifeTime": 3,
-      "splitNotifications": false
     }
   },
   "helpers": {
@@ -317,12 +309,8 @@
     },
     "fishing": {
       "enableFishingHelper": false,
-      "enableFishingTimer": false,
       "hideOtherPlayersRods": false,
-      "enableFishingHud": false,
-      "enableSeaCreatureCounter": false,
       "fishingHookDisplay": "OFF",
-      "onlyShowHudInBarn": false,
       "timerLength": 340,
       "seaCreatureTimerNotification": false,
       "seaCreatureCapNotification": false,
@@ -331,6 +319,7 @@
     "fairySouls": {
       "enableFairySoulsHelper": false,
       "highlightFoundSouls": false,
+      "highlightOnBingo": false,
       "highlightOnlyNearbySouls": false
     },
     "chocolateFactory": {
@@ -375,7 +364,6 @@
     "starredMobBoundingBoxes": false,
     "highlightDoorKeys": false,
     "allowDroppingProtectedItems": false,
-    "dungeonSplits": false,
     "hideSoulweaverSkulls": true,
     "dungeonMap": {
       "enableMap": true,
@@ -531,9 +519,7 @@
       "enableLushlilacHighlighter": false,
       "enableSeaLumiesHighlighter": false,
       "seaLumiesMinimumCount": 3,
-      "enableTreeBreakProgress": false,
-      "enableTunerSolver": false,
-      "enableSweepDetailsWidget": false
+      "enableTunerSolver": false
     },
     "torrhusCanyon": {
       "solveDesertTemplePuzzles": false,
@@ -575,9 +561,8 @@
     "commissionHighlight": false,
     "callMismyla": false,
     "redialOnBadSignal": false,
-    "enablePickobulusHelper": false,
     "pickobulusHelper": {
-      "enablePickobulusHud": false,
+      "enablePickobulusHelper": false,
       "hideHudOnCooldown": false
     },
     "dwarvenMines": {
@@ -591,7 +576,6 @@
       "nucleusWaypoints": false,
       "chestHighlighter": false,
       "chestHighlightColor": -2147483393,
-      "enablePowderTracker": false,
       "countNaturalChestsInTracker": false,
       "powderTrackerFilter": []
     },
@@ -632,14 +616,6 @@
     }
   },
   "farming": {
-    "farmingHud": {
-      "enabled": false,
-      "counter": false,
-      "coins": false,
-      "type": "BOTH",
-      "includeSeedsPrice": false,
-      "experience": false
-    },
     "pestHighlighter": {
       "enabled": false,
       "vinylHighlighter": false,
@@ -711,9 +687,6 @@
     "floorDrops": {
       "highlightFloorDrops": true,
       "floorDropHighlightColor": -425955
-    },
-    "lassoHud": {
-      "enabled": false
     }
   },
   "otherLocations": {
@@ -735,13 +708,8 @@
     "end": {
       "enableEnderNodeHelper": false,
       "enderNodeWaypointType": "OUTLINED_HIGHLIGHT",
-      "hudEnabled": false,
-      "zealotKillsEnabled": false,
-      "protectorLocationEnabled": false,
       "waypoint": false,
-      "muteEndermanSounds": false,
-      "x": 10,
-      "y": 10
+      "muteEndermanSounds": false
     },
     "spidersDen": {
       "relics": {
@@ -823,6 +791,7 @@
     "hideDeath": "PASS",
     "hideMana": false,
     "hideDungeonBreaker": "PASS",
+    "hideCritterCapture": "PASS",
     "chatRuleConfig": {
       "announcementLength": 60
     }

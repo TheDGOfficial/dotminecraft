@@ -17,3 +17,4 @@ resourcepacks.hypixel.net
 resourcepacks2.hypixel.net
 api.odtheking.com
 lb.odtheking.com
+ws.odtheking.com

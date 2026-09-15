@@ -40,7 +40,7 @@
         "scale": 2.0,
         "enabled": false
       },
-      "Show Own": false,
+      "Show Player": "None",
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -62,7 +62,7 @@
       },
       "Fixed Width": true,
       "Boss Entry Split": true,
-      "Send Splits": true,
+      "Show 0 splits": false,
       "Show Tick Time": true,
       "Split Location": "Both",
       "KuudraT5": {},
@@ -117,7 +117,7 @@
       "DungeonM4": {
         "§2Blood Open": 11.503,
         "§bBlood Clear": 51.231,
-        "§dPortal Entry": 4.306,
+        "§dPortal Entry": 4.164,
         "§4Cleared": 71.162,
         "§1Total": 165.575
       },
@@ -359,6 +359,7 @@
       "Disable in Boss": true,
       "Background Outline": "#000000FF",
       "Background Color": "#00000033",
+      "Room Text": "Both",
       "Text Scaling": 0.45000000670552254,
       "Player Names Scaling": 0.7500000111758709,
       "Player Name Color": "#464646FF",
@@ -377,6 +378,7 @@
       "Fairy Door": "#9D00B3FF",
       "Unknown Door": "#1C1C1CFF",
       "Disable Prediction": false,
+      "Websocket": true,
       "Dungeon Map": {
         "x": 10,
         "y": 10,
@@ -401,12 +403,11 @@
       "Stop Melody Solver": false,
       "Melody Size": 1.5000000223517418,
       "Show Numbers": true,
-      "First Click Protection": 500.0,
+      "Client Prediction": true,
+      "Resolve timeout": 600.0,
+      "First Click Prot": 500.0,
       "Account For Server Lag": false,
       "Lag Protection Ticks": 8.0,
-      "Hide Clicked": false,
-      "Resolve timeout": 600.0,
-      "Debug": false,
       "Background": "#1A1A1AFF",
       "Panes": "#55FF55FF",
       "Rubix 1": "#55FF55FF",
@@ -421,6 +422,7 @@
       "Melody Column": "#AA00AAFF",
       "Melody Pointer": "#55FF55FF",
       "Melody Background": "#262626FF",
+      "Debug": false,
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -559,7 +561,7 @@
         "scale": 2.0,
         "enabled": false
       },
-      "Outbounds Hud": {
+      "Storm Tick Hud": {
         "x": 10,
         "y": 10,
         "scale": 2.0,
@@ -630,7 +632,7 @@
     "enabled": false,
     "settings": {
       "Ping": 0.0,
-      "First Click Protection": false,
+      "First Click Prot": false,
       "TermsimPBs": {},
       "Keybind": "key.keyboard.unknown"
     }
@@ -651,6 +653,7 @@
       "Dragon Boxes": true,
       "Target Tracer": true,
       "Send Dragon Confirmation": true,
+      "Dragon Title": true,
       "Send Dragon Time Alive": true,
       "Send Dragon Spawned": true,
       "Send Ice Sprayed": true,
@@ -988,6 +991,7 @@
       "API URL": "https://api.odtheking.com/hypixel/",
       "Socket URL": "wss://ws.odtheking.com/",
       "Developer Message": false,
+      "Core loggings": false,
       "First join": false,
       "Panel Settings": {
         "Dungeon": {
@@ -1030,6 +1034,8 @@
     "settings": {
       "Hide Claimed": true,
       "Use Salvaged": false,
+      "Kuudra Pet Bonus": 0.0,
+      "Lava Leech Bonus": 0.0,
       "Croesus Chest HUD": {
         "x": 10,
         "y": 10,
