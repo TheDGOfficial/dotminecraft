@@ -8567,25 +8567,6 @@
     },
     {
       "blockPos": {
-        "x": 66,
-        "y": 87,
-        "z": 14
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "6"
-    },
-    {
-      "blockPos": {
         "x": 69,
         "y": 80,
         "z": 14
@@ -8680,25 +8661,6 @@
     },
     {
       "blockPos": {
-        "x": 92,
-        "y": 69,
-        "z": 3
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
         "x": 67,
         "y": 87,
         "z": 12
@@ -8753,6 +8715,44 @@
         "maxZ": 0.6875
       },
       "title": "8"
+    },
+    {
+      "blockPos": {
+        "x": 92,
+        "y": 69,
+        "z": 3
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "1"
+    },
+    {
+      "blockPos": {
+        "x": 66,
+        "y": 87,
+        "z": 14
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "6"
     }
   ],
   "Granite": [
@@ -12085,42 +12085,6 @@
     {
       "blockPos": {
         "x": 12,
-        "y": 70,
-        "z": 17
-      },
-      "color": "#FF5555FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.02999999999999997,
-        "minY": 0.0,
-        "minZ": -1.28,
-        "maxX": 0.97,
-        "maxY": 1.0,
-        "maxZ": 2.2800000000000002
-      }
-    },
-    {
-      "blockPos": {
-        "x": 15,
-        "y": 70,
-        "z": 20
-      },
-      "color": "#FF5555FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": -1.28,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 2.2800000000000002,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      }
-    },
-    {
-      "blockPos": {
-        "x": 12,
         "y": 72,
         "z": 20
       },
@@ -12134,6 +12098,42 @@
         "maxX": 0.9375,
         "maxY": 0.875,
         "maxZ": 0.9375
+      }
+    },
+    {
+      "blockPos": {
+        "x": 15,
+        "y": 70,
+        "z": 20
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      }
+    },
+    {
+      "blockPos": {
+        "x": 12,
+        "y": 70,
+        "z": 17
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
       }
     }
   ],
@@ -21572,25 +21572,6 @@
       "blockPos": {
         "x": 8,
         "y": 89,
-        "z": 24
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "3 "
-    },
-    {
-      "blockPos": {
-        "x": 8,
-        "y": 89,
         "z": 19
       },
       "color": "#AA00AAFF",
@@ -21605,25 +21586,6 @@
         "maxZ": 1.0
       },
       "title": "4 bat"
-    },
-    {
-      "blockPos": {
-        "x": 2,
-        "y": 94,
-        "z": 26
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "5 bat"
     },
     {
       "blockPos": {
@@ -21643,6 +21605,44 @@
         "maxZ": 1.0
       },
       "title": "6 down "
+    },
+    {
+      "blockPos": {
+        "x": 8,
+        "y": 95,
+        "z": 21
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.5,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "5 bat"
+    },
+    {
+      "blockPos": {
+        "x": 9,
+        "y": 89,
+        "z": 26
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "3"
     }
   ],
   "Sand Dragon": [

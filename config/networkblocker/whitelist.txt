@@ -18,3 +18,5 @@ resourcepacks2.hypixel.net
 api.odtheking.com
 lb.odtheking.com
 ws.odtheking.com
+#devs.odtheking.com
+pastebin.com

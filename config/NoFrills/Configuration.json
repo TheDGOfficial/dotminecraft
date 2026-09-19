@@ -126,7 +126,8 @@
     "npc": false,
     "mote": false,
     "burgers": 0,
-    "enabled": true
+    "enabled": true,
+    "craftCost": true
   },
   "wardrobeKeybinds": {
     "noUnequip": true,
@@ -895,7 +896,6 @@
         "e5653a16-b30e-4758-ae1c-211b9c878711",
         "d3f022c6-efbe-4061-92c7-9ae1eb819dd4",
         "0e8994ab-4dd3-4ec6-8985-2bc2015437f3",
-        "c8da3333-772b-4aed-8cd3-0f151bb2675e",
         "4305f3e6-82c4-4287-b6bd-71304de0ceb0",
         "7a27a08e-0a45-44c6-839a-0ce0e5d53b96",
         "7338b3b5-d913-44b8-853f-2c1a2578bfc7",
@@ -911,7 +911,9 @@
         "d20eb484-7364-45af-a139-184d6e03eaa6",
         "1631f36e-fcb7-447a-9ebc-33966e644138",
         "0dbda4a3-7661-426f-81b7-74cf34f7d676",
-        "98abde80-24f3-4ce8-8f39-84481a6f6d17"
+        "98abde80-24f3-4ce8-8f39-84481a6f6d17",
+        "f3b5548c-a08e-4b74-8a2e-6a38a08b5da3",
+        "7dd86219-b8e2-4820-91a9-b01943ed4f3e"
       ]
     }
   },
@@ -1096,7 +1098,8 @@
   },
   "blockList": {
     "enabled": true,
-    "joinAlert": true
+    "joinAlert": true,
+    "kickMsg": "/pc Kicked {name} for: Player blocked with reason \"{reason}\""
   },
   "buildPileHighlight": {
     "enabled": true

@@ -99,6 +99,7 @@
   "cursorPosWaylandGLErrorFix": true,
   "fixGameIconOnWayland": true,
   "useHttpsForSkins": true,
+  "optimizeClocksource": true,
   "ingameLogLevel": "WARN",
   "debugMode": false
 }

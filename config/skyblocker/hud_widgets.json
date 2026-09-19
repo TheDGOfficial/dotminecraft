@@ -1,6 +1,6 @@
 {
   "configs": {
-    "mining_3": {
+    "combat_3": {
       "hud": {
         "widgets": {}
       },
@@ -11,18 +11,7 @@
         "widgets": {}
       }
     },
-    "mining_1": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "crimson_isle": {
+    "unknown": {
       "hud": {
         "widgets": {}
       },
@@ -34,6 +23,105 @@
       }
     },
     "combat_1": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "rift": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "dungeon_hub": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "foraging_2": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "winter": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "crystal_hollows": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "kuudra": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "hub": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "foraging_3": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "crimson_isle": {
       "hud": {
         "widgets": {}
       },
@@ -66,7 +154,7 @@
         "widgets": {}
       }
     },
-    "foraging_2": {
+    "dungeon": {
       "hud": {
         "widgets": {}
       },
@@ -77,7 +165,86 @@
         "widgets": {}
       }
     },
-    "foraging_3": {
+    "garden": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {
+          "pet": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "area": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "jacobs_contest": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "skills": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "players": {
+            "config": {
+              "scale": 1.0,
+              "name_sorting": "default"
+            }
+          },
+          "visitors": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "stats": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "composter": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "pest_traps": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "pests": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "profile": {
+            "config": {
+              "scale": 1.0
+            }
+          }
+        }
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "mining_2": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "mining_1": {
       "hud": {
         "widgets": {}
       },
@@ -89,28 +256,6 @@
       }
     },
     "farming_1": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "dynamic": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "hub": {
       "hud": {
         "widgets": {}
       },
@@ -143,61 +288,6 @@
         "widgets": {}
       }
     },
-    "dungeon": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "dungeon_hub": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "unknown": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "kuudra": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "crystal_hollows": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
     "foraging_1": {
       "hud": {
         "widgets": {}
@@ -220,75 +310,7 @@
         "widgets": {}
       }
     },
-    "garden": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {
-          "pet": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "area": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "visitors": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "players": {
-            "config": {
-              "scale": 1.0,
-              "name_sorting": "default"
-            }
-          },
-          "skills": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "jacobs_contest": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "stats": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "pest_traps": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "composter": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "pests": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "profile": {
-            "config": {
-              "scale": 1.0
-            }
-          }
-        }
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "combat_3": {
+    "mining_3": {
       "hud": {
         "widgets": {}
       },
@@ -299,29 +321,7 @@
         "widgets": {}
       }
     },
-    "winter": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "mining_2": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "rift": {
+    "dynamic": {
       "hud": {
         "widgets": {}
       },

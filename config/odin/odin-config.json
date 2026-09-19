@@ -118,8 +118,8 @@
         "§2Blood Open": 11.503,
         "§bBlood Clear": 51.231,
         "§dPortal Entry": 4.164,
-        "§4Cleared": 71.162,
-        "§1Total": 165.575
+        "§4Cleared": 69.524,
+        "§1Total": 162.855
       },
       "DungeonM5": {
         "§2Blood Open": 20.079,
@@ -140,12 +140,12 @@
       "DungeonM7": {
         "§2Blood Open": 16.626,
         "§bBlood Clear": 61.853,
-        "§dPortal Entry": 4.706,
+        "§dPortal Entry": 3.39,
         "§5Maxor": 27.067,
         "§3Storm": 51.883,
-        "§6Terminals": 85.882,
+        "§6Terminals": 75.028,
         "§7Goldor": 8.621,
-        "§cNecron": 31.535,
+        "§cNecron": 31.085,
         "§4Cleared": 61.407,
         "§1Total": 444.037
       },
@@ -202,8 +202,7 @@
       "Healer": "key.keyboard.unknown",
       "Mage": "key.keyboard.unknown",
       "Tank": "key.keyboard.unknown",
-      "Leap Announce": false,
-      "Keybind": "key.keyboard.unknown"
+      "Leap Announce": false
     }
   },
   {
@@ -323,6 +322,21 @@
     }
   },
   {
+    "name": "Quiver Display",
+    "enabled": false,
+    "settings": {
+      "Show Name": true,
+      "Count Color": "#55FF55FF",
+      "Quiver HUD": {
+        "x": 10,
+        "y": 10,
+        "scale": 2.0,
+        "enabled": true
+      },
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
     "name": "Gyro Wand",
     "enabled": false,
     "settings": {
@@ -378,7 +392,7 @@
       "Fairy Door": "#9D00B3FF",
       "Unknown Door": "#1C1C1CFF",
       "Disable Prediction": false,
-      "Websocket": true,
+      "Parse map websocket": true,
       "Dungeon Map": {
         "x": 10,
         "y": 10,
@@ -397,18 +411,16 @@
       "Term Size": 2.0000000298023224,
       "Roundness": 5.0,
       "Slot gap": 2.0,
-      "Stop Tooltips": true,
-      "Middle Click GUI": true,
-      "Block Incorrect Clicks": true,
-      "Stop Melody Solver": false,
-      "Melody Size": 1.5000000223517418,
-      "Show Numbers": true,
       "Client Prediction": true,
       "Resolve timeout": 600.0,
+      "Stop Melody Solver": false,
+      "Melody Size": 1.5000000223517418,
+      "Rubix Mode": "Fewest Clicks",
       "First Click Prot": 500.0,
       "Account For Server Lag": false,
       "Lag Protection Ticks": 8.0,
       "Background": "#1A1A1AFF",
+      "Text": "#FFFFFFFF",
       "Panes": "#55FF55FF",
       "Rubix 1": "#55FF55FF",
       "Rubix 2": "#2A802AFF",
@@ -573,6 +585,12 @@
         "scale": 2.0,
         "enabled": false
       },
+      "Fire Freeze Hud": {
+        "x": 10,
+        "y": 10,
+        "scale": 2.0,
+        "enabled": false
+      },
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -584,6 +602,7 @@
       "Party Commands": true,
       "Guild Commands": false,
       "Private Commands": false,
+      "Co-op Commands": true,
       "Warp": false,
       "Coords (coords)": false,
       "Allinvite": false,
@@ -613,14 +632,37 @@
     }
   },
   {
+    "name": "Kuudra Tracker",
+    "enabled": false,
+    "settings": {
+      "Lines": 10.0,
+      "Kuudra Tracker HUD": {
+        "x": 10,
+        "y": 10,
+        "scale": 2.0,
+        "enabled": false
+      },
+      "Single Items": {},
+      "Multi Items": {},
+      "Paid Chests": 0.0,
+      "Free Chests": 0.0,
+      "Total Keys": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "Keybind": "key.keyboard.unknown"
+    }
+  },
+  {
     "name": "Positional Messages",
     "enabled": false,
     "settings": {
       "Only in Dungeons": true,
-      "Once Per World": false,
       "Show Positions": true,
       "Height": 0.2,
-      "Depth Check": true,
       "Show Message": true,
       "Message Size": 1.0000000149011612,
       "Pos Messages": [],
@@ -694,7 +736,6 @@
     "name": "Secrets Counter",
     "enabled": true,
     "settings": {
-      "Secrets Counter": true,
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -718,16 +759,10 @@
     "settings": {
       "Invincibility Alert": true,
       "Announce Invincibility": true,
-      "Show": "Always",
-      "Equipped Mask": "#AA00AAFF",
+      "Only In Dungeons": true,
       "Show Spirit Mask": true,
       "Show Bonzo Mask": true,
       "Show Phoenix Pet": true,
-      "Only In Dungeons": true,
-      "Show On Item": true,
-      "Phoenix As Top Left": false,
-      "Display As Durability": false,
-      "Cooldown Color": "#262626FF",
       "Invincibility Timer": {
         "x": 10,
         "y": 10,
@@ -735,6 +770,11 @@
         "enabled": false
       },
       "Show In Boss": false,
+      "Show": "Always",
+      "Equipped Mask": "#AA00AAFF",
+      "Show On Item": true,
+      "Display As Durability": false,
+      "Cooldown Color": "#262626FF",
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -977,7 +1017,6 @@
       "Completion Sound": "entity.experience_orb.pickup",
       "Completion Sound Pitch": 0.9999999776482582,
       "Completion Sound Volume": 0.9999999776482582,
-      "Cancel Last Click": false,
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -987,7 +1026,6 @@
     "settings": {
       "Chat notifications": true,
       "Color": "#3296DCFF",
-      "Rounded Panel Bottoms": true,
       "API URL": "https://api.odtheking.com/hypixel/",
       "Socket URL": "wss://ws.odtheking.com/",
       "Developer Message": false,
@@ -1377,8 +1415,8 @@
     "enabled": false,
     "settings": {
       "Secret Boxes": true,
-      "Style": "Outline",
-      "Color": "#FFAA0066",
+      "Box style": "Filled Outline",
+      "Box color": "#FFAA00CC",
       "Depth check": false,
       "Locked Color": "#FF555566",
       "Time To Stay": 7.0,
