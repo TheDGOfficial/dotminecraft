@@ -934,43 +934,6 @@
     },
     {
       "blockPos": {
-        "x": 18,
-        "y": 68,
-        "z": 27
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.2479999999050051,
-        "minY": -0.0020000000949949026,
-        "minZ": 0.2479999999050051,
-        "maxX": 0.7520000000949949,
-        "maxY": 0.5020000000949949,
-        "maxZ": 0.7520000000949949
-      }
-    },
-    {
-      "blockPos": {
-        "x": 18,
-        "y": 67,
-        "z": 27
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "bat "
-    },
-    {
-      "blockPos": {
         "x": 19,
         "y": 70,
         "z": 21
@@ -1006,6 +969,25 @@
         "maxZ": 0.9375
       },
       "title": "1"
+    },
+    {
+      "blockPos": {
+        "x": 18,
+        "y": 68,
+        "z": 27
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "+ bat"
     }
   ],
   "Mage": [
@@ -1560,139 +1542,6 @@
   "Redstone Crypt": [
     {
       "blockPos": {
-        "x": 15,
-        "y": 68,
-        "z": 12
-      },
-      "color": "#FF5555FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "lever"
-    },
-    {
-      "blockPos": {
-        "x": 15,
-        "y": 68,
-        "z": 15
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.3125,
-        "maxX": 0.75,
-        "maxY": 0.375,
-        "maxZ": 0.6875
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
-        "x": 7,
-        "y": 68,
-        "z": 7
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "2"
-    },
-    {
-      "blockPos": {
-        "x": 24,
-        "y": 72,
-        "z": 6
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "5"
-    },
-    {
-      "blockPos": {
-        "x": 26,
-        "y": 72,
-        "z": 6
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "6 hold lcm"
-    },
-    {
-      "blockPos": {
-        "x": 4,
-        "y": 71,
-        "z": 4
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "4"
-    },
-    {
-      "blockPos": {
-        "x": 9,
-        "y": 69,
-        "z": 3
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0625,
-        "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      },
-      "title": "3"
-    },
-    {
-      "blockPos": {
         "x": 29,
         "y": 70,
         "z": 15
@@ -1727,14 +1576,87 @@
         "maxY": 0.6799999999999999,
         "maxZ": 0.735
       }
-    }
-  ],
-  "Spikes": [
+    },
     {
       "blockPos": {
-        "x": 6,
+        "x": 15,
         "y": 68,
-        "z": 13
+        "z": 15
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.3125,
+        "maxX": 0.75,
+        "maxY": 0.375,
+        "maxZ": 0.6875
+      }
+    },
+    {
+      "blockPos": {
+        "x": 9,
+        "y": 69,
+        "z": 3
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      },
+      "title": "2"
+    },
+    {
+      "blockPos": {
+        "x": 4,
+        "y": 71,
+        "z": 4
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "3"
+    },
+    {
+      "blockPos": {
+        "x": 26,
+        "y": 72,
+        "z": 6
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "5 lcm"
+    },
+    {
+      "blockPos": {
+        "x": 24,
+        "y": 72,
+        "z": 6
       },
       "color": "#AA00AAFF",
       "filled": false,
@@ -1747,33 +1669,15 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "optional | spam tp up"
+      "title": "4"
     },
     {
       "blockPos": {
-        "x": 4,
-        "y": 91,
-        "z": 11
+        "x": 7,
+        "y": 68,
+        "z": 7
       },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0625,
-        "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      }
-    },
-    {
-      "blockPos": {
-        "x": 0,
-        "y": 52,
-        "z": 8
-      },
-      "color": "#AA00AA00",
+      "color": "#AA00AAFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -1784,8 +1688,10 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "line to 1"
-    },
+      "title": "1"
+    }
+  ],
+  "Spikes": [
     {
       "blockPos": {
         "x": 0,
@@ -1807,25 +1713,6 @@
     },
     {
       "blockPos": {
-        "x": 13,
-        "y": 66,
-        "z": 14
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.5,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "2"
-    },
-    {
-      "blockPos": {
         "x": 4,
         "y": 50,
         "z": 7
@@ -1841,25 +1728,6 @@
         "maxY": 1.0,
         "maxZ": 1.0
       }
-    },
-    {
-      "blockPos": {
-        "x": 6,
-        "y": 90,
-        "z": 13
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "breakwarp"
     },
     {
       "blockPos": {
@@ -1879,6 +1747,63 @@
         "maxZ": 0.75
       },
       "title": "1"
+    },
+    {
+      "blockPos": {
+        "x": 4,
+        "y": 91,
+        "z": 11
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      },
+      "title": "4"
+    },
+    {
+      "blockPos": {
+        "x": 7,
+        "y": 90,
+        "z": 13
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "3 breakwarp / 5 down"
+    },
+    {
+      "blockPos": {
+        "x": 7,
+        "y": 52,
+        "z": 13
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "2"
     }
   ],
   "Waterfall": [
@@ -2361,25 +2286,6 @@
   "Small Waterfall": [
     {
       "blockPos": {
-        "x": 6,
-        "y": 76,
-        "z": 26
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "2"
-    },
-    {
-      "blockPos": {
         "x": 5,
         "y": 78,
         "z": 24
@@ -2433,6 +2339,25 @@
         "maxZ": 1.0
       },
       "title": "4 forward"
+    },
+    {
+      "blockPos": {
+        "x": 6,
+        "y": 77,
+        "z": 26
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "2"
     }
   ],
   "Mossy": [
@@ -3236,25 +3161,6 @@
     },
     {
       "blockPos": {
-        "x": 21,
-        "y": 68,
-        "z": 50
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "13"
-    },
-    {
-      "blockPos": {
         "x": 24,
         "y": 90,
         "z": 37
@@ -3295,6 +3201,24 @@
   "Slabs": [
     {
       "blockPos": {
+        "x": 22,
+        "y": 83,
+        "z": 15
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.5,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      }
+    },
+    {
+      "blockPos": {
         "x": 23,
         "y": 85,
         "z": 3
@@ -3309,8 +3233,7 @@
         "maxX": 0.9375,
         "maxY": 0.875,
         "maxZ": 0.9375
-      },
-      "title": "1"
+      }
     },
     {
       "blockPos": {
@@ -3328,25 +3251,6 @@
         "maxX": 1.0,
         "maxY": 0.875,
         "maxZ": 0.9375
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
-        "x": 22,
-        "y": 83,
-        "z": 15
-      },
-      "color": "#FF5555FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.5,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
       }
     }
   ],
@@ -3405,7 +3309,7 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "line + just tp"
+      "title": "line+tp"
     }
   ],
   "Grass Ruin": [
@@ -3809,25 +3713,6 @@
     },
     {
       "blockPos": {
-        "x": 26,
-        "y": 84,
-        "z": 9
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.3125,
-        "maxX": 0.75,
-        "maxY": 0.375,
-        "maxZ": 0.6875
-      },
-      "title": "5"
-    },
-    {
-      "blockPos": {
         "x": 30,
         "y": 82,
         "z": 10
@@ -3995,6 +3880,25 @@
         "maxZ": 0.75
       },
       "title": "13"
+    },
+    {
+      "blockPos": {
+        "x": 26,
+        "y": 84,
+        "z": 9
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.3125,
+        "maxX": 0.75,
+        "maxY": 0.375,
+        "maxZ": 0.6875
+      },
+      "title": "5"
     }
   ],
   "Silver Sword": [
@@ -5082,25 +4986,6 @@
   "Pit": [
     {
       "blockPos": {
-        "x": 9,
-        "y": 68,
-        "z": 10
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": -0.0020000000949949026,
-        "minY": -0.0020000000949949026,
-        "minZ": -0.0020000000949949026,
-        "maxX": 1.002000000094995,
-        "maxY": 1.002000000094995,
-        "maxZ": 1.002000000094995
-      },
-      "title": "2"
-    },
-    {
-      "blockPos": {
         "x": 20,
         "y": 83,
         "z": 9
@@ -5304,6 +5189,25 @@
         "maxY": 1.0,
         "maxZ": 1.0
       }
+    },
+    {
+      "blockPos": {
+        "x": 9,
+        "y": 68,
+        "z": 9
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "2 one block down"
     }
   ],
   "Rails": [
@@ -5935,25 +5839,6 @@
     },
     {
       "blockPos": {
-        "x": 4,
-        "y": 62,
-        "z": 15
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.3125,
-        "minY": 0.25,
-        "minZ": 0.0,
-        "maxX": 0.6875,
-        "maxY": 0.75,
-        "maxZ": 0.375
-      },
-      "title": "8"
-    },
-    {
-      "blockPos": {
         "x": 23,
         "y": 64,
         "z": 14
@@ -5988,6 +5873,25 @@
         "maxY": 1.0,
         "maxZ": 1.0
       }
+    },
+    {
+      "blockPos": {
+        "x": 4,
+        "y": 62,
+        "z": 15
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.3125,
+        "minY": 0.25,
+        "minZ": 0.0,
+        "maxX": 0.6875,
+        "maxY": 0.75,
+        "maxZ": 0.375
+      },
+      "title": "8"
     }
   ],
   "Buttons": [
@@ -7034,6 +6938,25 @@
         "maxZ": 0.9375
       },
       "title": "2"
+    },
+    {
+      "blockPos": {
+        "x": 14,
+        "y": 68,
+        "z": 8
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "4"
     }
   ],
   "Boulder": [],
@@ -7245,7 +7168,7 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "8 line + just tp"
+      "title": "8 line+tp"
     }
   ],
   "Jumping Skulls": [
@@ -7913,6 +7836,82 @@
         "maxY": 1.0,
         "maxZ": 1.0
       }
+    },
+    {
+      "blockPos": {
+        "x": 3,
+        "y": 77,
+        "z": 19
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 0.875,
+        "maxZ": 1.0
+      },
+      "title": "5 down"
+    },
+    {
+      "blockPos": {
+        "x": 26,
+        "y": 77,
+        "z": 15
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 0.875,
+        "maxZ": 1.0
+      },
+      "title": "5 down"
+    },
+    {
+      "blockPos": {
+        "x": 26,
+        "y": 68,
+        "z": 15
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "6"
+    },
+    {
+      "blockPos": {
+        "x": 3,
+        "y": 68,
+        "z": 19
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "6"
     }
   ],
   "Perch": [
@@ -8549,25 +8548,6 @@
     {
       "blockPos": {
         "x": 69,
-        "y": 91,
-        "z": 14
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "5 normal tp"
-    },
-    {
-      "blockPos": {
-        "x": 69,
         "y": 80,
         "z": 14
       },
@@ -8661,6 +8641,25 @@
     },
     {
       "blockPos": {
+        "x": 92,
+        "y": 69,
+        "z": 3
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "1"
+    },
+    {
+      "blockPos": {
         "x": 67,
         "y": 87,
         "z": 12
@@ -8718,25 +8717,6 @@
     },
     {
       "blockPos": {
-        "x": 92,
-        "y": 69,
-        "z": 3
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
         "x": 66,
         "y": 87,
         "z": 14
@@ -8753,6 +8733,25 @@
         "maxZ": 0.75
       },
       "title": "6"
+    },
+    {
+      "blockPos": {
+        "x": 69,
+        "y": 91,
+        "z": 14
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "5 tp"
     }
   ],
   "Granite": [
@@ -8837,25 +8836,6 @@
   "Flags": [
     {
       "blockPos": {
-        "x": 36,
-        "y": 70,
-        "z": 48
-      },
-      "color": "#FF5555FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "mine forward"
-    },
-    {
-      "blockPos": {
         "x": 37,
         "y": 67,
         "z": 58
@@ -8932,82 +8912,6 @@
     },
     {
       "blockPos": {
-        "x": 24,
-        "y": 95,
-        "z": 24
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "5"
-    },
-    {
-      "blockPos": {
-        "x": 14,
-        "y": 108,
-        "z": 41
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0625,
-        "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      },
-      "title": "7"
-    },
-    {
-      "blockPos": {
-        "x": 14,
-        "y": 108,
-        "z": 27
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0625,
-        "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      },
-      "title": "8"
-    },
-    {
-      "blockPos": {
-        "x": 32,
-        "y": 95,
-        "z": 40
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "10"
-    },
-    {
-      "blockPos": {
         "x": 49,
         "y": 70,
         "z": 24
@@ -9024,25 +8928,6 @@
         "maxZ": 1.0
       },
       "title": "exit"
-    },
-    {
-      "blockPos": {
-        "x": 20,
-        "y": 107,
-        "z": 34
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "6 / 9"
     },
     {
       "blockPos": {
@@ -9064,6 +8949,139 @@
     },
     {
       "blockPos": {
+        "x": 14,
+        "y": 108,
+        "z": 41
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      },
+      "title": "8"
+    },
+    {
+      "blockPos": {
+        "x": 14,
+        "y": 108,
+        "z": 27
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      },
+      "title": "10"
+    },
+    {
+      "blockPos": {
+        "x": 14,
+        "y": 107,
+        "z": 39
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "7"
+    },
+    {
+      "blockPos": {
+        "x": 14,
+        "y": 107,
+        "z": 29
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "9"
+    },
+    {
+      "blockPos": {
+        "x": 20,
+        "y": 107,
+        "z": 34
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "6 / 11"
+    },
+    {
+      "blockPos": {
+        "x": 25,
+        "y": 95,
+        "z": 31
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "5 "
+    },
+    {
+      "blockPos": {
+        "x": 32,
+        "y": 95,
+        "z": 40
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "12"
+    },
+    {
+      "blockPos": {
         "x": 40,
         "y": 84,
         "z": 40
@@ -9079,7 +9097,7 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "11"
+      "title": "13"
     },
     {
       "blockPos": {
@@ -9098,7 +9116,26 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "12"
+      "title": "14"
+    },
+    {
+      "blockPos": {
+        "x": 54,
+        "y": 70,
+        "z": 32
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "line+tp"
     },
     {
       "blockPos": {
@@ -9117,45 +9154,7 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "line"
-    },
-    {
-      "blockPos": {
-        "x": 56,
-        "y": 89,
-        "z": 38
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "13"
-    },
-    {
-      "blockPos": {
-        "x": 57,
-        "y": 86,
-        "z": 41
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "14"
+      "title": "line+tp"
     },
     {
       "blockPos": {
@@ -9175,25 +9174,6 @@
         "maxZ": 1.0
       },
       "title": "16 bat"
-    },
-    {
-      "blockPos": {
-        "x": 54,
-        "y": 70,
-        "z": 32
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "line + just tp"
     },
     {
       "blockPos": {
@@ -9232,6 +9212,25 @@
         "maxZ": 0.9375
       },
       "title": "15"
+    },
+    {
+      "blockPos": {
+        "x": 36,
+        "y": 70,
+        "z": 48
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "forward"
     }
   ],
   "Andesite": [
@@ -9297,7 +9296,7 @@
         "y": 68,
         "z": 28
       },
-      "color": "#55FF55FF",
+      "color": "#AA00AAFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -13039,25 +13038,6 @@
     },
     {
       "blockPos": {
-        "x": 5,
-        "y": 83,
-        "z": 24
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "down"
-    },
-    {
-      "blockPos": {
         "x": 43,
         "y": 67,
         "z": 36
@@ -13495,24 +13475,6 @@
     },
     {
       "blockPos": {
-        "x": 5,
-        "y": 70,
-        "z": 27
-      },
-      "color": "#FF5555FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.3125,
-        "maxX": 0.75,
-        "maxY": 0.375,
-        "maxZ": 0.6875
-      }
-    },
-    {
-      "blockPos": {
         "x": 19,
         "y": 66,
         "z": 7
@@ -13529,81 +13491,6 @@
         "maxZ": 1.0
       },
       "title": "redskull"
-    },
-    {
-      "blockPos": {
-        "x": 22,
-        "y": 68,
-        "z": 14
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
-        "x": 27,
-        "y": 68,
-        "z": 7
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "2 + item"
-    },
-    {
-      "blockPos": {
-        "x": 28,
-        "y": 62,
-        "z": 23
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0625,
-        "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      },
-      "title": "4 go back"
-    },
-    {
-      "blockPos": {
-        "x": 25,
-        "y": 61,
-        "z": 23
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      }
     },
     {
       "blockPos": {
@@ -13645,6 +13532,81 @@
     },
     {
       "blockPos": {
+        "x": 5,
+        "y": 68,
+        "z": 19
+      },
+      "color": "#FF5555FF",
+      "filled": true,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      }
+    },
+    {
+      "blockPos": {
+        "x": 5,
+        "y": 70,
+        "z": 27
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.3125,
+        "maxX": 0.75,
+        "maxY": 0.375,
+        "maxZ": 0.6875
+      },
+      "title": "1"
+    },
+    {
+      "blockPos": {
+        "x": 22,
+        "y": 68,
+        "z": 14
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "2"
+    },
+    {
+      "blockPos": {
+        "x": 27,
+        "y": 68,
+        "z": 7
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "3 + item"
+    },
+    {
+      "blockPos": {
         "x": 25,
         "y": 68,
         "z": 23
@@ -13660,7 +13622,44 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "3 down"
+      "title": "4 down"
+    },
+    {
+      "blockPos": {
+        "x": 25,
+        "y": 61,
+        "z": 23
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      }
+    },
+    {
+      "blockPos": {
+        "x": 28,
+        "y": 62,
+        "z": 23
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      },
+      "title": "5 go back"
     }
   ],
   "Catwalk": [
@@ -15702,8 +15701,8 @@
     {
       "blockPos": {
         "x": 29,
-        "y": 68,
-        "z": 5
+        "y": 69,
+        "z": 9
       },
       "color": "#AA00AAFF",
       "filled": false,
@@ -15711,12 +15710,29 @@
       "aabb": {
         "minX": 0.0,
         "minY": 0.0,
-        "minZ": 0.0,
+        "minZ": 0.4375,
         "maxX": 1.0,
         "maxY": 1.0,
-        "maxZ": 1.0
+        "maxZ": 0.5625
+      }
+    },
+    {
+      "blockPos": {
+        "x": 29,
+        "y": 70,
+        "z": 9
       },
-      "title": "11"
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.4375,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 0.5625
+      }
     },
     {
       "blockPos": {
@@ -15735,7 +15751,7 @@
         "maxY": 0.875,
         "maxZ": 0.9375
       },
-      "title": "12"
+      "title": "11"
     }
   ],
   "Tomioka": [],
@@ -18047,25 +18063,6 @@
     },
     {
       "blockPos": {
-        "x": 6,
-        "y": 80,
-        "z": 3
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "9"
-    },
-    {
-      "blockPos": {
         "x": 30,
         "y": 75,
         "z": 16
@@ -18101,6 +18098,25 @@
         "maxZ": 1.0
       },
       "title": "down"
+    },
+    {
+      "blockPos": {
+        "x": 6,
+        "y": 80,
+        "z": 3
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "9"
     }
   ],
   "Pirate": [
@@ -18352,25 +18368,6 @@
     },
     {
       "blockPos": {
-        "x": 19,
-        "y": 60,
-        "z": 4
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "12"
-    },
-    {
-      "blockPos": {
         "x": 16,
         "y": 68,
         "z": 6
@@ -18387,6 +18384,25 @@
         "maxZ": 1.0
       },
       "title": "13 jump breakwarp"
+    },
+    {
+      "blockPos": {
+        "x": 19,
+        "y": 60,
+        "z": 4
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "12"
     }
   ],
   "Mirror": [
@@ -18709,6 +18725,25 @@
         "maxY": 0.8770000000949949,
         "maxZ": 0.9395000000949949
       }
+    },
+    {
+      "blockPos": {
+        "x": 7,
+        "y": 70,
+        "z": 10
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "line+tp"
     }
   ],
   "Hall": [],
@@ -19040,25 +19075,6 @@
     },
     {
       "blockPos": {
-        "x": 26,
-        "y": 83,
-        "z": 23
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.5,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "5 forward / line"
-    },
-    {
-      "blockPos": {
         "x": 28,
         "y": 81,
         "z": 25
@@ -19113,6 +19129,25 @@
         "maxZ": 0.6875
       },
       "title": "if 4 locked"
+    },
+    {
+      "blockPos": {
+        "x": 25,
+        "y": 82,
+        "z": 22
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "5 line+tp"
     }
   ],
   "Mines": [
@@ -20326,28 +20361,28 @@
         "maxZ": 1.0
       },
       "title": "2 / 4 down"
-    }
-  ],
-  "Vinny 8 Ball": [
+    },
     {
       "blockPos": {
-        "x": 17,
-        "y": 80,
-        "z": 1
+        "x": 5,
+        "y": 68,
+        "z": 10
       },
       "color": "#AA00AAFF",
       "filled": false,
       "depth": false,
       "aabb": {
-        "minX": 0.25,
+        "minX": 0.0,
         "minY": 0.0,
-        "minZ": 0.3125,
-        "maxX": 0.75,
-        "maxY": 0.375,
-        "maxZ": 0.6875
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
       },
-      "title": "lever"
-    },
+      "title": "5"
+    }
+  ],
+  "Vinny 8 Ball": [
     {
       "blockPos": {
         "x": 26,
@@ -20365,6 +20400,25 @@
         "maxY": 0.875,
         "maxZ": 0.9375
       }
+    },
+    {
+      "blockPos": {
+        "x": 17,
+        "y": 80,
+        "z": 1
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.3125,
+        "maxX": 0.75,
+        "maxY": 0.375,
+        "maxZ": 0.6875
+      },
+      "title": "lever"
     }
   ],
   "Carpets": [
@@ -20938,25 +20992,6 @@
     },
     {
       "blockPos": {
-        "x": 25,
-        "y": 76,
-        "z": 25
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "4 break + etherwarp"
-    },
-    {
-      "blockPos": {
         "x": 28,
         "y": 80,
         "z": 25
@@ -21048,6 +21083,25 @@
         "maxY": 1.0,
         "maxZ": 1.0
       }
+    },
+    {
+      "blockPos": {
+        "x": 25,
+        "y": 76,
+        "z": 25
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "4 breakwarp"
     }
   ],
   "Quiz": [],
@@ -21572,6 +21626,25 @@
       "blockPos": {
         "x": 8,
         "y": 89,
+        "z": 24
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "3 "
+    },
+    {
+      "blockPos": {
+        "x": 8,
+        "y": 89,
         "z": 19
       },
       "color": "#AA00AAFF",
@@ -21586,6 +21659,25 @@
         "maxZ": 1.0
       },
       "title": "4 bat"
+    },
+    {
+      "blockPos": {
+        "x": 2,
+        "y": 94,
+        "z": 26
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "5 bat"
     },
     {
       "blockPos": {
@@ -21605,44 +21697,6 @@
         "maxZ": 1.0
       },
       "title": "6 down "
-    },
-    {
-      "blockPos": {
-        "x": 8,
-        "y": 95,
-        "z": 21
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.5,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "5 bat"
-    },
-    {
-      "blockPos": {
-        "x": 9,
-        "y": 89,
-        "z": 26
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0,
-        "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "3"
     }
   ],
   "Sand Dragon": [
@@ -21670,7 +21724,7 @@
         "y": 83,
         "z": 22
       },
-      "color": "#E711CBFF",
+      "color": "#FF5555FF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -21911,6 +21965,25 @@
         "maxZ": 0.9375
       },
       "title": "2"
+    },
+    {
+      "blockPos": {
+        "x": 15,
+        "y": 85,
+        "z": 2
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.3125,
+        "minY": 0.25,
+        "minZ": 0.0,
+        "maxX": 0.6875,
+        "maxY": 0.75,
+        "maxZ": 0.375
+      },
+      "title": "if 2 locked"
     }
   ],
   "Rare Pillars": [
@@ -21995,25 +22068,6 @@
     },
     {
       "blockPos": {
-        "x": 28,
-        "y": 63,
-        "z": 7
-      },
-      "color": "#55FF55FF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.0625,
-        "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
         "x": 24,
         "y": 74,
         "z": 8
@@ -22087,6 +22141,25 @@
         "maxZ": 1.0
       },
       "title": "5"
+    },
+    {
+      "blockPos": {
+        "x": 28,
+        "y": 63,
+        "z": 7
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      },
+      "title": "1 etherwarp up"
     }
   ],
   "Tombstone": [

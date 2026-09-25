@@ -1,0 +1,11 @@
+{
+  "BLOOD_DONOR_ARTIFACT": [
+    {
+      "quantity": 1,
+      "items": {
+        "HEMOBOMB": 32,
+        "BLOOD_DONOR_RING": 1
+      }
+    }
+  ]
+}

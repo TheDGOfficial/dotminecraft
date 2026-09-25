@@ -11,8 +11,7 @@
       "Bear Spawn": true,
       "Bow Drop": true,
       "Bow Pickup": true,
-      "Bow Shot": true,
-      "Keybind": "key.keyboard.unknown"
+      "Bow Shot": true
     }
   },
   {
@@ -20,17 +19,19 @@
     "enabled": true,
     "settings": {
       "Spirit Bear": {
-        "x": 687,
-        "y": 377,
-        "scale": 2.0,
-        "enabled": true
+        "x": 343,
+        "y": 188,
+        "scale": 1.4999998,
+        "enabled": true,
+        "scaled": true
       },
       "Experimental Bear Timer": false,
       "Spirit Bear Splits": {
-        "x": 1095,
-        "y": 517,
-        "scale": 2.0,
-        "enabled": true
+        "x": 427,
+        "y": 240,
+        "scale": 0.99999976,
+        "enabled": true,
+        "scaled": true
       },
       "Kill Phase Text": "§6Bear $bear: §a$kills/$cap",
       "Spawning Text": "§6Bear $bear: §c$timer",
@@ -38,19 +39,17 @@
       "Split Text": "§6Bear $bear: §b$spawn Kill: $kill",
       "Split Total Text": "§7Total: §b$total",
       "Show Timer in Ticks": false,
-      "Decimals": 2.0,
-      "Keybind": "key.keyboard.unknown"
+      "Decimals": 2.0
     }
   },
   {
     "name": "Trajectories",
     "enabled": true,
     "settings": {
-      "Render Style": "Filled Outline",
+      "Render Style": "FILLED_OUTLINE",
       "Cows": true,
       "Sheep": true,
-      "Chicken": true,
-      "Keybind": "key.keyboard.unknown"
+      "Chicken": true
     }
   },
   {
@@ -58,10 +57,11 @@
     "enabled": true,
     "settings": {
       "Rabbit Countdown": {
-        "x": 641,
-        "y": 407,
-        "scale": 2.0,
-        "enabled": true
+        "x": 320,
+        "y": 203,
+        "scale": 1.0999998,
+        "enabled": true,
+        "scaled": true
       },
       "Decimals": 2.0,
       "Show on boss start": true,
@@ -70,8 +70,7 @@
       "Hide counters when 0": true,
       "Display text:": "Rabbits spawning in",
       "Show Ground Mobs": true,
-      "Show Bats": true,
-      "Keybind": "key.keyboard.unknown"
+      "Show Bats": true
     }
   },
   {
@@ -87,8 +86,7 @@
       "Bear Spawned": "§5Bear Spawned",
       "Bear Killed": "§aResume Killing",
       "Wish Title": "§dWISH WISH WISH",
-      "Wish Threshold": 100000.0,
-      "Keybind": "key.keyboard.unknown"
+      "Wish Threshold": 100000.0
     }
   },
   {
@@ -99,22 +97,22 @@
         "x": 1099,
         "y": 570,
         "scale": 2.0,
-        "enabled": true
+        "enabled": true,
+        "scaled": true
       },
       "Only show on healer": true,
       "Decimals": 2.0,
       "Stunned Text": "§5Stunned for $timer",
       "Not Stunned Text": "§5Stunned for §cN/A",
       "Stun Helper": true,
-      "second stun offset": 5.0,
-      "Keybind": "key.keyboard.unknown"
+      "second stun offset": 5.0
     }
   },
   {
     "name": "Waypoints",
     "enabled": true,
     "settings": {
-      "Render Style": "Outline",
+      "Render Style": "OUTLINE",
       "depth": true,
       "Show on cgm4": true,
       "Show on m4miku": true,
@@ -127,15 +125,14 @@
       "Not looking at": "#FF5555FF",
       "Too close": "#FFAA00FF",
       "Bow Pickup Waypoint": true,
-      "Bow wp only on tank": true,
-      "Keybind": "key.keyboard.unknown"
+      "Bow wp only on tank": true
     }
   },
   {
     "name": "Highlight",
     "enabled": true,
     "settings": {
-      "Render Style": "Filled Outline",
+      "Render Style": "FILLED_OUTLINE",
       "Hide Name tags": true,
       "Hide highlighted mobs": false,
       "Thorn Highlight": true,
@@ -159,21 +156,20 @@
       "Sheep Color": "#FFFF55FF",
       "Cow Color": "#55FFFFFF",
       "Chicken Color": "#FF5555FF",
-      "Rabbit Color": "#00AA00FF",
-      "Keybind": "key.keyboard.unknown"
+      "Rabbit Color": "#00AA00FF"
     }
   },
   {
     "name": "Timer",
-    "enabled": true,
+    "enabled": false,
     "settings": {
       "Timer": {
-        "x": 1092,
-        "y": 177,
-        "scale": 2.0,
-        "enabled": true
-      },
-      "Keybind": "key.keyboard.unknown"
+        "x": 427,
+        "y": 88,
+        "scale": 1.5999998,
+        "enabled": true,
+        "scaled": true
+      }
     }
   },
   {
@@ -182,8 +178,7 @@
     "settings": {
       "Mute animals": true,
       "Mute Thorn": true,
-      "Mute Misc Sounds": true,
-      "Keybind": "key.keyboard.unknown"
+      "Mute Misc Sounds": true
     }
   },
   {
@@ -193,11 +188,10 @@
       "Hide Particles": true,
       "Except Healer Circle": true,
       "Except Mage Beam": true,
-      "NPC Visibility": "Relevant only",
-      "Render Style": "Outline",
-      "NPC Highlight": "None",
-      "Hide Invis Armorstands": true,
-      "Keybind": "key.keyboard.unknown"
+      "NPC Visibility": "RELEVANT_ONLY",
+      "NPC Highlight": "NONE",
+      "Render Style": "OUTLINE",
+      "Hide Invis Armorstands": true
     }
   },
   {
@@ -208,15 +202,15 @@
         "x": 1104,
         "y": 605,
         "scale": 2.0,
-        "enabled": true
+        "enabled": true,
+        "scaled": true
       },
       "Tac Timer": true,
       "Show Tac Timer out of m4": false,
       "Tac Timer Prefix": "§6Tac: ",
       "Print Tac Time": true,
       "Print Time Only On Tank": true,
-      "Print Tac to pchat": true,
-      "Keybind": "key.keyboard.unknown"
+      "Print Tac to pchat": true
     }
   },
   {
@@ -227,12 +221,12 @@
         "x": 1096,
         "y": 379,
         "scale": 2.0,
-        "enabled": true
+        "enabled": true,
+        "scaled": true
       },
       "Hide Zero": false,
       "Prefixes": true,
-      "Compact Mode": false,
-      "Keybind": "key.keyboard.unknown"
+      "Compact Mode": false
     }
   },
   {
@@ -243,7 +237,8 @@
         "x": 1094,
         "y": 207,
         "scale": 2.0,
-        "enabled": true
+        "enabled": true,
+        "scaled": true
       },
       "Total Mobs": true,
       "Cows": true,
@@ -255,16 +250,14 @@
       "Mobs Under Thorn": true,
       "Rabbits Not Under Thorn": true,
       "Prefixes": true,
-      "Compact Mode": false,
-      "Keybind": "key.keyboard.unknown"
+      "Compact Mode": false
     }
   },
   {
     "name": "Decoy",
     "enabled": false,
     "settings": {
-      "Show best decoy spot": true,
-      "Keybind": "key.keyboard.unknown"
+      "Show best decoy spot": true
     }
   },
   {
@@ -273,8 +266,7 @@
     "settings": {
       "Extra Stats Menu": true,
       "Print Run Time": true,
-      "Print Last Bear Breakdown": true,
-      "Keybind": "key.keyboard.unknown"
+      "Print Last Bear Breakdown": true
     }
   }
 ]

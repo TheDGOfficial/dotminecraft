@@ -1037,10 +1037,10 @@
   },
   "spiritBearTimerElement": {
     "scale": 1.0,
-    "added": true,
+    "added": false,
     "x": 0.436708984375,
     "y": 0.20481770833333313,
-    "enabled": true
+    "enabled": false
   },
   "terracottaGyroTimerElement": {
     "scale": 1.0,
@@ -1147,8 +1147,8 @@
   },
   "beaconPowerElement": {
     "scale": 1.0,
-    "enabled": true,
-    "added": true,
+    "enabled": false,
+    "added": false,
     "x": 0.6224780273437497,
     "y": 0.9642274305555556
   },

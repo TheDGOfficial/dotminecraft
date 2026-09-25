@@ -1,8 +1,9 @@
 {
   "fullscreenMode": "OFF",
-  "preferredFullscreenMode": "BORDERLESS",
+  "preferredFullscreenMode": "ON",
   "fullscreenType": "linux:borderless",
   "borderlessFullscreenType": "linux:borderless",
+  "useDelayedFullscreen": true,
   "useScaledFramebuffer": false,
   "pauseOnLostFocusDuringMultiplayer": true
 }

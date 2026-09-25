@@ -238,9 +238,9 @@
         "Jungle Log"
       ],
       "auctionHistory": [
-        "Crochet Tiger Plushie",
+        "Washed-up Souvenir",
         "Dwarf Turtle Shelmet",
-        "Washed-up Souvenir"
+        "Antique Remedies"
       ],
       "museumHistory": []
     },
@@ -366,11 +366,11 @@
     "allowDroppingProtectedItems": false,
     "hideSoulweaverSkulls": true,
     "dungeonMap": {
-      "enableMap": true,
-      "fancyMap": true,
-      "showSelfHead": true,
+      "enableMap": false,
+      "fancyMap": false,
+      "showSelfHead": false,
       "showRoomLabels": false,
-      "roomLabelType": "ROOM_NAME_AND_SECRETS_FOUND",
+      "roomLabelType": "ROOM_NAME",
       "hideCheckmarks": false,
       "showOutline": false,
       "backgroundBlur": false,
@@ -495,7 +495,7 @@
       "enableDungeonCryptsMessage": true,
       "dungeonCryptsMessageThreshold": 250,
       "dungeonCryptsMessage": "Crypts: [crypts]/5",
-      "enableScoreHUD": true,
+      "enableScoreHUD": false,
       "scoreX": 30,
       "scoreY": 126,
       "scoreScaling": 1.0
