@@ -1,39 +1,6 @@
 {
   "configs": {
-    "foraging_2": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "safari": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "lotus_atoll": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "unknown": {
+    "kuudra": {
       "hud": {
         "widgets": {}
       },
@@ -60,7 +27,12 @@
               "scale": 1.0
             }
           },
-          "visitors": {
+          "jacobs_contest": {
+            "config": {
+              "scale": 1.0
+            }
+          },
+          "skills": {
             "config": {
               "scale": 1.0
             }
@@ -71,12 +43,7 @@
               "name_sorting": "default"
             }
           },
-          "skills": {
-            "config": {
-              "scale": 1.0
-            }
-          },
-          "jacobs_contest": {
+          "visitors": {
             "config": {
               "scale": 1.0
             }
@@ -86,12 +53,12 @@
               "scale": 1.0
             }
           },
-          "pest_traps": {
+          "composter": {
             "config": {
               "scale": 1.0
             }
           },
-          "composter": {
+          "pest_traps": {
             "config": {
               "scale": 1.0
             }
@@ -112,84 +79,7 @@
         "widgets": {}
       }
     },
-    "mineshaft": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "dungeon": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "farming_1": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "combat_1": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "combat_3": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "kuudra": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "dark_auction": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "rift": {
+    "crimson_isle": {
       "hud": {
         "widgets": {}
       },
@@ -211,39 +101,6 @@
         "widgets": {}
       }
     },
-    "foraging_3": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "mining_1": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
-    "mining_3": {
-      "hud": {
-        "widgets": {}
-      },
-      "tab": {
-        "widgets": {}
-      },
-      "secondary_tab": {
-        "widgets": {}
-      }
-    },
     "winter": {
       "hud": {
         "widgets": {}
@@ -255,7 +112,7 @@
         "widgets": {}
       }
     },
-    "crimson_isle": {
+    "lotus_atoll": {
       "hud": {
         "widgets": {}
       },
@@ -266,7 +123,18 @@
         "widgets": {}
       }
     },
-    "dynamic": {
+    "safari": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "foraging_3": {
       "hud": {
         "widgets": {}
       },
@@ -288,7 +156,7 @@
         "widgets": {}
       }
     },
-    "foraging_1": {
+    "rift": {
       "hud": {
         "widgets": {}
       },
@@ -299,7 +167,7 @@
         "widgets": {}
       }
     },
-    "hub": {
+    "crystal_hollows": {
       "hud": {
         "widgets": {}
       },
@@ -321,7 +189,139 @@
         "widgets": {}
       }
     },
-    "crystal_hollows": {
+    "foraging_1": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "dungeon": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "mining_3": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "dynamic": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "dark_auction": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "combat_1": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "farming_1": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "mining_1": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "foraging_2": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "mineshaft": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "unknown": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "combat_3": {
+      "hud": {
+        "widgets": {}
+      },
+      "tab": {
+        "widgets": {}
+      },
+      "secondary_tab": {
+        "widgets": {}
+      }
+    },
+    "hub": {
       "hud": {
         "widgets": {}
       },
