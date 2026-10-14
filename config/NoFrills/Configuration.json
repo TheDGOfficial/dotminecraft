@@ -4,27 +4,33 @@
     "average": false,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "tpsElement": {
     "shadow": true,
     "average": false,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "pingElement": {
     "shadow": true,
     "average": false,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "delay": 20,
+    "averageSize": 30,
+    "gridPrecision": 5
   },
   "dayElement": {
     "shadow": true,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "seaCreaturesElement": {
     "shadow": true,
@@ -35,7 +41,8 @@
     "added": true,
     "enabled": true,
     "x": 0.436181640625,
-    "y": 0.31703993055555557
+    "y": 0.31703993055555557,
+    "gridPrecision": 5
   },
   "bobberElement": {
     "shadow": true,
@@ -45,14 +52,16 @@
     "textColor": -10706753,
     "scale": 1.0,
     "added": false,
-    "slugfishTimer": 0
+    "slugfishTimer": 0,
+    "gridPrecision": 5
   },
   "lagMeterElement": {
     "shadow": true,
     "min": 500,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "powerElement": {
     "shadow": true,
@@ -60,14 +69,16 @@
     "background": 1073741824,
     "textColor": -10706753,
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "gridPrecision": 5
   },
   "shardTrackerElement": {
     "shadow": true,
     "hideIfNone": false,
     "background": 1073741824,
     "textColor": -10706753,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "autoSprint": {
     "waterCheck": false,
@@ -859,12 +870,14 @@
   "armorElement": {
     "background": 1073741824,
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "gridPrecision": 5
   },
   "inventoryElement": {
     "background": 1073741824,
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "gridPrecision": 5
   },
   "tickTimerElement": {
     "background": 1073741824,
@@ -877,7 +890,8 @@
     "background": 1073741824,
     "textColor": -10706753,
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "gridPrecision": 5
   },
   "dungeonBossHealth": {
     "enabled": false
@@ -938,7 +952,8 @@
   "quiverElement": {
     "textColor": -10706753,
     "background": 1073741824,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "anvilHelper": {
     "color": -11141291,
@@ -951,17 +966,20 @@
   "dungeonScoreElement": {
     "textColor": -10706753,
     "scale": 1.0,
-    "background": 1073741824
+    "background": 1073741824,
+    "gridPrecision": 5
   },
   "padTimerElement": {
     "textColor": -10706753,
     "scale": 1.0,
-    "background": 1073741824
+    "background": 1073741824,
+    "gridPrecision": 5
   },
   "terminalStartTimerElement": {
     "textColor": -10706753,
     "scale": 1.0,
-    "background": 1073741824
+    "background": 1073741824,
+    "gridPrecision": 5
   },
   "goldorTickTimerElement": {
     "textColor": -10706753,
@@ -970,12 +988,14 @@
     "enabled": true,
     "added": true,
     "x": 0.43835693359375,
-    "y": 0.39536024305555556
+    "y": 0.39536024305555556,
+    "gridPrecision": 5
   },
   "skillTrackerElement": {
     "textColor": -10706753,
     "scale": 1.0,
-    "background": 1073741824
+    "background": 1073741824,
+    "gridPrecision": 5
   },
   "skillTracker": {
     "combatColor": -11141121,
@@ -1012,7 +1032,8 @@
     "selfMarkerScale": 7.0,
     "playerMarkerScale": 1.5,
     "playerNameScale": 0.8,
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "commandShortcuts": {
     "enabled": false
@@ -1033,24 +1054,28 @@
   },
   "pickaxeAbilityTimerElement": {
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "gridPrecision": 5
   },
   "spiritBearTimerElement": {
     "scale": 1.0,
     "added": false,
     "x": 0.436708984375,
     "y": 0.20481770833333313,
-    "enabled": false
+    "enabled": false,
+    "gridPrecision": 5
   },
   "terracottaGyroTimerElement": {
     "scale": 1.0,
     "added": true,
     "enabled": true,
     "x": 0.45613037109375,
-    "y": 0.2770182291666666
+    "y": 0.2770182291666666,
+    "gridPrecision": 5
   },
   "freshToolsTimerElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "equipmentHighlight": {
     "enabled": true
@@ -1060,35 +1085,41 @@
     "added": true,
     "x": 0.42444580078125,
     "y": 0.2409852430555554,
-    "enabled": true
+    "enabled": true,
+    "gridPrecision": 5
   },
   "slayerHealthElement": {
     "scale": 1.0,
-    "added": false
+    "added": false,
+    "gridPrecision": 5
   },
   "slayerTimerElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "spiritMaskTimerElement": {
     "scale": 1.0,
     "added": true,
     "enabled": true,
     "x": 0.4438427734375,
-    "y": 0.49586805555555563
+    "y": 0.49586805555555563,
+    "gridPrecision": 5
   },
   "phoenixPetTimerElement": {
     "scale": 1.0,
     "added": true,
     "enabled": true,
     "x": 0.44300048828125,
-    "y": 0.5200260416666668
+    "y": 0.5200260416666668,
+    "gridPrecision": 5
   },
   "bonzoMaskTimerElement": {
     "scale": 1.0,
     "added": true,
     "enabled": true,
     "x": 0.4386572265625,
-    "y": 0.540546875
+    "y": 0.540546875,
+    "gridPrecision": 5
   },
   "commissionHighlight": {
     "enabled": true
@@ -1125,13 +1156,15 @@
     "added": true,
     "enabled": true,
     "x": 0.43718505859375,
-    "y": 0.35659722222222223
+    "y": 0.35659722222222223,
+    "gridPrecision": 5
   },
   "muteComposter": {
     "enabled": true
   },
   "clockElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "activePetHighlight": {
     "enabled": true
@@ -1150,7 +1183,8 @@
     "enabled": false,
     "added": false,
     "x": 0.6224780273437497,
-    "y": 0.9642274305555556
+    "y": 0.9642274305555556,
+    "gridPrecision": 5
   },
   "loadoutKeybinds": {
     "enabled": true,
@@ -1197,7 +1231,8 @@
     "sendBat": true
   },
   "kickCooldownTimerElement": {
-    "scale": 1.0
+    "scale": 1.0,
+    "gridPrecision": 5
   },
   "calendarEventsElement": {
     "scale": 1.0

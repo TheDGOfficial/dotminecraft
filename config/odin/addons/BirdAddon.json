@@ -22,16 +22,14 @@
         "x": 343,
         "y": 188,
         "scale": 1.4999998,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       },
       "Experimental Bear Timer": false,
       "Spirit Bear Splits": {
         "x": 427,
         "y": 240,
         "scale": 0.99999976,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       },
       "Kill Phase Text": "§6Bear $bear: §a$kills/$cap",
       "Spawning Text": "§6Bear $bear: §c$timer",
@@ -39,7 +37,7 @@
       "Split Text": "§6Bear $bear: §b$spawn Kill: $kill",
       "Split Total Text": "§7Total: §b$total",
       "Show Timer in Ticks": false,
-      "Decimals": 2.0
+      "Decimals": 2
     }
   },
   {
@@ -53,20 +51,20 @@
     }
   },
   {
-    "name": "Rabbit Countdown",
-    "enabled": true,
+    "name": "Rabbits",
+    "enabled": false,
     "settings": {
-      "Rabbit Countdown": {
-        "x": 320,
-        "y": 203,
-        "scale": 1.0999998,
-        "enabled": true,
-        "scaled": true
+      "Show Rabbits in hutch": true,
+      "Rabbits": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "enabled": true
       },
-      "Decimals": 2.0,
+      "Decimals": 2,
       "Show on boss start": true,
       "Show after b1 start": true,
-      "Seconds before": 4.0,
+      "Seconds before": 4,
       "Hide counters when 0": true,
       "Display text:": "Rabbits spawning in",
       "Show Ground Mobs": true,
@@ -78,15 +76,15 @@
     "enabled": true,
     "settings": {
       "Hide Default Titles": true,
-      "Title Duration Ticks": 20.0,
+      "Title Duration Ticks": 20,
       "Miss Warning": "§cBow Missed",
       "Non-Tank Pickup Warning": "§cBow Picked Up",
       "Tank Bow Pickup": "§aBow Picked Up",
+      "Bow Disintegrate warning": "§0SHOOT §4THE §5BOW",
       "Bear Timer Started": "§cSTOP KILLING",
       "Bear Spawned": "§5Bear Spawned",
       "Bear Killed": "§aResume Killing",
-      "Wish Title": "§dWISH WISH WISH",
-      "Wish Threshold": 100000.0
+      "Keybind": "key.keyboard.unknown"
     }
   },
   {
@@ -97,15 +95,14 @@
         "x": 1099,
         "y": 570,
         "scale": 2.0,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       },
       "Only show on healer": true,
-      "Decimals": 2.0,
+      "Decimals": 2,
       "Stunned Text": "§5Stunned for $timer",
       "Not Stunned Text": "§5Stunned for §cN/A",
       "Stun Helper": true,
-      "second stun offset": 5.0
+      "second stun offset": 5
     }
   },
   {
@@ -138,7 +135,7 @@
       "Thorn Highlight": true,
       "Trans Thorn": false,
       "Thorn Damage Flash": true,
-      "Damage duration ticks": 10.0,
+      "Damage duration ticks": 10,
       "Bear Highlight": true,
       "Only Show Bear On Mage": false,
       "No Bear Interpolation": true,
@@ -167,8 +164,7 @@
         "x": 427,
         "y": 88,
         "scale": 1.5999998,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       }
     }
   },
@@ -202,8 +198,7 @@
         "x": 1104,
         "y": 605,
         "scale": 2.0,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       },
       "Tac Timer": true,
       "Show Tac Timer out of m4": false,
@@ -221,8 +216,7 @@
         "x": 1096,
         "y": 379,
         "scale": 2.0,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       },
       "Hide Zero": false,
       "Prefixes": true,
@@ -237,8 +231,7 @@
         "x": 1094,
         "y": 207,
         "scale": 2.0,
-        "enabled": true,
-        "scaled": true
+        "enabled": true
       },
       "Total Mobs": true,
       "Cows": true,
@@ -257,7 +250,12 @@
     "name": "Decoy",
     "enabled": false,
     "settings": {
-      "Show best decoy spot": true
+      "Show best decoy spot": true,
+      "Hide decoy highlight after b1": true,
+      "Show cave spot": true,
+      "Render Style": "OUTLINE",
+      "Depth": true,
+      "Only Show On Bers": true
     }
   },
   {

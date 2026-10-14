@@ -1934,9 +1934,27 @@
     "skill": "Global"
   },
   "chocobun": {
-    "level": 0,
+    "level": 10,
     "rarity": "COMMON",
-    "enabled": false,
+    "enabled": true,
     "skill": "Global"
+  },
+  "flora": {
+    "level": 0,
+    "rarity": "LEGENDARY",
+    "enabled": false,
+    "skill": "Farming"
+  },
+  "folf": {
+    "level": 0,
+    "rarity": "RARE",
+    "enabled": false,
+    "skill": "Combat"
+  },
+  "packrat": {
+    "level": 0,
+    "rarity": "UNCOMMON",
+    "enabled": false,
+    "skill": "Mining"
   }
 }

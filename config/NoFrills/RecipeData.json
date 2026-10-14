@@ -7,5 +7,218 @@
         "BLOOD_DONOR_RING": 1
       }
     }
+  ],
+  "REHEATED_GUMMY_POLAR_BEAR": [
+    {
+      "quantity": 1,
+      "items": {
+        "CHILI_PEPPER": 4,
+        "ENCHANTED_SLIME_BALL": 4,
+        "ENCHANTED_SNOW_BLOCK": 4
+      }
+    }
+  ],
+  "ENCHANTMENT_ULTIMATE_HABANERO_TACTICS_4": [
+    {
+      "quantity": 1,
+      "items": {
+        "STUFFED_CHILI_PEPPER": 4,
+        "ENCHANTED_HUGE_MUSHROOM_1": 28,
+        "ENCHANTED_RABBIT_HIDE": 16,
+        "PLASMA": 4
+      }
+    }
+  ],
+  "STUFFED_CHILI_PEPPER": [
+    {
+      "quantity": 1,
+      "items": {
+        "CHILI_PEPPER": 160
+      }
+    }
+  ],
+  "ENCHANTED_ANCIENT_CLAW": [
+    {
+      "quantity": 1,
+      "items": {
+        "ANCIENT_CLAW": 160
+      }
+    }
+  ],
+  "ENCHANTED_GOLD": [
+    {
+      "quantity": 1,
+      "items": {
+        "GOLD_INGOT": 160
+      }
+    }
+  ],
+  "ENCHANTED_GOLD_BLOCK": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_GOLD": 160
+      }
+    }
+  ],
+  "HUNTER_RING": [
+    {
+      "quantity": 1,
+      "items": {
+        "GOLDEN_TOOTH": 224,
+        "GRIZZLY_BAIT": 1,
+        "HUNTER_TALISMAN": 1
+      }
+    }
+  ],
+  "ARCHAIC_SPADE": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_ANCIENT_CLAW": 8,
+        "GRIFFIN_FEATHER": 32,
+        "ENCHANTED_GOLD_BLOCK": 2,
+        "ANCESTRAL_SPADE": 1,
+        "HILT_OF_REVELATIONS": 1
+      }
+    }
+  ],
+  "CROWN_OF_AVARICE": [
+    {
+      "quantity": 1,
+      "items": {
+        "GRIFFIN_FEATHER": 64,
+        "ENCHANTED_GOLD_BLOCK": 24,
+        "CROWN_OF_GREED": 1,
+        "AVARICIOUS_CHALICE": 2
+      }
+    }
+  ],
+  "HOTSPOT_ARTIFACT": [
+    {
+      "quantity": 1,
+      "items": {
+        "HOTSPOT_WATER_ORB": 1,
+        "HOTSPOT_RING": 1
+      }
+    }
+  ],
+  "HOTSPOT_RING": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_CLAY_BALL": 32,
+        "BUSTED_BELT_BUCKLE": 4,
+        "HOTSPOT_TALISMAN": 1
+      }
+    }
+  ],
+  "HOTSPOT_TALISMAN": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_CLAY_BALL": 4,
+        "RUSTY_COIN": 4
+      }
+    }
+  ],
+  "HOTSPOT_WATER_ORB": [
+    {
+      "quantity": 1,
+      "items": {
+        "HALF_EATEN_MUSHROOM": 64,
+        "SCORCHED_CRAB_STICK": 8,
+        "FRIED_FEATHER": 64,
+        "BROKEN_RADAR": 8,
+        "WATER_ORB": 1,
+        "SINGED_POWDER": 8,
+        "INK_SPLAT": 16,
+        "BLUE_RING": 8,
+        "SEARED_ESCARGOT": 16
+      }
+    }
+  ],
+  "SMALL_BAIT_SACK": [
+    {
+      "quantity": 1,
+      "items": {
+        "RAW_FISH": 8
+      }
+    }
+  ],
+  "MEDIUM_BAIT_SACK": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_RAW_FISH": 8,
+        "SMALL_BAIT_SACK": 1
+      }
+    }
+  ],
+  "LARGE_BAIT_SACK": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_RAW_FISH": 128,
+        "MEDIUM_BAIT_SACK": 1
+      }
+    }
+  ],
+  "CONTRABAND": [
+    {
+      "quantity": 1,
+      "items": {
+        "OLD_LEATHER_BOOT": 1,
+        "RUSTY_COIN": 64,
+        "WATER_ORB": 1,
+        "BUSTED_BELT_BUCKLE": 8
+      }
+    }
+  ],
+  "WEATHER_STICK": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_REDSTONE": 2,
+        "STICK": 1
+      }
+    }
+  ],
+  "DISCRITE": [
+    {
+      "quantity": 1,
+      "items": {
+        "OBSOLITE": 256,
+        "TIMITE": 256,
+        "YOUNGITE": 64
+      }
+    }
+  ],
+  "FEATHER_TALISMAN": [
+    {
+      "quantity": 1,
+      "items": {
+        "FEATHER": 108
+      }
+    }
+  ],
+  "TORRHUS_CANYON_TRAVEL_SCROLL": [
+    {
+      "quantity": 1,
+      "items": {
+        "HELIX_LOG": 512,
+        "ENCHANTED_ENDER_PEARL": 16
+      }
+    }
+  ],
+  "DAY_SAVER": [
+    {
+      "quantity": 1,
+      "items": {
+        "GLASS": 3,
+        "QUARTZ": 15,
+        "DOUBLE_PLANT": 3
+      }
+    }
   ]
 }

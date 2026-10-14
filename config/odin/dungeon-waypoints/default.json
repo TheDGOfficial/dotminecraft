@@ -880,7 +880,7 @@
         "y": 82,
         "z": 22
       },
-      "color": "#AA00AAFF",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -2269,7 +2269,7 @@
         "y": 40,
         "z": 3
       },
-      "color": "#AA00AA00",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -4055,9 +4055,9 @@
     },
     {
       "blockPos": {
-        "x": 53,
+        "x": 52,
         "y": 82,
-        "z": 14
+        "z": 21
       },
       "color": "#AA00AAFF",
       "filled": false,
@@ -4071,6 +4071,24 @@
         "maxZ": 1.0
       },
       "title": "5 down"
+    },
+    {
+      "blockPos": {
+        "x": 52,
+        "y": 83,
+        "z": 22
+      },
+      "color": "#FFF255FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": -0.17500000000000004,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.175,
+        "maxZ": 1.0
+      }
     }
   ],
   "Tic Tac Toe": [
@@ -8075,7 +8093,7 @@
         "y": 142,
         "z": 47
       },
-      "color": "#AA00AAFF",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -8641,25 +8659,6 @@
     },
     {
       "blockPos": {
-        "x": 92,
-        "y": 69,
-        "z": 3
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.25,
-        "minY": 0.0,
-        "minZ": 0.25,
-        "maxX": 0.75,
-        "maxY": 0.5,
-        "maxZ": 0.75
-      },
-      "title": "1"
-    },
-    {
-      "blockPos": {
         "x": 67,
         "y": 87,
         "z": 12
@@ -8752,6 +8751,25 @@
         "maxZ": 1.0
       },
       "title": "5 tp"
+    },
+    {
+      "blockPos": {
+        "x": 92,
+        "y": 69,
+        "z": 3
+      },
+      "color": "#55FF55FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.25,
+        "minY": 0.0,
+        "minZ": 0.25,
+        "maxX": 0.75,
+        "maxY": 0.5,
+        "maxZ": 0.75
+      },
+      "title": "1"
     }
   ],
   "Granite": [
@@ -9231,6 +9249,25 @@
         "maxZ": 1.0
       },
       "title": "forward"
+    },
+    {
+      "blockPos": {
+        "x": 33,
+        "y": 70,
+        "z": 5
+      },
+      "color": "#55A7CEFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "prince"
     }
   ],
   "Andesite": [
@@ -11416,7 +11453,7 @@
         "y": 72,
         "z": 33
       },
-      "color": "#AA00AA00",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -11921,6 +11958,24 @@
         "maxZ": 1.0
       },
       "title": "2"
+    },
+    {
+      "blockPos": {
+        "x": -17,
+        "y": 85,
+        "z": 15
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0625,
+        "minY": 0.0,
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
+      }
     }
   ],
   "Fairy": [],
@@ -11989,7 +12044,7 @@
         "y": 72,
         "z": 18
       },
-      "color": "#55FF5500",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -12022,25 +12077,6 @@
     }
   ],
   "Big Red Flag": [
-    {
-      "blockPos": {
-        "x": 17,
-        "y": 70,
-        "z": 8
-      },
-      "color": "#AA00AA00",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.365,
-        "minY": 0.345,
-        "minZ": 0.32999999999999996,
-        "maxX": 0.635,
-        "maxY": 0.655,
-        "maxZ": 0.67
-      },
-      "title": "prince"
-    },
     {
       "blockPos": {
         "x": 21,
@@ -12078,6 +12114,25 @@
         "maxZ": 1.0
       },
       "title": "item"
+    },
+    {
+      "blockPos": {
+        "x": 17,
+        "y": 70,
+        "z": 8
+      },
+      "color": "#55A7CEFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "prince"
     }
   ],
   "Cage": [
@@ -12528,7 +12583,7 @@
         "y": 59,
         "z": 26
       },
-      "color": "#AA00AAFF",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -16103,7 +16158,7 @@
         "y": 84,
         "z": 7
       },
-      "color": "#AA00AA00",
+      "color": "#55A7CEFF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -17118,6 +17173,25 @@
         "maxZ": 1.0
       },
       "title": "3 bat"
+    },
+    {
+      "blockPos": {
+        "x": 42,
+        "y": 91,
+        "z": 5
+      },
+      "color": "#55A7CEFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "prince"
     }
   ],
   "Gold": [
@@ -17291,6 +17365,25 @@
         "maxZ": 1.0
       },
       "title": "6"
+    },
+    {
+      "blockPos": {
+        "x": 53,
+        "y": 63,
+        "z": 22
+      },
+      "color": "#55A7CEFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "prince"
     }
   ],
   "Stairs": [
@@ -17679,6 +17772,25 @@
     },
     {
       "blockPos": {
+        "x": 18,
+        "y": 74,
+        "z": 18
+      },
+      "color": "#FF5555FF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "#2"
+    },
+    {
+      "blockPos": {
         "x": 15,
         "y": 70,
         "z": 18
@@ -17694,7 +17806,7 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "rcm on mushroom"
+      "title": "#1 rcm on mushroom"
     }
   ],
   "Cell": [
@@ -18925,7 +19037,7 @@
         "y": 87,
         "z": 19
       },
-      "color": "#AA00AAFF",
+      "color": "#55FF55FF",
       "filled": false,
       "depth": false,
       "aabb": {
@@ -21778,21 +21890,22 @@
   "Three Floors": [
     {
       "blockPos": {
-        "x": 12,
-        "y": 89,
-        "z": 13
+        "x": 17,
+        "y": 79,
+        "z": 11
       },
-      "color": "#55FF55FF",
+      "color": "#AA00AAFF",
       "filled": false,
       "depth": false,
       "aabb": {
-        "minX": 0.0625,
+        "minX": 0.0,
         "minY": 0.0,
-        "minZ": 0.0625,
-        "maxX": 0.9375,
-        "maxY": 0.875,
-        "maxZ": 0.9375
-      }
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "1"
     },
     {
       "blockPos": {
@@ -21811,26 +21924,26 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "2"
+      "title": "2 / 4 down"
     },
     {
       "blockPos": {
-        "x": 17,
-        "y": 79,
-        "z": 11
+        "x": 12,
+        "y": 89,
+        "z": 13
       },
-      "color": "#AA00AAFF",
+      "color": "#55FF55FF",
       "filled": false,
       "depth": false,
       "aabb": {
-        "minX": 0.0,
+        "minX": 0.0625,
         "minY": 0.0,
-        "minZ": 0.0,
-        "maxX": 1.0,
-        "maxY": 1.0,
-        "maxZ": 1.0
+        "minZ": 0.0625,
+        "maxX": 0.9375,
+        "maxY": 0.875,
+        "maxZ": 0.9375
       },
-      "title": "1"
+      "title": "3"
     }
   ],
   "Rare Overgrown": [

@@ -210,6 +210,11 @@
         "value": "ON"
       }
     },
+    "_unknown_listeners_": {
+      "enabled": {
+        "value": "AUTO"
+      }
+    },
     "debug_overlay": {
       "enabled": {
         "value": "ON"

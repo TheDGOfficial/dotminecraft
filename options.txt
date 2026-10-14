@@ -22,7 +22,7 @@ gamma:1.0
 guiScale:2
 maxAnisotropyBit:2
 textureFiltering:0
-maxFps:260
+maxFps:60
 improvedTransparency:false
 inactivityFpsLimit:"afk"
 mipmapLevels:0
@@ -170,128 +170,6 @@ key_key.debug.profilingChart:key.keyboard.1
 key_key.debug.fpsCharts:key.keyboard.2
 key_key.debug.networkCharts:key.keyboard.3
 key_key.debug.lightmapTexture:key.keyboard.unknown
-key_Blessing Display:key.keyboard.unknown
-key_Leap Menu (Top Left):key.keyboard.unknown
-key_Leap Menu (Top Right):key.keyboard.unknown
-key_Leap Menu (Bottom Left):key.keyboard.unknown
-key_Leap Menu (Bottom Right):key.keyboard.unknown
-key_Leap Menu (Archer):key.keyboard.unknown
-key_Leap Menu (Berserker):key.keyboard.unknown
-key_Leap Menu (Healer):key.keyboard.unknown
-key_Leap Menu (Mage):key.keyboard.unknown
-key_Leap Menu (Tank):key.keyboard.unknown
-key_Secret Clicked:key.keyboard.unknown
-key_Map Info:key.keyboard.unknown
-key_Mimic:key.keyboard.unknown
-key_Dungeon Queue:key.keyboard.unknown
-key_Door Highlight:key.keyboard.unknown
-key_Blood Camp:key.keyboard.unknown
-key_Positional Messages:key.keyboard.unknown
-key_Terracotta Timer:key.keyboard.unknown
-key_Breaker Display:key.keyboard.unknown
-key_Livid Solver:key.keyboard.unknown
-key_Invincibility Timer:key.keyboard.unknown
-key_Dungeon Waypoints (Cycle Waypoint):key.keyboard.unknown
-key_Dungeon Waypoints:key.keyboard.unknown
-key_Extra Stats:key.keyboard.unknown
-key_Better Party Finder:key.keyboard.unknown
-key_Croesus:key.keyboard.unknown
-key_Mage Beam:key.keyboard.unknown
-key_Secrets Counter:key.keyboard.unknown
-key_Dungeon Map:key.keyboard.unknown
-key_Puzzle HUD:key.keyboard.unknown
-key_Room Clear:key.keyboard.unknown
-key_Terminal Simulator:key.keyboard.unknown
-key_Terminal Solver:key.keyboard.unknown
-key_Terminal Times:key.keyboard.unknown
-key_Terminal Sounds:key.keyboard.unknown
-key_Tick Timers:key.keyboard.unknown
-key_Arrow Align (Prevent Blocking):key.keyboard.unknown
-key_Arrow Align:key.keyboard.unknown
-key_Inactive Waypoints:key.keyboard.unknown
-key_Melody Message:key.keyboard.unknown
-key_Wither Dragons:key.keyboard.unknown
-key_Simon Says:key.keyboard.unknown
-key_King Relic:key.keyboard.unknown
-key_Arrows Device:key.keyboard.unknown
-key_Terminal Titles:key.keyboard.unknown
-key_Click GUI:key.keyboard.unknown
-key_Camera:key.keyboard.unknown
-key_Etherwarp:key.keyboard.unknown
-key_Player Size:key.keyboard.unknown
-key_Performance HUD:key.keyboard.unknown
-key_Render Optimizer:key.keyboard.unknown
-key_Player Display:key.keyboard.unknown
-key_Waypoints (Ping Keybind):key.keyboard.unknown
-key_Waypoints:key.keyboard.unknown
-key_Hide Players:key.keyboard.unknown
-key_Highlight:key.keyboard.unknown
-key_Gyro Wand:key.keyboard.unknown
-key_Chat Commands:key.keyboard.unknown
-key_No Cursor Reset:key.keyboard.unknown
-key_Ragnarock:key.keyboard.unknown
-key_Spring Boots:key.keyboard.unknown
-key_Wardrobe Keybinds (Next Page):key.keyboard.unknown
-key_Wardrobe Keybinds (Previous Page):key.keyboard.unknown
-key_Wardrobe Keybinds (Unequip):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 1):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 2):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 3):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 4):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 5):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 6):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 7):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 8):key.keyboard.unknown
-key_Wardrobe Keybinds (Wardrobe 9):key.keyboard.unknown
-key_Pet Keybinds (Unequip):key.keyboard.unknown
-key_Pet Keybinds (Next Page):key.keyboard.unknown
-key_Pet Keybinds (Previous Page):key.keyboard.unknown
-key_Pet Keybinds (Pet 1):key.keyboard.unknown
-key_Pet Keybinds (Pet 2):key.keyboard.unknown
-key_Pet Keybinds (Pet 3):key.keyboard.unknown
-key_Pet Keybinds (Pet 4):key.keyboard.unknown
-key_Pet Keybinds (Pet 5):key.keyboard.unknown
-key_Pet Keybinds (Pet 6):key.keyboard.unknown
-key_Pet Keybinds (Pet 7):key.keyboard.unknown
-key_Pet Keybinds (Pet 8):key.keyboard.unknown
-key_Pet Keybinds (Pet 9):key.keyboard.unknown
-key_Pet Keybinds:key.keyboard.unknown
-key_Auto Sprint:key.keyboard.unknown
-key_Command Keybinds (Pets):key.keyboard.unknown
-key_Command Keybinds (Storage):key.keyboard.unknown
-key_Command Keybinds (Armor Wardrobe):key.keyboard.unknown
-key_Command Keybinds (Equip Wardrobe):key.keyboard.unknown
-key_Command Keybinds (Loadouts):key.keyboard.unknown
-key_Command Keybinds (Stats):key.keyboard.unknown
-key_Command Keybinds (Dungeon Hub):key.keyboard.unknown
-key_Command Keybinds (Potion Bag):key.keyboard.unknown
-key_Slot Binds (Bind set key):key.keyboard.unknown
-key_Splits:key.keyboard.unknown
-key_Loadout Keybinds (Next Page):key.keyboard.unknown
-key_Loadout Keybinds (Previous Page):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 1):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 2):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 3):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 4):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 5):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 6):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 7):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 8):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 9):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 10):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 11):key.keyboard.unknown
-key_Loadout Keybinds (Loadout 12):key.keyboard.unknown
-key_Quiver Display:key.keyboard.unknown
-key_Supply Helper:key.keyboard.unknown
-key_Build Helper:key.keyboard.unknown
-key_Remove Perks:key.keyboard.unknown
-key_Pre-Spot Alert:key.keyboard.unknown
-key_Pearl Waypoints:key.keyboard.unknown
-key_Fresh Tools:key.keyboard.unknown
-key_Kuudra Info:key.keyboard.unknown
-key_Misc:key.keyboard.unknown
-key_Vesuvius:key.keyboard.unknown
-key_Kuudra Tracker:key.keyboard.unknown
 key_key.darkutils.createGhostBlock:key.keyboard.g
 key_key.entityculling.toggle:key.keyboard.unknown
 key_key.entityculling.toggleBoxes:key.keyboard.unknown

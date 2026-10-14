@@ -92,6 +92,7 @@
   "preferWayland": true,
   "disableGlDebug": true,
   "cacheGLCalls": true,
+  "optimizeClocksource": true,
   "fixGuiScaleAfterFullscreen": true,
   "fixInactivityFpsLimiter": true,
   "itemFrameSoundFix": true,
@@ -100,7 +101,6 @@
   "fixGameIconOnWayland": true,
   "failedToWaitForFrameCompletionCrashFix": true,
   "useHttpsForSkins": true,
-  "optimizeClocksource": true,
   "ingameLogLevel": "WARN",
   "debugMode": false
 }
