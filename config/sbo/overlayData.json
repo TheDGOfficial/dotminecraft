@@ -1,0 +1,64 @@
+{
+  "overlays": {
+    "pickuplog": {
+      "x": 334.3086,
+      "y": 243.36133,
+      "scale": 1.0
+    },
+    "bobberOverlay": {
+      "x": 7.1289062,
+      "y": 29.146484,
+      "scale": 1.0
+    },
+    "legionOverlay": {
+      "x": 7.7382812,
+      "y": 16.388672,
+      "scale": 1.0
+    },
+    "Diana Stats": {
+      "x": 198.42383,
+      "y": 10.722656,
+      "scale": 1.0
+    },
+    "Diana MagicFind": {
+      "x": 3.703125,
+      "y": 7.7890625,
+      "scale": 1.0
+    },
+    "Diana Mobs": {
+      "x": 4.5566406,
+      "y": 9.455078,
+      "scale": 1.0
+    },
+    "mythosMobHp": {
+      "x": 246.9414,
+      "y": 203.91992,
+      "scale": 1.0
+    },
+    "Diana Loot": {
+      "x": 526.2539,
+      "y": 3.7226562,
+      "scale": 1.0000001
+    },
+    "noShuriken": {
+      "x": 311.7793,
+      "y": 171.2168,
+      "scale": 3.0
+    },
+    "Diana Chains": {
+      "x": 200.9375,
+      "y": 138.75586,
+      "scale": 1.0
+    },
+    "lootshareParty": {
+      "x": 6.017578,
+      "y": 210.64453,
+      "scale": 1.0
+    },
+    "Diana Crown Of Avarice": {
+      "x": 5.345703,
+      "y": 155.33398,
+      "scale": 1.0
+    }
+  }
+}

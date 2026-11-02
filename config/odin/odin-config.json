@@ -113,23 +113,23 @@
       },
       "DungeonM4": {
         "§2Blood Open": 11.144,
-        "§bBlood Clear": 45.948,
-        "§dPortal Entry": 3.8,
+        "§bBlood Clear": 44.175,
+        "§dPortal Entry": 3.703,
         "§4Cleared": 68.461,
         "§1Total": 144.027
       },
       "DungeonM5": {
         "§2Blood Open": 13.307,
-        "§bBlood Clear": 47.387,
+        "§bBlood Clear": 46.375,
         "§dPortal Entry": 3.357,
-        "§4Cleared": 18.575,
+        "§4Cleared": 18.012,
         "§1Total": 116.655
       },
       "DungeonM6": {
         "§2Blood Open": 16.554,
         "§bBlood Clear": 51.042,
         "§dPortal Entry": 2.512,
-        "§cTerracottas": 38.87,
+        "§cTerracottas": 38.82,
         "§aGiants": 9.895,
         "§4Cleared": 12.418,
         "§1Total": 157.256
@@ -143,7 +143,7 @@
         "§6Terminals": 59.198,
         "§7Goldor": 7.635,
         "§cNecron": 30.652,
-        "§4Cleared": 61.407,
+        "§4Cleared": 31.721,
         "§1Total": 324.418
       },
       "Keybind": "key.keyboard.unknown"
@@ -367,6 +367,9 @@
       "Player Names Scaling": 0.75,
       "Player Name Color": "#464646FF",
       "Own Player Head": false,
+      "Player Head Scale": 1.0,
+      "Player Class Color Size": 1,
+      "Player Pointer Scale": 1.0,
       "Normal Room": "#6B3A11FF",
       "Puzzle Room": "#750085FF",
       "Trap Room": "#D87F33FF",
@@ -374,6 +377,7 @@
       "Entrance Room": "#148500FF",
       "Fairy Room": "#E000FFFF",
       "Champion Room": "#FEDF00FF",
+      "Pending Room": "#37415AFF",
       "Unknown Room": "#282828FF",
       "Normal Door": "#4B290CFF",
       "Wither Door": "#000000FF",
@@ -530,9 +534,9 @@
       "Etherwarp Color": "#FFAA00FF",
       "Cycle Waypoint": "key.keyboard.unknown",
       "Selected Waypoint Packs": [
-        "default"
+        "Imported"
       ],
-      "Edit Waypoint Pack": "default",
+      "Edit Waypoint Pack": "Imported",
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -670,7 +674,6 @@
       },
       "Dragon Boxes": true,
       "Target Tracer": true,
-      "Send Dragon Confirmation": true,
       "Dragon Title": true,
       "Send Dragon Time Alive": true,
       "Send Dragon Spawned": true,
@@ -818,7 +821,7 @@
     "name": "Player Size",
     "enabled": false,
     "settings": {
-      "Dev Size": true,
+      "Use Client Size": false,
       "Size X": 1.0,
       "Size Y": 1.0,
       "Size Z": 1.0,
@@ -945,7 +948,7 @@
       "Click GUI Size": 2,
       "Chat notifications": true,
       "Color": "#3296DCFF",
-      "API URL": "https://api.odtheking.com/hypixel/",
+      "API url": "https://hypixel.odtheking.com/",
       "Socket URL": "wss://ws.odtheking.com/",
       "Developer Message": false,
       "Core loggings": false,
@@ -1050,10 +1053,10 @@
     "enabled": false,
     "settings": {
       "Show Guess": true,
-      "Color": "#FFAA00D8",
+      "Success Color": "#55FF55FF",
       "Show when failed": true,
       "Fail Color": "#FF5555D8",
-      "Render Style": "OUTLINE",
+      "Box Style": "FILLED_OUTLINE",
       "Use Server Position": false,
       "Full Block": false,
       "Depth": false,
@@ -1091,7 +1094,7 @@
       "Use Optimized Patterns": false,
       "Blaze Solver": false,
       "Blaze Solver Next Line": true,
-      "Blaze Solver Lines": 1,
+      "Blaze Solver Line": 2,
       "Blaze Solver Lines Width": 2.0,
       "Blaze Style": "OUTLINE",
       "First Color": "#55FF55BF",
@@ -1099,6 +1102,7 @@
       "Third Color": "#FF5555BF",
       "Other Color": "#FFFFFF4C",
       "Send Complete": false,
+      "Hide Blazes": true,
       "Creeper Beams Solver": false,
       "Beams Style": "FILLED_OUTLINE",
       "Beams Tracer": false,
@@ -1125,7 +1129,7 @@
       "PuzzlePBs": {
         "Teleport Maze": 5.854,
         "Three Weirdos": 2.657,
-        "Water Board": 17.919,
+        "Water Board": 16.965,
         "Boulder": 3.615,
         "Ice Fill": 25.266
       }

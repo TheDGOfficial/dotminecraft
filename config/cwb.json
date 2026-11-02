@@ -1,7 +1,7 @@
 {
   "fullscreenMode": "OFF",
-  "preferredFullscreenMode": "ON",
-  "fullscreenType": "linux:borderless",
+  "preferredFullscreenMode": "EXCLUSIVE",
+  "exclusiveFullscreenType": "linux:borderless",
   "borderlessFullscreenType": "linux:borderless",
   "useDelayedFullscreen": true,
   "useScaledFramebuffer": false,

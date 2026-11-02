@@ -93,6 +93,7 @@
   "disableGlDebug": true,
   "cacheGLCalls": true,
   "optimizeClocksource": true,
+  "optimizeStripFormatting": true,
   "fixGuiScaleAfterFullscreen": true,
   "fixInactivityFpsLimiter": true,
   "itemFrameSoundFix": true,

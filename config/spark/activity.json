@@ -5,6 +5,539 @@
       "name": "TheDark_Gamer",
       "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
     },
+    "time": 1793476125974,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xiLzxTumk6"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1793427373831,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jz0MUTWv7x"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1793426759085,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/GPUoaMUdxW"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1793327591283,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/8PD7gKIQog"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1793322100757,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/qvmcYAB6nv"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1793159291203,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/sbZSHlca4a"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792897338191,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BzLlBDPc7t"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792855043336,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/kP2rxZ4la9"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792802653490,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/cvILJDiv59"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792739561131,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/home/mustafa/.minecraft.fabric/config/spark/heap-2026-10-23_10.12.02.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792739510974,
+    "type": "Heap dump",
+    "data": {
+      "type": "file",
+      "value": "/home/mustafa/.minecraft.fabric/config/spark/heap-2026-10-23_10.11.28.hprof"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792725446790,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/J4RTa6hJoP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792725368938,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pkCL2SroeE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792725304167,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/lhfQAk0UNn"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792724914776,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Ai5tGKfiI3"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792724206940,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gwA92Nt27m"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792719271411,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/gnePC2tLuP"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792714756201,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Xv7rUBQPC8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792700561571,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/SLbX4jPXuA"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792502583613,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/bPATenVAyK"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792502391363,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/dYybUqJ7nQ"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792500479736,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/jRyYSDn1bz"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792313106414,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/8DgU9aEmk5"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792312594486,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/3ri14mxoDL"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792277317809,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ucM4Z9sLfy"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792276540101,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/WHb2hBZFhB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792274945434,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/BjSMBWQHbd"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792225246235,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Dd92ycnj0c"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792224232664,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QmA7H2DAek"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792222549820,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/q1fFNiLg6C"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792187606646,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/iSXXz8s5VR"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792183464430,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ucfo9l9j60"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792176240697,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/eLViYMkcNp"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792173525498,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AomnRVQa3r"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792170795649,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Sypj0ase3q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792170284782,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zEI4ag007G"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792169397834,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/rLTD63TUbI"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792165648252,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/pN9Tgi5GMF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1792031702519,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/l4LveTMI2Q"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1791981128101,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/mkAEFSaZk4"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
+    "time": 1791979760698,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/B8RnnjnbQ8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "TheDark_Gamer",
+      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
+    },
     "time": 1791909349540,
     "type": "Profiler",
     "data": {
@@ -413,32 +946,6 @@
     "data": {
       "type": "url",
       "value": "https://spark.lucko.me/l3IKNpYAXi"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "TheDark_Gamer",
-      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
-    },
-    "time": 1788367369354,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/1yiYbVNtv9"
-    }
-  },
-  {
-    "user": {
-      "type": "player",
-      "name": "TheDark_Gamer",
-      "uniqueId": "d5c721ce-1b12-4f71-9c1d-0f4e36829f99"
-    },
-    "time": 1788258614096,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/Jl2KQwgowe"
     }
   },
   {

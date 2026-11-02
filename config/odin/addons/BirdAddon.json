@@ -24,7 +24,9 @@
         "scale": 1.4999998,
         "enabled": true
       },
-      "Experimental Bear Timer": false,
+      "Experimental Bear Timer": true,
+      "Render Experimental Prediction": true,
+      "Smooth Line": true,
       "Spirit Bear Splits": {
         "x": 427,
         "y": 240,
@@ -55,7 +57,8 @@
     "enabled": false,
     "settings": {
       "Show Rabbits in hutch": true,
-      "Rabbits": {
+      "Hide hutch when 0": true,
+      "Rabbit countdown": {
         "x": 10,
         "y": 10,
         "scale": 1.0,
@@ -68,7 +71,8 @@
       "Hide counters when 0": true,
       "Display text:": "Rabbits spawning in",
       "Show Ground Mobs": true,
-      "Show Bats": true
+      "Show Bats": true,
+      "Keybind": "key.keyboard.unknown"
     }
   },
   {
@@ -212,27 +216,21 @@
     "name": "Overkill Display",
     "enabled": false,
     "settings": {
+      "Hide Zero": false,
+      "Prefixes": true,
+      "Compact Mode": false,
       "Overkill Display": {
         "x": 1096,
         "y": 379,
         "scale": 2.0,
         "enabled": true
-      },
-      "Hide Zero": false,
-      "Prefixes": true,
-      "Compact Mode": false
+      }
     }
   },
   {
     "name": "Mob Counter",
     "enabled": false,
     "settings": {
-      "Mob Counter": {
-        "x": 1094,
-        "y": 207,
-        "scale": 2.0,
-        "enabled": true
-      },
       "Total Mobs": true,
       "Cows": true,
       "Sheep": true,
@@ -243,7 +241,13 @@
       "Mobs Under Thorn": true,
       "Rabbits Not Under Thorn": true,
       "Prefixes": true,
-      "Compact Mode": false
+      "Compact Mode": false,
+      "Mob Counter": {
+        "x": 1094,
+        "y": 207,
+        "scale": 2.0,
+        "enabled": true
+      }
     }
   },
   {

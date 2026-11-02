@@ -33,7 +33,7 @@
     "gridPrecision": 5
   },
   "seaCreaturesElement": {
-    "shadow": true,
+    "shadow": false,
     "zero": true,
     "background": 1073741824,
     "textColor": -10706753,
@@ -146,7 +146,12 @@
     "enabled": true,
     "style": "Custom",
     "custom6": 82,
-    "custom7": 70
+    "custom7": 70,
+    "soundIdentifier": "entity.horse.armor",
+    "volume": 0.7,
+    "pitch": 1.0,
+    "soundVolume": 1.0,
+    "soundPitch": 1.0
   },
   "chatWaypoints": {
     "partyEnabled": false,
@@ -367,7 +372,8 @@
   },
   "tooltipScale": {
     "scale": 1.0,
-    "enabled": false
+    "enabled": false,
+    "mode": "Dynamic"
   },
   "recipeLookup": {
     "enabled": false
@@ -462,7 +468,10 @@
     "enabled": true,
     "sharpTargetColor": -11141291,
     "sharpHitColor": -43691,
-    "sharpDoneAlert": true
+    "sharpDoneAlert": true,
+    "simonThrottleTicks": 1,
+    "simonProgressMsg": "/pc Simon Says {percent}",
+    "simonResetMsg": "/pc Simon Says Reset"
   },
   "starredMobHighlight": {
     "color": -16711681,
@@ -884,7 +893,14 @@
     "textColor": -10706753
   },
   "spawnAlert": {
-    "enabled": true
+    "enabled": true,
+    "titleText": "§c§lBOSS SPAWNED!",
+    "titleFadeInTicks": 0,
+    "titleStayTicks": 30,
+    "titleFadeOutTicks": 10,
+    "soundIdentifier": "entity.experience_orb.pickup",
+    "soundVolume": 1.0,
+    "soundPitch": 0.0
   },
   "bossHealthElement": {
     "background": 1073741824,
@@ -989,7 +1005,8 @@
     "added": true,
     "x": 0.43835693359375,
     "y": 0.39536024305555556,
-    "gridPrecision": 5
+    "gridPrecision": 5,
+    "shadow": false
   },
   "skillTrackerElement": {
     "textColor": -10706753,
@@ -1022,7 +1039,33 @@
     "title270": "\u0026c\u0026l270",
     "msg300": "/pc 300 Score!",
     "title300": "\u0026c\u0026l300",
-    "enabled": false
+    "enabled": false,
+    "titleFadeIn270": 0,
+    "titleStay270": 30,
+    "titleFadeOut270": 10,
+    "sound270": "entity.experience_orb.pickup",
+    "volume270": 1.0,
+    "pitch270": 0.0,
+    "titleFadeIn300": 0,
+    "titleStay300": 30,
+    "titleFadeOut300": 10,
+    "sound300": "entity.experience_orb.pickup",
+    "volume300": 1.0,
+    "pitch300": 0.0,
+    "title270Text": "\u0026c\u0026l270",
+    "title270FadeInTicks": 0,
+    "title270StayTicks": 30,
+    "title270FadeOutTicks": 10,
+    "sound270Identifier": "entity.experience_orb.pickup",
+    "sound270Volume": 1.0,
+    "sound270Pitch": 0.0,
+    "title300Text": "\u0026c\u0026l300",
+    "title300FadeInTicks": 0,
+    "title300StayTicks": 30,
+    "title300FadeOutTicks": 10,
+    "sound300Identifier": "entity.experience_orb.pickup",
+    "sound300Volume": 1.0,
+    "sound300Pitch": 0.0
   },
   "wateringHelper": {
     "enabled": true,
@@ -1071,7 +1114,8 @@
     "enabled": true,
     "x": 0.45613037109375,
     "y": 0.2770182291666666,
-    "gridPrecision": 5
+    "gridPrecision": 5,
+    "shadow": false
   },
   "freshToolsTimerElement": {
     "scale": 1.0,
@@ -1086,7 +1130,8 @@
     "x": 0.42444580078125,
     "y": 0.2409852430555554,
     "enabled": true,
-    "gridPrecision": 5
+    "gridPrecision": 5,
+    "shadow": false
   },
   "slayerHealthElement": {
     "scale": 1.0,
@@ -1103,7 +1148,8 @@
     "enabled": true,
     "x": 0.4438427734375,
     "y": 0.49586805555555563,
-    "gridPrecision": 5
+    "gridPrecision": 5,
+    "shadow": false
   },
   "phoenixPetTimerElement": {
     "scale": 1.0,
@@ -1119,7 +1165,8 @@
     "enabled": true,
     "x": 0.4386572265625,
     "y": 0.540546875,
-    "gridPrecision": 5
+    "gridPrecision": 5,
+    "shadow": false
   },
   "commissionHighlight": {
     "enabled": true
@@ -1157,7 +1204,8 @@
     "enabled": true,
     "x": 0.43718505859375,
     "y": 0.35659722222222223,
-    "gridPrecision": 5
+    "gridPrecision": 5,
+    "shadow": false
   },
   "muteComposter": {
     "enabled": true
@@ -1176,7 +1224,14 @@
     "enabled": true
   },
   "slayerMinibossAlert": {
-    "enabled": true
+    "enabled": true,
+    "titleText": "{name}",
+    "titleFadeInTicks": 0,
+    "titleStayTicks": 40,
+    "titleFadeOutTicks": 0,
+    "soundIdentifier": "minecraft:block.note_block.pling",
+    "soundVolume": 1.0,
+    "soundPitch": 0.0
   },
   "beaconPowerElement": {
     "scale": 1.0,
@@ -1192,7 +1247,13 @@
     "data": {
       "82": "RCM",
       "70": "LCM"
-    }
+    },
+    "sound": "block.note_block.cow_bell",
+    "volume": 1.0,
+    "pitch": 1.0,
+    "soundIdentifier": "entity.horse.armor",
+    "soundVolume": 1.0,
+    "soundPitch": 1.0
   },
   "legacyTextures": {
     "enabled": false
@@ -1236,5 +1297,42 @@
   },
   "calendarEventsElement": {
     "scale": 1.0
+  },
+  "leapMessage": {
+    "message": "/pc Leaped to {name}!",
+    "enabled": false
+  },
+  "classColors": {
+    "enabled": true
+  },
+  "spawnTimer": {
+    "enabled": true
+  },
+  "petDisplayElement": {
+    "scale": 1.0,
+    "gridPrecision": 5,
+    "enabled": true,
+    "added": true,
+    "x": 0.6202075195312503,
+    "y": 0.9651432291666666,
+    "shadow": false
+  },
+  "dungeonKeyAlert": {
+    "droppedTitleText": "{key} \u0026aDropped",
+    "droppedTitleFadeInTicks": 0,
+    "droppedTitleStayTicks": 40,
+    "droppedTitleFadeOutTicks": 0,
+    "droppedSoundIdentifier": "minecraft:block.note_block.pling",
+    "droppedSoundVolume": 1.0,
+    "droppedSoundPitch": 1.0,
+    "obtainedTitleText": "{key} \u0026eObtained",
+    "obtainedTitleFadeInTicks": 0,
+    "obtainedTitleStayTicks": 40,
+    "obtainedTitleFadeOutTicks": 0,
+    "obtainedSoundIdentifier": "minecraft:block.note_block.pling",
+    "obtainedSoundVolume": 1.0,
+    "obtainedSoundPitch": 1.0,
+    "enabled": true,
+    "radius": true
   }
 }

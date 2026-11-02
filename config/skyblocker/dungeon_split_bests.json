@@ -8,25 +8,25 @@
         "skyblocker.dungeons.splits.scarfMinions": 31976
       },
       "M6": {
-        "skyblocker.dungeons.splits.portalEntry": 3944,
-        "skyblocker.dungeons.splits.sadanGiants": 10514,
         "skyblocker.dungeons.splits.terracottas": 38793,
+        "skyblocker.dungeons.splits.sadanGiants": 10514,
+        "skyblocker.dungeons.splits.portalEntry": 3944,
         "skyblocker.dungeons.splits.bloodClear": 57750,
         "skyblocker.dungeons.splits.bloodOpen": 17620,
         "skyblocker.dungeons.splits.sadan": 12621
       },
       "M3": {
-        "skyblocker.dungeons.splits.transformedProfessor": 20329,
+        "skyblocker.dungeons.splits.bloodOpen": 13928,
         "skyblocker.dungeons.splits.professor": 10665,
-        "skyblocker.dungeons.splits.portalEntry": 3178,
         "skyblocker.dungeons.splits.guardians": 17207,
+        "skyblocker.dungeons.splits.portalEntry": 3178,
         "skyblocker.dungeons.splits.bloodClear": 48594,
-        "skyblocker.dungeons.splits.bloodOpen": 13928
+        "skyblocker.dungeons.splits.transformedProfessor": 20329
       },
       "M5": {
         "skyblocker.dungeons.splits.livid": 18575,
         "skyblocker.dungeons.splits.portalEntry": 3236,
-        "skyblocker.dungeons.splits.bloodClear": 54459,
+        "skyblocker.dungeons.splits.bloodClear": 47789,
         "skyblocker.dungeons.splits.bloodOpen": 15219
       },
       "M4": {
@@ -48,22 +48,22 @@
         "skyblocker.dungeons.splits.necron": 30561,
         "skyblocker.dungeons.splits.maxor": 25816,
         "skyblocker.dungeons.splits.terminals": 58053,
-        "skyblocker.dungeons.splits.storm": 48790,
+        "skyblocker.dungeons.splits.storm": 48687,
         "skyblocker.dungeons.splits.portalEntry": 3187,
         "skyblocker.dungeons.splits.bloodClear": 55118,
         "skyblocker.dungeons.splits.bloodOpen": 16623
       },
       "M2": {
-        "skyblocker.dungeons.splits.scarf": 19373,
+        "skyblocker.dungeons.splits.bloodOpen": 18437,
         "skyblocker.dungeons.splits.portalEntry": 4557,
         "skyblocker.dungeons.splits.bloodClear": 53374,
-        "skyblocker.dungeons.splits.bloodOpen": 18437,
+        "skyblocker.dungeons.splits.scarf": 19373,
         "skyblocker.dungeons.splits.scarfMinions": 33029
       },
       "F6": {
-        "skyblocker.dungeons.splits.terracottas": 33518,
-        "skyblocker.dungeons.splits.sadanGiants": 11638,
         "skyblocker.dungeons.splits.portalEntry": 3420,
+        "skyblocker.dungeons.splits.sadanGiants": 11638,
+        "skyblocker.dungeons.splits.terracottas": 33518,
         "skyblocker.dungeons.splits.bloodClear": 61212,
         "skyblocker.dungeons.splits.bloodOpen": 37006
       },

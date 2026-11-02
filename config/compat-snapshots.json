@@ -1,0 +1,1755 @@
+{
+	"minecraft": {
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showSnooperWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightNests": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightSnooperWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showWhere": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showTrades": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#tradesScale": 0.8,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#wumpaAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#removeDarkness": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#hudEnabled": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#biomeDoneNotify": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#sparklingBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#allDoneNotify": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#birdfeederAlert": false,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showPerPlayer": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#traderAlerts": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#acceptSharedTrades": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightTrades": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#macawBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$AdvancedConfig#debugCommands": false,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#countSpawns": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#priceSource": 0,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#gemzieAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#alertSound": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#showBothPrices": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#subtractTax": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#recatchColour": {
+			"value": [
+				255, 
+				255, 
+				85, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#traderBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#uniqueOnly": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#nestColour": {
+			"value": [
+				85, 
+				255, 
+				85, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#encountersInBiomeOnly": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#hotspotAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#showOnHud": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#doomspiralBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#enabled": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#shareChannel": 0,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#floorDropColour": {
+			"value": [
+				85, 
+				255, 
+				170, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#troodonWallColour": {
+			"value": [
+				85, 
+				170, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#doomspiralAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightTroodonWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#allButMacawNotify": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#tradeColour": {
+			"value": [
+				85, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showTroodonWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showMoundCount": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showHotspot": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#progressScale": 0.8,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#missingScale": 0.8,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightHardToFind": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showMissing": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#snooperWallColour": {
+			"value": [
+				255, 
+				170, 
+				0, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#recatchHelper": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#moundColour": {
+			"value": [
+				204, 
+				119, 
+				68, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#hotspotBroadcast": 0,
+		"dev.rok.crittermod.client.CritterConfig$AdvancedConfig#showMounds": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#hardToFindColour": {
+			"value": [
+				255, 
+				85, 
+				85, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#sparklingAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#macawAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightMounds": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#floorDrops": 2,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#gemzieBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#wumpaBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightHideonwalls": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#milestoneBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showNests": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#hideonwallColour": {
+			"value": [
+				170, 
+				85, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		}
+	},
+	"entityculling": {
+		"path:general/text.entityculling.skipentityculling": false,
+		"path:general/text.entityculling.disablef3": true,
+		"path:general/text.entityculling.forcedisplayculling": true,
+		"path:general/text.entityculling.skipblockentityculling": false,
+		"path:general/text.entityculling.blockentityfrustumculling": true,
+		"path:general/text.entityculling.solidleaves": true,
+		"path:general/text.entityculling.tickculling": true,
+		"path:general/text.entityculling.rendernametagsthroughwalls": true
+	},
+	"skyblocker": {
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.chocolatefactory/skyblocker.config.helpers.chocolatefactory.straysound": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.confirmationprompthelper": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.renderline": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidedungeonbreaker": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.eventnotifications/spooky_festival/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.sweepoverlay/skyblocker.config.foraging.sweepoverlay.enablethrownabilityoverlay": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidedeath": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.coralothighlightcolor": {
+			"value": [
+				0, 
+				0, 
+				255, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.staminahelper": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.tenacityhelper": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.bazaar/skyblocker.config.helpers.bazaar.enablebazaarhelper": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalshud/skyblocker.config.mining.crystalshud.mapscaling": 1.0,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.highlightcolor": {
+			"value": [
+				255, 
+				72, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.enablesteakstakeindicator": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.enablefishinghelper": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.enablesinrecalltransmission": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.rift/skyblocker.config.otherlocations.rift.mirrorversewaypoints": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.powerstonesguide": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.dwarvenmines/skyblocker.config.mining.dwarvenmines.solvepuzzler": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.highlightshellwise": false,
+		"path:skyblocker.config.general/skyblocker.config.general.shortcuts/skyblocker.config.general.shortcuts.enablekeybindingshortcuts": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.greatspook/skyblocker.config.helpers.greatspook.enablemathteacherhelper": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.arrowpoisonthreshold": 32,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.hidestatuseffectoverlay": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.thirdperson": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablebatwaypoints": true,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.barn/skyblocker.config.otherlocations.barn.enableglowingmushroomhelper": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.minionlevel": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.cancelcomponentupdateanimation": false,
+		"path:skyblocker.config.general/skyblocker.config.general.specialeffects/skyblocker.config.general.specialeffects.raredropeffects": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.hidecheckmarks": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.bazaar/skyblocker.config.helpers.bazaar.enablebazaarmax": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.determineinprogressstatus": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.wolfslayer/skyblocker.config.slayer.wolfslayer.hidesvenpupnametag": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.highlightinvisibugcolor": {
+			"value": [
+				0, 
+				255, 
+				255, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.halfbarcolor": {
+			"value": [
+				255, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.torrhuscanyon/skyblocker.config.foraging.torrhuscanyon.enablehoneyhivehighlighter": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.toastduration": 4.0,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.petlevel": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.fancypartyfinder": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.rifthealthhp": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.includekismet": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.rift/skyblocker.config.otherlocations.rift.autodetectmcgrubber": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solveicefill": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_14": "[]",
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablebazaarprice": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_13": "[minecraft:profile={id:[I;-562285948,532499670,-1705302742,775653035],name:\"\",properties:[{name:\"textures\",value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmZlMmRjZGE0MWVjM2FmZjhhZjUwZjI3MmVjMmUwNmE4ZjUwOWUwZjgwN2YyMzU1YTFmNWEzM2MxYjY2ZTliNCJ9fX0=\"}]}]",
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalswaypoints/skyblocker.config.mining.crystalswaypoints.enabled": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_10": "[minecraft:profile={id:[I;-300151517,-631415889,-1193921967,-1821784279],name:\"\",properties:[{name:\"textures\",value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdjYzY2ODc0MjNkMDU3MGQ1NTZhYzUzZTA2NzZjYjU2M2JiZGQ5NzE3Y2Q4MjY5YmRlYmVkNmY2ZDRlN2JmOCJ9fX0=\"}]}]",
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enableestimateditemvalue": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_12": "[]",
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.enablehealingmelonindicator": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_11": "[minecraft:profile={id:[I;1605800870,415127827,-1236127084,15358548],name:\"\",properties:[{name:\"textures\",value:\"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MWQ1YjI3M2ZmMGJjNTBjOTYwYjJjZDg2ZWVmMWM0MGExYjk0MDMyYWU3MWU3NTQ3NWE1NjhhODI1NzQyMSJ9fX0=\"}]}]",
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.minimumnotificationrarity": {
+			"class": "de.hysky.skyblocker.skyblock.item.SkyblockItemRarity",
+			"value": "EPIC"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.maximumaddedlag": 100,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.showvanillatabbydefault": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.pesthighlighter/skyblocker.config.farming.pesthighlighter.stereoharmony": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.jerry/skyblocker.config.helpers.jerry.enablejerrytimer": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bazaarquickquantities/skyblocker.config.uiandvisuals.bazaarquickquantities.slotquantity": 28,
+		"path:skyblocker.config.farming/skyblocker.config.farming.pesthighlighter/skyblocker.config.farming.pesthighlighter.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.salvagehelper.onlydonated": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretsync/skyblocker.config.dungeons.secretsync.receivematchedrooms": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.sweepoverlay/skyblocker.config.foraging.sweepoverlay.sweepoverlaycolor": {
+			"value": [
+				255, 
+				150, 
+				0, 
+				64
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.rareroomalert/skyblocker.config.dungeons.rareroomalert.showforduncan": false,
+		"path:skyblocker.config.eventnotifications/new_year_celebration/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.intelligencedisplay": {
+			"class": "de.hysky.skyblocker.config.configs.UIAndVisualsConfig$IntelligenceDisplay",
+			"value": "ORIGINAL"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.enableironmanauctionhouse": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.collectionlevel": false,
+		"path:skyblocker.config.general/skyblocker.config.general.specialeffects/skyblocker.config.general.specialeffects.trophydropeffects": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.coldoverlay": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.experiments/skyblocker.config.helpers.experiments.blockincorrectclicks": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.noarrowpoisonwarning": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.removehealthfromname": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.inventorysearch/skyblocker.config.uiandvisuals.inventorysearch.showclickabletext": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeonscoretitle_2": true,
+		"path:skyblocker.config.mining/skyblocker.config.mining.redialonbadsignal": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablegeorgeprice": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.communityshop": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.maxsuggestions": 3,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solvesilverfish": true,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.skyblockinventoryscreen/skyblocker.config.uiandvisuals.skyblockinventoryscreen.openequipmenttostats": false,
+		"path:skyblocker.config.general/skyblocker.config.general.specialeffects/skyblocker.config.general.specialeffects.displayitemname": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.greenhouse/skyblocker.config.farming.greenhouse.greenhousepaste.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.enablelividcolorboundingbox": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.end/skyblocker.config.otherlocations.end.muteendermansounds": false,
+		"path:skyblocker.config.general/skyblocker.config.general.wikilookup/skyblocker.config.general.wikilookup.enablewikilookup": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.compactdamage/skyblocker.config.uiandvisuals.compactdamage.enabled": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enableexotictooltip": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.waypointtype": {
+			"class": "de.hysky.skyblocker.utils.waypoint.Waypoint$Type",
+			"value": "WAYPOINT"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.cropmilestones": false,
+		"path:skyblocker.config.eventnotifications/hoppity_s_hunt/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideaote": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.hidesoulweaverskulls": true,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.torrhuscanyon/skyblocker.config.foraging.torrhuscanyon.solvedeserttemplepuzzles": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.effigyupdatefrequency": 5,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.loadouts/skyblocker.config.helpers.loadouts.enableloadoutshelper": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.hauntedbiome/skyblocker.config.hunting.hauntedbiome.ignoreslotlockingforshiningcoins": false,
+		"path:skyblocker.config.eventnotifications/harvest_feast/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bazaarquickquantities/skyblocker.config.uiandvisuals.bazaarquickquantities.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.showroomlabels": false,
+		"path:skyblocker.config.eventnotifications/jerry_s_workshop_opens/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.commissionwaypoints/skyblocker.config.mining.commissionwaypoints.showemissary": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fairysouls/skyblocker.config.helpers.fairysouls.highlightfoundsouls": false,
+		"path:skyblocker.config.eventnotifications/mayor_jerry/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.showestimatedtilde": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.gyrooverlay/skyblocker.config.uiandvisuals.gyrooverlay.modeselect": {
+			"class": "de.hysky.skyblocker.skyblock.GyroOverlay$Mode",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.highlightbosses": {
+			"class": "de.hysky.skyblocker.config.configs.SlayersConfig$HighlightSlayerEntities",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideimplosion": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.eventnotifications/jacob_s_farming_contest/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.enablelividcolortitle": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.scale": 1.5,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.enablecommands": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.enablebitshelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.enabled": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.silencephantoms": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.linewidth": 5.0,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.wardrobe": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminals/skyblocker.config.dungeons.terminals.solvesamecolor": false,
+		"path:skyblocker.config.eventnotifications/jerry_s_workshop/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.sellableitemshighlighter": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.showselfhead": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidemana": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.displayicons": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.croesushelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enabledefaultwaypoints": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.lividcolortext": "The livid color is [color]",
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.safari/skyblocker.config.hunting.safari.silencephantoms": false,
+		"path:skyblocker.config.general/skyblocker.config.general.iteminfodisplay/skyblocker.config.general.iteminfodisplay.itemraritybackgrounds": false,
+		"path:skyblocker.config.misc/skyblocker.config.misc.richpresence/skyblocker.config.misc.richpresence.info": {
+			"class": "de.hysky.skyblocker.config.configs.MiscConfig$Info",
+			"value": "PURSE"
+		},
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.showessencecost": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count": 1,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.bazaar/skyblocker.config.helpers.bazaar.enablereorderhelper": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.blazeslayer/skyblocker.config.slayer.blazeslayer.hidehellionshield": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.general/skyblocker.config.general.shortcuts/skyblocker.config.general.shortcuts.enablecommandargshortcuts": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.backpackpreviewwithoutshift": true,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.fishinghookdisplay": {
+			"class": "de.hysky.skyblocker.config.configs.HelperConfig$Fishing$FishingHookDisplay",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.moonglademarsh/skyblocker.config.foraging.moonglademarsh.enablelushlilachighlighter": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.enabledrillfuel": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemlist/skyblocker.config.general.itemlist.enablerecipebook": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.spiritleapoverlay/skyblocker.config.dungeons.spiritleapoverlay.enableleapoverlay": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.steakstakeupdatefrequency": 5,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.linecolor": {
+			"value": [
+				0, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.salvagehelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.showterminalstatus": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeonscoresound_2": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.spiritleapoverlay/skyblocker.config.dungeons.spiritleapoverlay.showmap": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enableaotvwaypoints": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.compactdamage/skyblocker.config.uiandvisuals.compactdamage.precision": 4,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.spiritleapoverlay/skyblocker.config.dungeons.spiritleapoverlay.scale": 1.2,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.showcustomizebutton": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname": [
+			"minecraft:diamond_sword"
+		],
+		"path:skyblocker.config.eventnotifications/skyblocker.config.eventnotifications.notificationsound": {
+			"class": "de.hysky.skyblocker.config.configs.EventNotificationsConfig$Sound",
+			"value": "NONE"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.storageoverlay/skyblocker.config.uiandvisuals.storageoverlay.backpackwidth": 9,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.classbasedplayerglow": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonmessages/skyblocker.config.dungeons.mimicmessage.sendmimicmessage": false,
+		"path:skyblocker.config.eventnotifications/skyblocker.config.eventnotifications.criterion": {
+			"class": "de.hysky.skyblocker.config.configs.EventNotificationsConfig$Criterion",
+			"value": "NONE"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.itemcooldown/skyblocker.config.uiandvisuals.itemcooldown.enableitemcooldowns": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.compactordeletorpreview": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.playersecretstracker": false,
+		"path:skyblocker.config.misc/skyblocker.config.misc.richpresence/skyblocker.config.misc.richpresence.enablerichpresence": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.waypointtype": {
+			"class": "de.hysky.skyblocker.utils.waypoint.Waypoint$Type",
+			"value": "HIGHLIGHT"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enableitemwaypoints": true,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.fuelwaypoints": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablesecretwaypoints": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.showgate": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solvethreeweirdos": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.rareroomalert/skyblocker.config.dungeons.rareroomalert.showfortrinity": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.kuudraglow": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.carnival/skyblocker.config.helpers.carnival.zombieshootouthelper": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.highlightminis": {
+			"class": "de.hysky.skyblocker.config.configs.SlayersConfig$HighlightSlayerEntities",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalhollows/skyblocker.config.mining.crystalhollows.chesthighlighter": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.blazeslayer/skyblocker.config.slayer.blazeslayer.enablefirepillarannouncer": {
+			"class": "de.hysky.skyblocker.config.configs.SlayersConfig$BlazeSlayer$FirePillar",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.avg": {
+			"class": "de.hysky.skyblocker.config.configs.GeneralConfig$Average",
+			"value": "THREE_DAY"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalshud/skyblocker.config.mining.crystalshud.showlocations.locationsize": 8,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent": "/skills",
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enableevolvingitemprogress": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext": {
+			"class": "de.hysky.skyblocker.skyblock.item.slottext.SlotTextMode",
+			"value": "DISABLED"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.bossspawnalert": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.hoppityshunt/skyblocker.config.helpers.hoppityshunt.waypointtype": {
+			"class": "de.hysky.skyblocker.utils.waypoint.Waypoint$Type",
+			"value": "WAYPOINT"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_12": "/ah",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_13": "/bz",
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.craft": {
+			"class": "de.hysky.skyblocker.config.configs.GeneralConfig$Craft",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_10": "/hub",
+		"path:skyblocker.config.eventnotifications/election_booth_closes/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.inputcalculator/skyblocker.config.uiandvisuals.inputcalculator.requiresequals": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.barn/skyblocker.config.otherlocations.barn.enablepeltanimalhighlighter": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_11": "/warp dungeon_hub",
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.bazaar/skyblocker.config.helpers.bazaar.enableordertracker": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.showsecrettext": true,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablelowestbin": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fairysouls/skyblocker.config.helpers.fairysouls.enablefairysoulshelper": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_14": "/craft",
+		"path:skyblocker.config.general/skyblocker.config.general.iteminfodisplay/skyblocker.config.general.iteminfodisplay.itembackgroundstyle": {
+			"class": "de.hysky.skyblocker.config.configs.GeneralConfig$ItemBackgroundStyle",
+			"value": "SQUARE"
+		},
+		"path:skyblocker.config.farming/skyblocker.config.farming.mouselock/skyblocker.config.farming.mouselock.lockmousetool": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bazaarquickquantities/skyblocker.config.uiandvisuals.bazaarquickquantities.closesignonuse": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.seacreaturecapnotification": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.potionlevel": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.end/skyblocker.config.otherlocations.end.endernodewaypointtype": {
+			"class": "de.hysky.skyblocker.utils.waypoint.Waypoint$Type",
+			"value": "OUTLINED_HIGHLIGHT"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.enabled": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.chocolatefactory/skyblocker.config.helpers.chocolatefactory.enabletimetowerreminder": false,
+		"path:skyblocker.config.eventnotifications/year_of_the_pig_begins/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.choosepetpetlevel": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.rift/skyblocker.config.otherlocations.rift.highlightfoundenigmasouls": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidecombo": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.commissionwaypoints/skyblocker.config.mining.commissionwaypoints.usecolor": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.compactwidgets": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonmessages/skyblocker.config.dungeons.batmessage.sendbatmessage": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.highlightcoralot": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideheal": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.experiments/skyblocker.config.helpers.experiments.enablechronomatronsolver": false,
+		"path:skyblocker.config.general/skyblocker.config.general.quiverwarning/skyblocker.config.general.quiverwarning.enablequiverwarning": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.mouselock/skyblocker.config.farming.mouselock.lockmouseground": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.catacombslevel": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.spidersden/skyblocker.config.otherlocations.spidersden.relics.enablerelicshelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.blazesolver": true,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.skyblockguide": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalhollows/skyblocker.config.mining.crystalhollows.metaldetectorhelper": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.allowskippingwaypoints": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.rift/skyblocker.config.otherlocations.rift.blobbercystglow": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.showterminals": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidetoggleskymall": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.moonglademarsh/skyblocker.config.foraging.moonglademarsh.enablesealumieshighlighter": false,
+		"path:skyblocker.config.eventnotifications/season_of_jerry/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enableprincewaypoints": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.chiplevel": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.safari/skyblocker.config.hunting.safari.crittercapsulehelper": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_3": "Pets(?: \\(\\d+/\\d+\\))?",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.showwheninair": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_4": "Wardrobe \\([12]/2\\)",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_5": "Sack of Sacks",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_6": "Accessory Bag(?: \\(\\d/\\d\\))?",
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.endermanslayer/skyblocker.config.slayer.endermanslayer.lazertimer": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.chestvalue/skyblocker.config.uiandvisuals.chestvalue.enablechestvalue": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_2": "Collections",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.enableteleportoverlays": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.enablenewyearcakeshelper": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_7": "(?:Rift )?Storage(?: \\(\\d/\\d\\))?",
+		"path:skyblocker.config.general/skyblocker.config.general.acceptreparty": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablepearlwaypoints": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_8": "none",
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.roomlabeltype": {
+			"class": "de.hysky.skyblocker.skyblock.dungeon.DungeonMapLabels$RoomLabelType",
+			"value": "ROOM_NAME"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeonscoretitle": true,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.barn/skyblocker.config.otherlocations.barn.solvehungryhiker": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_9": "none",
+		"path:skyblocker.config.general/skyblocker.config.general.itemlist/skyblocker.config.general.itemlist.enablecollapsibleentries": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.hotfperklevel": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.holyiceindicatortickdelay": 5,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.truequivercount": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.dungeoncryptsmessage": "Crypts: [crypts]/5",
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.callmaddox/skyblocker.config.slayer.callmaddox.sendmessageonkill": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.showminibossnameinalert": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.creepersolver": true,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.extendnetherfog": true,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.huntingtoolkitindicator": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.incompletecolor": {
+			"class": "net.minecraft.ChatFormatting",
+			"value": "BLUE"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.skyblocklevel": false,
+		"path:skyblocker.config.eventnotifications/skyblock_anniversary/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.enabledatecalculator": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.spiritleapoverlay/skyblocker.config.dungeons.spiritleapoverlay.leapkeybinds": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.enablesolidcolor": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.hauntedbiome/skyblocker.config.hunting.hauntedbiome.highlightbloodbat": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemprotection/skyblocker.config.general.itemprotection.displaychatnotification": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.storageoverlay/skyblocker.config.uiandvisuals.storageoverlay.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solvewaterboard": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.chestvalue/skyblocker.config.uiandvisuals.chestvalue.incompletecolor": {
+			"class": "net.minecraft.ChatFormatting",
+			"value": "BLUE"
+		},
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.timerlength": 340,
+		"path:skyblocker.config.general/skyblocker.config.general.enabletips": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.enablemuseum": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.professor/skyblocker.config.dungeons.professor.firefreezestafftimer": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.storageoverlay/skyblocker.config.uiandvisuals.storageoverlay.remembersearch": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.fancyauctionhouse/skyblocker.config.uiandvisuals.fancyauctionhouse.enabled": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.forestbiome/skyblocker.config.hunting.forestbiome.hideonfloorhighlightcolor": {
+			"value": [
+				255, 
+				0, 
+				255, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.bossbar": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.titlecontainer/skyblocker.config.uiandvisuals.titlecontainer.titlecontainerscale": 100.0,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.youressence": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.enchantmentabbreviation": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enableavgbin": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.rareroomalert/skyblocker.config.dungeons.rareroomalert.showfortomioka": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_3": 1,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_4": 1,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_5": 1,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_6": 1,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.enablewaypoints": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.moonglademarsh/skyblocker.config.foraging.moonglademarsh.solveforesttemplepuzzle": false,
+		"path:skyblocker.config.eventnotifications/harvest_feast_begins/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_2": 1,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.enablehudbackground": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_7": 1,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_8": 1,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.alertotherminibosses": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideshowoff": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_9": 1,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.doorhighlight/skyblocker.config.dungeons.doorhighlight.doorhighlighttype": {
+			"class": "de.hysky.skyblocker.config.configs.DungeonsConfig$DoorHighlight$Type",
+			"value": "OUTLINED_HIGHLIGHT"
+		},
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.moonglademarsh/skyblocker.config.foraging.moonglademarsh.enabletunersolver": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.tabhudscale": 100,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.enableprofitcalculator": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.devices/skyblocker.config.dungeons.devices.solvearrowalign": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.devices/skyblocker.config.dungeons.devices.solvesimonsays": true,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.compactdamage/skyblocker.config.uiandvisuals.compactdamage.critdamagegradientstart": {
+			"value": [
+				255, 
+				255, 
+				85, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.eventnotifications/election_over/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.hoppityshunt/skyblocker.config.helpers.hoppityshunt.sendeggfoundmessages": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.huntingtoolkit": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.sacks": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidespiritsceptre": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.chestvalue/skyblocker.config.uiandvisuals.chestvalue.color": {
+			"class": "net.minecraft.ChatFormatting",
+			"value": "DARK_GREEN"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.showdevice": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.solvefossilmuncher": false,
+		"path:skyblocker.config.general/skyblocker.config.general.speedpresets/skyblocker.config.general.speedpresets.enablespeedpresets": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.compactdamage/skyblocker.config.uiandvisuals.compactdamage.normaldamagecolor": {
+			"value": [
+				255, 
+				255, 
+				255, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.style": {
+			"class": "de.hysky.skyblocker.config.configs.UIAndVisualsConfig$TabHudStyle",
+			"value": "FANCY"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.nightvisionstrength": 100,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.enableethertransmission": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.evolvingitems": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.cavernbiome/skyblocker.config.hunting.cavernbiome.rockmitemoundhighlightcolor": {
+			"value": [
+				154, 
+				192, 
+				205, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.eventnotifications/bonus_fishing_festival/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.pickobulushelper/skyblocker.config.mining.pickobulushelper.hideoncooldown": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.croesusprofit": false,
+		"path:skyblocker.config.eventnotifications/mayor_election/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.bank": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.enablewitherimpact": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.seacreaturetimernotification": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_2": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.chocolatefactory/skyblocker.config.helpers.chocolatefactory.enablechocolatefactoryhelper": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_4": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_3": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_10": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_11": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.plotswidget/skyblocker.config.farming.plotswidget.closescreenonplotclick": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_12": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_13": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_14": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.pesthighlighter/skyblocker.config.farming.pesthighlighter.contesthighlighter": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.inventorysearch/skyblocker.config.uiandvisuals.inventorysearch.ctrlk": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.callmismyla": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.enableholyiceindicator": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_6": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.enablebazaar": true,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.cavernbiome/skyblocker.config.hunting.cavernbiome.highlightrockmitemounds": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_5": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_8": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_7": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_9": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.blockbreakprediction/skyblocker.config.mining.blockbreakprediction.enabled": false,
+		"path:skyblocker.config.eventnotifications/dark_auction/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.ballistabuildwaypoints": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.dungeonquality": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.dungeoncryptsmessagethreshold": 250,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solvetictactoe": true,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.barn/skyblocker.config.otherlocations.barn.solvetreasurehunter": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_9": "[minecraft:profile={name:\"e30e30d02878417c\",id:[I;-485609264,678969724,-1929747597,-718202427],properties:[{name:\"textures\",value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjQ4ODBkMmMxZTdiODZlODc1MjJlMjA4ODI2NTZmNDViYWZkNDJmOTQ5MzJiMmM1ZTBkNmVjYWE0OTBjYjRjIn19fQ==\"}]}]",
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.builderswand/skyblocker.config.helpers.builderswand.previewopacity": 0.5,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_8": "[minecraft:profile={name:\"421a8ef40eff47f4\",id:[I;1109036788,251611124,-2126904485,-130621758],properties:[{name:\"textures\",value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzljODg4MWU0MjkxNWE5ZDI5YmI2MWExNmZiMjZkMDU5OTEzMjA0ZDI2NWRmNWI0MzliM2Q3OTJhY2Q1NiJ9fX0=\"}]}]",
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.doorhighlight/skyblocker.config.dungeons.doorhighlight.enabledoorhighlight": true,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_7": "[]",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_6": "[minecraft:profile={name:\"5da6bec64bd942bc\",id:[I;1571208902,1272529596,-1566400349,-679283814],properties:[{name:\"textures\",value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTYxYTkxOGMwYzQ5YmE4ZDA1M2U1MjJjYjkxYWJjNzQ2ODkzNjdiNGQ4YWEwNmJmYzFiYTkxNTQ3MzA5ODVmZiJ9fX0=\"}]}]",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_5": "[minecraft:profile={id:[I;-2081424676,-57521078,-2073572414,158072763],name:\"\",properties:[{name:\"textures\",value:\"ewogICJ0aW1lc3RhbXAiIDogMTU5MTMxMDU4NTYwOSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBhMDc3ZTI0OGQxNDI3NzJlYTgwMDg2NGY4YzU3OGI5ZDM2ODg1YjI5ZGFmODM2YjY0YTcwNjg4MmI2ZWMxMCIKICAgIH0KICB9Cn0=\"}]}]",
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidecrittercapture": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_4": "[minecraft:dyed_color=8991416]",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_3": "[]",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components_2": "[]",
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solvetrivia": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminalhud/skyblocker.config.dungeons.terminalhud.showlevers": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.maniaupdatefrequency": 5,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.dangerwarning": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.starredmobboundingboxes": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enableredstonekeywaypoints": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.scorescaling": 1.0,
+		"path:skyblocker.config.eventnotifications/traveling_zoo/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.endermanslayer/skyblocker.config.slayer.endermanslayer.highlightbeacons": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.floordrops/skyblocker.config.hunting.floordrops.floordrophighlightcolor": {
+			"value": [
+				249, 
+				128, 
+				29, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.farming/skyblocker.config.farming.greenhouse/skyblocker.config.farming.greenhouse.showmutationslot.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeonscoremessage_2": true,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_10": "Skyblock Hub",
+		"path:skyblocker.config.farming/skyblocker.config.farming.plotswidget/skyblocker.config.farming.plotswidget.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.swingonabilities": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.highlightunclaimedrewards": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.blockbreakprediction/skyblocker.config.mining.blockbreakprediction.playsound": false,
+		"path:skyblocker.config.general/skyblocker.config.general.updatenotifications": true,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip": "Skills",
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablenpcprice": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.enableauctionhouse": true,
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalshud/skyblocker.config.mining.crystalshud.showlocations": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.enableweirdtransmission": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.disciplinehelper": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.visitorhelper/skyblocker.config.farming.visitorhelper.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.storage": false,
+		"path:skyblocker.config.general/skyblocker.config.general.specialeffects/skyblocker.config.general.specialeffects.raredungeondropeffects": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.visitorhelper/skyblocker.config.farming.visitorhelper.showingardenonly": false,
+		"path:skyblocker.config.misc/skyblocker.config.misc.configbackend": {
+			"class": "net.azureaaron.dandelion.api.ConfigType",
+			"value": "YACL"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.pickobulushelper/skyblocker.config.mining.pickobulushelper.enable": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.emptybarcolor": {
+			"value": [
+				255, 
+				0, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.goldorwaypoints/skyblocker.config.dungeons.goldorwaypoints.enablegoldorwaypoints": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.previewwaterpath": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enableentrancewaypoints": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.profitcolor": {
+			"class": "net.minecraft.ChatFormatting",
+			"value": "DARK_GREEN"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.includeessence": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemprotection/skyblocker.config.general.itemprotection.slotlockstyle": {
+			"class": "de.hysky.skyblocker.config.configs.GeneralConfig$SlotLockStyle",
+			"value": "CLASSIC"
+		},
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.spidersden/skyblocker.config.otherlocations.spidersden.relics.highlightfoundrelics": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.spiritleapoverlay/skyblocker.config.dungeons.spiritleapoverlay.leapmessage": "Leaped to [name]!",
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fairysouls/skyblocker.config.helpers.fairysouls.highlightonbingo": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideads": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.hoppityshunt/skyblocker.config.helpers.hoppityshunt.showthroughwalls": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bazaarquickquantities/skyblocker.config.uiandvisuals.bazaarquickquantities.slotquantity_2": 2240,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bazaarquickquantities/skyblocker.config.uiandvisuals.bazaarquickquantities.slotquantity_3": 256,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.carnival/skyblocker.config.helpers.carnival.catchafishhelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.previewlevereffects": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.enableinstanttransmission": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.highlighttype": {
+			"class": "de.hysky.skyblocker.config.configs.UIAndVisualsConfig$TeleportOverlay$HighlightType",
+			"value": "HIGHLIGHT"
+		},
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidemimickill": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.enableeffigywaypoints": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.farmingtoolkit": false,
+		"path:skyblocker.config.general/skyblocker.config.general.quiverwarning/skyblocker.config.general.quiverwarning.enablequiverwarningafterdungeon": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablefairysoulwaypoints": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.fancycraftingtable": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.hoppityshunt/skyblocker.config.helpers.hoppityshunt.enableeggfinder": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.suppliesandfuelwaypointtype": {
+			"class": "de.hysky.skyblocker.utils.waypoint.Waypoint$Type",
+			"value": "WAYPOINT"
+		},
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.torrhusmobs/skyblocker.config.hunting.torrhusmobs.highlightbluejay": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.enablequicknav": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enableaccessorieshelper": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.swiftnesshelper": false,
+		"path:skyblocker.config.eventnotifications/bonus_mining_fiesta/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.predictive": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.waypointactivationradius": 2.0,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.adaptiveboxsize": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_5": "Sacks",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.compactdamage/skyblocker.config.uiandvisuals.compactdamage.critdamagegradientend": {
+			"value": [
+				255, 
+				85, 
+				85, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_4": "Wardrobe",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_7": "Storage",
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.fancymap": false,
+		"path:skyblocker.config.general/skyblocker.config.general.iteminfodisplay/skyblocker.config.general.iteminfodisplay.itembackgroundopacity": 0.5,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_6": "Accessories",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.keepprevioussearches": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablestonkwaypoints": true,
+		"path:skyblocker.config.farming/skyblocker.config.farming.visitorhelper/skyblocker.config.farming.visitorhelper.showinstacks": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_3": "Pets",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_2": "Collections",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.applytohealthonlymobs": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_14": [
+			"minecraft:crafting_table"
+		],
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.starredmobglow": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_13": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_9": "Garden",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_12": [
+			"minecraft:gold_block"
+		],
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonmessages/skyblocker.config.dungeons.princemessage.sendprincemessage": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.spiderslayer/skyblocker.config.slayer.spiderslayer.mutespidersounds": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_8": "Home",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_11": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_10": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablechestwaypoints": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminals/skyblocker.config.dungeons.terminals.solvecolor": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.storageoverlay/skyblocker.config.uiandvisuals.storageoverlay.rememberopened": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.enablevanillastylemanabar": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.enableweirdtransmission": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.icybiome/skyblocker.config.hunting.icybiome.hidecoldoverlay": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.essenceshop": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.forceenglishcorpseprofittracker": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.holyiceupdatefrequency": 5,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.spiritleapoverlay/skyblocker.config.dungeons.spiritleapoverlay.enableleapmessage": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.builderswand/skyblocker.config.helpers.builderswand.enablebuilderswandpreview": false,
+		"path:skyblocker.config.general/skyblocker.config.general.quiverwarning/skyblocker.config.general.quiverwarning.enablequiverwarningindungeons": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.wolfslayer/skyblocker.config.slayer.wolfslayer.mutewolfsounds": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.compacteffigywaypoints": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.fullbarcolor": {
+			"value": [
+				0, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.enchantmentlevel": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminals/skyblocker.config.dungeons.terminals.blockincorrectclicks": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.blazeslayer/skyblocker.config.slayer.blazeslayer.attunementhighlights": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.attributelevels": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidemoltenwave": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enableobtaineddate": false,
+		"path:skyblocker.config.farming/skyblocker.config.farming.pesthighlighter/skyblocker.config.farming.pesthighlighter.vinylhighlighter": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.torrhusmobs/skyblocker.config.hunting.torrhusmobs.hideonsunhighlightcolor": {
+			"value": [
+				0, 
+				255, 
+				255, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.enableinstanttransmission": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.devices/skyblocker.config.dungeons.devices.solvetargetpractice": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideability": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.callmaddox/skyblocker.config.slayer.callmaddox.sendmessageonfail": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.enableaccessorieshelperwidget": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.commandautocomplete": false,
+		"path:skyblocker.config.eventnotifications/election_booth_opens/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.neutralcolor": {
+			"class": "net.minecraft.ChatFormatting",
+			"value": "DARK_GRAY"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.searchoverlay/skyblocker.config.uiandvisuals.searchoverlay.historylength": 3,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.safari/skyblocker.config.hunting.safari.sparklingcritterhighlightcolor": {
+			"value": [
+				255, 
+				144, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.endermanslayer/skyblocker.config.slayer.endermanslayer.enableyangglyphsnotification": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.centuryraffle/skyblocker.config.helpers.centuryraffle.enablerafflerewardhighlight": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretsync/skyblocker.config.dungeons.secretsync.hidereceivedwaypoints": false,
+		"path:skyblocker.config.eventnotifications/year_of_the_witch_begins/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.hideemptytooltips": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablewitherwaypoints": true,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablemotesprice": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.hidefullhealth": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.mapscaling": 1.0,
+		"path:skyblocker.config.mining/skyblocker.config.mining.commissionwaypoints/skyblocker.config.mining.commissionwaypoints.mode": {
+			"class": "de.hysky.skyblocker.config.configs.MiningConfig$CommissionWaypointMode",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.end/skyblocker.config.otherlocations.end.waypoint": false,
+		"path:skyblocker.config.general/skyblocker.config.general.updatenotifications.updatechannel": {
+			"class": "de.hysky.skyblocker.UpdateNotifications$Channel",
+			"value": "ALPHA"
+		},
+		"path:skyblocker.config.misc/skyblocker.config.misc.richpresence/skyblocker.config.misc.richpresence.custommessage": " ",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.flameoverlay/skyblocker.config.uiandvisuals.flameoverlay.flameheight": 100,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.dungeonscoremessage": "270 Score Reached!",
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.storageoverlay/skyblocker.config.uiandvisuals.storageoverlay.storagesperrow": 3,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.hauntedbiome/skyblocker.config.hunting.hauntedbiome.highlightduplico": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.prehistoricegg": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.highlightinvisibug": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.enablecopyunderbidprice": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hiderarecrops": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_10": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_11": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_12": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_9": "/warp garden",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_13": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminals/skyblocker.config.dungeons.terminals.solvestartswith": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.enablemap": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.dungeonscoremessage_2": "300 Score Reached!",
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.hauntedbiome/skyblocker.config.hunting.hauntedbiome.duplicohighlightcolor": {
+			"value": [
+				255, 
+				0, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.render_14": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.enablemaniaindicator": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.bloodcamphelper": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.enablelividcolortext": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enablescorehud": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.torrhusmobs/skyblocker.config.hunting.torrhusmobs.highlighthideonsun": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_4": "/wardrobe",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_3": "/pets",
+		"path:skyblocker.config.general/skyblocker.config.general.itemlist/skyblocker.config.general.itemlist.enableitemlist": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalswaypoints/skyblocker.config.mining.crystalswaypoints.findinchat": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.highlighthideonleaf": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_2": "/collection",
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalhollows/skyblocker.config.mining.crystalhollows.nucleuswaypoints": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_8": "/is",
+		"path:skyblocker.config.eventnotifications/cult_of_the_fallen_star/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_7": "/storage",
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.fossilsolver": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_6": "/accessories",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.clickevent_5": "/sacks",
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablemuseuminfo": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_7": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_6": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_5": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidetogglelottery": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_4": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemprotection/skyblocker.config.general.itemprotection.protectvaluableconsumables": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_9": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.museumoverlay": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_8": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.endermanslayer/skyblocker.config.slayer.endermanslayer.highlightnukekubiheads": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.dontstripskinalphavalues": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.end/skyblocker.config.otherlocations.end.enableendernodehelper": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_3": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.doubleclick_2": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.dwarvenmines/skyblocker.config.mining.dwarvenmines.carpethighlightcolor": {
+			"value": [
+				255, 
+				0, 
+				0, 
+				76
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.gardenupgrades": false,
+		"path:skyblocker.config.general/skyblocker.config.general.shortcuts/skyblocker.config.general.shortcuts.enablecommandshortcuts": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enablesuperboomwaypoints": true,
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.masteryhelper": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fairysouls/skyblocker.config.helpers.fairysouls.highlightonlynearbysouls": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.enablewitherimpact": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.sweepoverlay/skyblocker.config.foraging.sweepoverlay.enablesweepoverlay": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.enablebars": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.hideonleafhighlightcolor": {
+			"value": [
+				255, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.vampireslayer/skyblocker.config.slayer.vampireslayer.healingmelonhealththreshold": 4.0,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.safari/skyblocker.config.hunting.safari.highlightsparklingcritters": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.pearlwaypoints": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalswaypoints/skyblocker.config.mining.crystalswaypoints.sharefairygrotto": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.inventorysearch/skyblocker.config.uiandvisuals.inventorysearch.enabled": {
+			"class": "de.hysky.skyblocker.config.configs.UIAndVisualsConfig$InventorySearchConfig$EnableState",
+			"value": "OFF"
+		},
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.mythologicalritual/skyblocker.config.helpers.mythologicalritual.enablemythologicalritualhelper": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_6": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_7": [
+			"minecraft:ender_chest"
+		],
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_8": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.general": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_9": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.newyearcakeyear": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_2": [
+			"minecraft:painting"
+		],
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideautopet": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_3": [
+			"minecraft:bone"
+		],
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_4": [
+			"minecraft:leather_chestplate"
+		],
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.itemname_5": [
+			"minecraft:player_head"
+		],
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.enablefancytab": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.healthbars/skyblocker.config.uiandvisuals.healthbars.removemaxhealthfromname": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_13": "Bazaar .*",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_12": "Auction House",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_14": "Craft Item",
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.rift/skyblocker.config.otherlocations.rift.mcgrubberstacks": 0,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.blazeslayer/skyblocker.config.slayer.blazeslayer.muteblazesounds": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.skyblockxpmessages": false,
+		"path:skyblocker.config.general/skyblocker.config.general.iteminfodisplay/skyblocker.config.general.iteminfodisplay.itemraritybackgroundslegacycolors": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.teleportoverlaycolor": {
+			"value": [
+				118, 
+				21, 
+				148, 
+				127
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.losscolor": {
+			"class": "net.minecraft.ChatFormatting",
+			"value": "RED"
+		},
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.controlhelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeonscoremessage": true,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.centuryraffle/skyblocker.config.helpers.centuryraffle.enableraffletaskhighlight": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.fasttravel": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.components": "[]",
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.fishing/skyblocker.config.helpers.fishing.hideotherplayers": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.enablelividcolorglow": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.highlightdoorkeys": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.crimson.dojo/skyblocker.crimson.dojo.forcehelper": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.supplywaypoints": false,
+		"path:skyblocker.config.crimsonisle/skyblocker.config.crimsonisle.kuudra/skyblocker.config.crimsonisle.kuudra.safespotwaypoints": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.backgroundblur": false,
+		"path:skyblocker.config.general/skyblocker.config.general.iteminfodisplay/skyblocker.config.general.iteminfodisplay.jacobmedalbackgrounds": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.statstuning": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.enablechatwaypoints": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.hauntedbiome/skyblocker.config.hunting.hauntedbiome.bloodbathighlightcolor": {
+			"value": [
+				191, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.autosharecorpses": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.enabletreefellednotification": false,
+		"path:skyblocker.config.misc/skyblocker.config.misc.cat": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.allowdroppingprotecteditems": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.enablecorpseprofittracker": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_11": "none",
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.experiments/skyblocker.config.helpers.experiments.enableultrasequencersolver": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle_10": "none",
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.safari/skyblocker.config.hunting.safari.crittercapsulehelpercolor": {
+			"value": [
+				0, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.eventnotifications/hoppity_s_hunt_begins/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_14": 1,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_12": 1,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.smoothaote/skyblocker.config.uiandvisuals.smoothaote.enableethertransmission": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_13": 1,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_10": 1,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.hotmperklevel": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.item.count_11": 1,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.enablebarsrift": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.bestiarylevel": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.fancyauctionhouse/skyblocker.config.uiandvisuals.fancyauctionhouse.highlightunderavgprice": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.enableanvilhelper": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solveboulder": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.commissionhighlight": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.forestbiome/skyblocker.config.hunting.forestbiome.highlighthideonfloor": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.collections": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.flameoverlay/skyblocker.config.uiandvisuals.flameoverlay.flameopacity": 100,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeonscoresound": true,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.minibossspawnalert": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.radialmenu/skyblocker.config.uiandvisuals.radialmenu.tooltipswithoutshift": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretsync/skyblocker.config.dungeons.secretsync.receiveroomsecretcount": false,
+		"path:skyblocker.config.general/skyblocker.config.general.itemtooltip/skyblocker.config.general.itemtooltip.enablestackingenchantprogress": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.skyblockinventoryscreen/skyblocker.config.uiandvisuals.skyblockinventoryscreen.showequipmentininventory": false,
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.rift/skyblocker.config.otherlocations.rift.enigmasoulwaypoints": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.professor/skyblocker.config.dungeons.professor.floor3guardianhealthdisplay": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.commissionwaypoints/skyblocker.config.mining.commissionwaypoints.hideemissaryonpigeon": false,
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.hideslayerminibossspawn": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.inputcalculator/skyblocker.config.uiandvisuals.inputcalculator.closesignswithenter": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.devices/skyblocker.config.dungeons.devices.solvelightson": true,
+		"path:skyblocker.config.mining/skyblocker.config.mining.commissionwaypoints/skyblocker.config.mining.commissionwaypoints.showbasecamp": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.tabhud/skyblocker.config.uiandvisuals.tabhud.defaultpositioning": {
+			"class": "de.hysky.skyblocker.skyblock.tabhud.screenbuilder.pipeline.Positioner",
+			"value": "CENTERED"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.showconfigbutton": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalswaypoints/skyblocker.config.mining.crystalswaypoints.wishingcompasssolver": false,
+		"path:skyblocker.config.general/skyblocker.config.general.specialeffects/skyblocker.config.general.specialeffects.raredyedropeffects": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.moonglademarsh/skyblocker.config.foraging.moonglademarsh.sealumiemincount": 3,
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.enablecorpsefinder": false,
+		"path:skyblocker.config.eventnotifications/year_of_the_seal_begins/skyblocker.config.eventnotifications.event.enabled": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.enablevanillastylemanabarblinking": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonchestprofit/skyblocker.config.dungeons.dungeonchestprofit.neutralthreshold": 1000,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.teleportoverlay/skyblocker.config.uiandvisuals.teleportoverlay.enablesinrecalltransmission": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.map/skyblocker.config.dungeons.map.showoutline": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.uititle": "Your Skills",
+		"path:skyblocker.config.otherlocations/skyblocker.config.otherlocations.barn/skyblocker.config.otherlocations.barn.calltrevor": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.skilllevel": false,
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.bazaar/skyblocker.config.helpers.itemprice.enableitempricelookup": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hidetogglebeekeeper": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.general/skyblocker.config.general.iteminfodisplay/skyblocker.config.general.iteminfodisplay.legacyattributebackgrounds": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.moonglademobs/skyblocker.config.hunting.moonglademobs.shellwisehighlightcolor": {
+			"value": [
+				255, 
+				104, 
+				31, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.general/skyblocker.config.general.shortcuts/skyblocker.config.general.shortcuts.enableshortcuts": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.floordrops/skyblocker.config.hunting.floordrops.highlightfloordrops": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.puzzle/skyblocker.config.dungeons.puzzle.solveteleportmaze": false,
+		"path:skyblocker.config.chat/skyblocker.config.chat.chatrules/skyblocker.config.chat.chatrules.announcementlength": 60,
+		"path:skyblocker.config.chat/skyblocker.config.chat.filter/skyblocker.config.chat.filter.hideteleportpad": {
+			"class": "de.hysky.skyblocker.utils.chat.ChatFilterResult",
+			"value": "PASS"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.waypoints/skyblocker.config.uiandvisuals.waypoints.allowgoingbackwards": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.livid/skyblocker.config.dungeons.livid.customcolor": {
+			"value": [
+				255, 
+				0, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.crystalhollows/skyblocker.config.mining.crystalhollows.chesthighlighter.color": {
+			"value": [
+				0, 
+				0, 
+				255, 
+				128
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.bars/skyblocker.config.uiandvisuals.bars.usehungerbarsprites": false,
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_13": "Bazaar",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_14": "Crafting Table",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_11": "Dungeons Hub",
+		"path:skyblocker.config.quicknav/skyblocker.config.quicknav.button/skyblocker.config.quicknav.button.tooltip_12": "Auction House",
+		"path:skyblocker.config.slayer/skyblocker.config.slayer.slaintime": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.huntingboxhelper": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.glacite/skyblocker.config.mining.glacite.enableparsingchatcorpsefinder": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.goldorwaypoints/skyblocker.config.dungeons.goldorwaypoints.waypointtype": {
+			"class": "de.hysky.skyblocker.utils.waypoint.Waypoint$Type",
+			"value": "HIGHLIGHT"
+		},
+		"path:skyblocker.config.helpers/skyblocker.config.helpers.experiments/skyblocker.config.helpers.experiments.enablesuperpairssolver": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.rareroomalert/skyblocker.config.dungeons.rareroomalert.enabled": false,
+		"path:skyblocker.config.foraging/skyblocker.config.foraging.torrhuscanyon/skyblocker.config.foraging.torrhuscanyon.enablerubyveilshroomhighlighter": false,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.terminals/skyblocker.config.dungeons.terminals.solveorder": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.gyrooverlay/skyblocker.config.uiandvisuals.gyrooverlay.color": {
+			"value": [
+				118, 
+				21, 
+				148, 
+				127
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.mining/skyblocker.config.mining.dwarvenmines/skyblocker.config.mining.dwarvenmines.solvefetchur": false,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.slottext/skyblocker.config.uiandvisuals.slottext.rancherboots": false,
+		"path:skyblocker.config.mining/skyblocker.config.mining.dwarvenmines/skyblocker.config.mining.dwarvenmines.enablecarpethighlight": false,
+		"path:skyblocker.config.hunting/skyblocker.config.hunting.torrhusmobs/skyblocker.config.hunting.torrhusmobs.bluejayhighlightcolor": {
+			"value": [
+				0, 
+				255, 
+				0, 
+				255
+			],
+			"class": "java.awt.Color"
+		},
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.dungeonscore/skyblocker.config.dungeons.dungeonscore.enabledungeoncryptsmessage": true,
+		"path:skyblocker.config.dungeons/skyblocker.config.dungeons.secretwaypoints/skyblocker.config.dungeons.secretwaypoints.enableleverwaypoints": true,
+		"path:skyblocker.config.uiandvisuals/skyblocker.config.uiandvisuals.inputcalculator/skyblocker.config.uiandvisuals.inputcalculator.enabled": false,
+		"path:skyblocker.config.misc/skyblocker.config.misc.richpresence/skyblocker.config.misc.richpresence.cyclemode": false
+	},
+	"tooltipscroll": {
+		"path:category.tooltipscroll.general/entry.tooltipscroll.invertxscroll": false,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.scrollspeedkeys": 5,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.smoothness": 0.25,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.resetonunlock": true,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.canscroll": true,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.scrollspeed": 10,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.matrix_compatibility": false,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.usewasd": false,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.uselshift": true,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.startontop": true,
+		"path:category.tooltipscroll.general/entry.tooltipscroll.invertyscroll": false
+	},
+	"zoomify": {
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.scrolling/yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollzoom": true,
+		"path:yacl3.config.zoomify.category.secondary/yacl3.config.zoomify.category.secondary.root.option.secondaryzoomamount": 4,
+		"path:yacl3.config.zoomify.category.controls/yacl3.config.zoomify.category.controls.root.option.cinematiccamera": 0,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.spyglass/yacl3.config.zoomify.category.behaviour.group.spyglass.option.spyglassoverlayvisibility": {
+			"class": "dev.isxander.zoomify.config.OverlayVisibility",
+			"value": "HOLDING"
+		},
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.basic/yacl3.config.zoomify.category.behaviour.group.basic.option.zoomintime": 1.0,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.scrolling/yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollzoomsmoothness": 70,
+		"path:yacl3.config.zoomify.category.secondary/yacl3.config.zoomify.category.secondary.root.option.secondaryzoomouttime": 1.0,
+		"path:yacl3.config.zoomify.category.secondary/yacl3.config.zoomify.category.secondary.root.option.secondaryzoomintime": 10.0,
+		"path:yacl3.config.zoomify.category.controls/yacl3.config.zoomify.category.controls.root.option.zoomkeybehaviour": {
+			"class": "dev.isxander.zoomify.config.ZoomKeyBehaviour",
+			"value": "HOLD"
+		},
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.basic/yacl3.config.zoomify.category.behaviour.group.basic.option.affecthandfov": true,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.basic/yacl3.config.zoomify.category.behaviour.group.basic.option.zoomintransition": {
+			"class": "dev.isxander.zoomify.utils.TransitionType",
+			"value": "EASE_OUT_EXP"
+		},
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.basic/yacl3.config.zoomify.category.behaviour.group.basic.option.initialzoom": 4,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.scrolling/yacl3.config.zoomify.category.behaviour.group.scrolling.option.retainzoomsteps": false,
+		"path:yacl3.config.zoomify.category.secondary/yacl3.config.zoomify.category.secondary.root.option.secondaryhidehudonzoom": true,
+		"path:yacl3.config.zoomify.category.controls/yacl3.config.zoomify.category.controls.root.option._keybindscrolling": false,
+		"path:yacl3.config.zoomify.category.controls/yacl3.config.zoomify.category.controls.root.option.relativeviewbobbing": true,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.basic/yacl3.config.zoomify.category.behaviour.group.basic.option.zoomouttime": 0.5,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.scrolling/yacl3.config.zoomify.category.behaviour.group.scrolling.option.scrollstepcount": 10,
+		"path:yacl3.config.zoomify.category.controls/yacl3.config.zoomify.category.controls.root.option.relativesensitivity": 100,
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.basic/yacl3.config.zoomify.category.behaviour.group.basic.option.zoomouttransition": {
+			"class": "dev.isxander.zoomify.utils.TransitionType",
+			"value": "EASE_OUT_EXP"
+		},
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.spyglass/yacl3.config.zoomify.category.behaviour.group.spyglass.option.spyglassbehaviour": {
+			"class": "dev.isxander.zoomify.config.SpyglassBehaviour",
+			"value": "COMBINE"
+		},
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.spyglass/yacl3.config.zoomify.category.behaviour.group.spyglass.option.spyglasssoundbehaviour": {
+			"class": "dev.isxander.zoomify.config.SoundBehaviour",
+			"value": "WITH_OVERLAY"
+		},
+		"path:yacl3.config.zoomify.category.behaviour/yacl3.config.zoomify.category.behaviour.group.scrolling/yacl3.config.zoomify.category.behaviour.group.scrolling.option.zoomperstep": 150
+	},
+	"nochatreports": {
+		"path:configuration.nochatreports.category.client/option.nochatreports.hideinsecuremessageindicators": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.showserversafety": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.showreloadbutton": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.alwayshidereportbutton": false,
+		"path:configuration.nochatreports.category.client/option.nochatreports.enabledebuglog": false,
+		"path:configuration.nochatreports.category.client/option.nochatreports.hidesigningrequestmessage": false,
+		"path:configuration.nochatreports.category.lan/option.nochatreports.converttogamemessage": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.hidesystemmessageindicators": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.disabletelemetry": true,
+		"path:configuration.nochatreports.category.lan/option.nochatreports.addquerydata": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.hidemodifiedmessageindicators": true,
+		"path:configuration.nochatreports.category.lan/option.nochatreports.demandonclientmessage": "You do not have No Chat Reports, and this server is configured to require it on client!",
+		"path:configuration.nochatreports.category.client/option.nochatreports.defaultsigningmode": "Prompt",
+		"path:configuration.nochatreports.category.lan/option.nochatreports.demandonclient": false,
+		"path:configuration.nochatreports.category.client/option.nochatreports.hidewarningtoast": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.showncrbutton": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.verifiediconoffsety": 0,
+		"path:configuration.nochatreports.category.client/option.nochatreports.verifiediconoffsetx": 0,
+		"path:configuration.nochatreports.category.client/option.nochatreports.enablemod": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.verifiediconenabled": true,
+		"path:configuration.nochatreports.category.client/option.nochatreports.demandonserver": false
+	},
+	"darkutils": {
+		"path:quality_of_life/auto_tip": true,
+		"path:bugfixes/fix_inactivity_fps_limiter": true,
+		"path:bugfixes/item_frame_sound_fix": true,
+		"path:quality_of_life/never_reset_cursor_position": true,
+		"path:performance/block_entity_unload_lag_fix": true,
+		"path:performance/optimize_enum_values": true,
+		"path:dungeons/section_done_display": true,
+		"path:mining/mineshaft_display": true,
+		"path:visual_tweaks/fullbright": true,
+		"path:mining/will-o_-wisp_display": true,
+		"path:dungeons/arrow_alignment_device_solver": true,
+		"path:quality_of_life/auto_clicker_work_with_aotv": true,
+		"path:farming/sticky_left": false,
+		"path:quality_of_life/auto_fishing_maximum_delay": 5,
+		"path:dungeons/solo_crush_waypoint": true,
+		"path:performance/disable_error_checking_entirely": true,
+		"path:farming/pest_cooldown": 135,
+		"path:performance/re-enable_amd_game_optimizations": true,
+		"path:farming/sticky_forward": false,
+		"path:mining/corpses_per_shaft_display": true,
+		"path:dungeons/dialogue_skip_timer": true,
+		"path:performance/stop_light_updates": true,
+		"path:visual_tweaks/hide_effects_in_inventory": true,
+		"path:quality_of_life/auto_fishing_minimum_delay": 4,
+		"path:quality_of_life/disable_update_checker": true,
+		"path:dungeons/auto_close_secret_chests": true,
+		"path:visual_tweaks/no_explosion_particles": true,
+		"path:visual_tweaks/hide_armor_and_food": true,
+		"path:development/debug_mode": false,
+		"path:performance/optimize_strip_formatting": true,
+		"path:quality_of_life/auto_lb_release": true,
+		"path:visual_tweaks/no_wither_hearts": true,
+		"path:performance/no_memory_reserve": true,
+		"path:visual_tweaks/transparent_player_list": true,
+		"path:development/in-game_log_level": {
+			"class": "gg.darkutils.utils.LogLevel",
+			"value": "WARN"
+		},
+		"path:performance/always_use_no_error_context": true,
+		"path:dungeons/arrow_stack_waypoints": true,
+		"path:dungeons/blood_cleared_notification": true,
+		"path:foraging/tree_gifts_per_hour": true,
+		"path:quality_of_life/auto_fishing_work_through_menus": false,
+		"path:quality_of_life/laggy_server_detector": true,
+		"path:visual_tweaks/night_vision": true,
+		"path:quality_of_life/prevent_useless_block_hit": true,
+		"path:quality_of_life/auto_clicker": true,
+		"path:quality_of_life/auto_clicker_work_in_levers": true,
+		"path:dungeons/dungeon_timer": true,
+		"path:performance/cache_gl_calls": true,
+		"path:quality_of_life/ghost_block_key": true,
+		"path:quality_of_life/enable_mod_announcer": false,
+		"path:dungeons/solo_crush_timer": true,
+		"path:quality_of_life/disable_cells_alignment": true,
+		"path:performance/use_virtual_threads_for_texture_downloading": true,
+		"path:dungeons/arrow_alignment_device_solver_block_incorrect_clicks": true,
+		"path:farming/persistent_tablist_while_farming": false,
+		"path:dungeons/arrow_alignment_device_solver_predev": false,
+		"path:performance/prefer_wayland": true,
+		"path:bugfixes/fix_game_icon_on_wayland": true,
+		"path:misc/use_https_for_skins": true,
+		"path:performance/disable_campfire_smoke_particles": true,
+		"path:mining/pickaxe_ability_display": true,
+		"path:quality_of_life/disable_command_confirmation": true,
+		"path:performance/optimize_exceptions": true,
+		"path:performance/disable_signature_verification": true,
+		"path:quality_of_life/disable_welcome_message": true,
+		"path:safari/safari_timer": true,
+		"path:quality_of_life/vanilla_mode": true,
+		"path:bugfixes/failed_to_wait_for_frame_completion_crash_fix": true,
+		"path:farming/enforce_zorro_s_cape": true,
+		"path:bugfixes/fix_gui_scale_after_toggling_fullscreen_off": true,
+		"path:visual_tweaks/no_burning_entities": true,
+		"path:dungeons/dungeon_timer_scale": 1.0,
+		"path:farming/sticky_right": false,
+		"path:quality_of_life/auto_fishing": true,
+		"path:foraging/tree_gift_confirmation": true,
+		"path:visual_tweaks/hide_mount_health": true,
+		"path:quality_of_life/auto_fishing_recast": true,
+		"path:performance/remove_main_menu_frame_limit": false,
+		"path:dungeons/dungeon_timer_offset_x": 2,
+		"path:safari/duplico_highlighter": true,
+		"path:dungeons/dungeon_timer_offset_y": 0,
+		"path:performance/optimize_clocksource": true,
+		"path:quality_of_life/rejoin_cooldown_display": true,
+		"path:performance/always_prioritize_render_thread": true,
+		"path:safari/hideon_highlighter": true,
+		"path:mining/littlefoot_display": true,
+		"path:visual_tweaks/hide_effects_hud": true,
+		"path:dungeons/dungeon_timer_no_item_icon": true,
+		"path:quality_of_life/auto_clicker_half_aotv_cps": false,
+		"path:farming/sticky_farming_keys": false,
+		"path:dungeons/ragnarock_helper": true,
+		"path:farming/pest_cooldown_display": true,
+		"path:quality_of_life/always_sprint": true,
+		"path:dungeons/replace_diorite": true,
+		"path:performance/thread_priority_tweaker": true,
+		"path:visual_tweaks/hide_fire_overlay": true,
+		"path:farming/sticky_backward": false,
+		"path:farming/open_equipment_menu_when_cooldown_over_or_pests_spawned": true,
+		"path:visual_tweaks/no_lightning_bolts": true,
+		"path:performance/log_cleaner": true,
+		"path:performance/disable_gl_debug": true,
+		"path:bugfixes/middle_click_fix": true,
+		"path:performance/opengl_version_override": {
+			"class": "gg.darkutils.feat.performance.OpenGLVersionOverride",
+			"value": "GL4_3"
+		},
+		"path:performance/disable_glowing": false,
+		"path:safari/wumpa_spawn_progress": true,
+		"path:bugfixes/cursor_pos_wayland_gl_error_fix": true
+	},
+	"cullleaves": {
+		"path:enabled": true,
+		"path:cullroots": true
+	},
+	"crittermod": {
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showSnooperWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightNests": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightSnooperWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showWhere": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showTrades": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#tradesScale": 0.8,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#wumpaAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#removeDarkness": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#hudEnabled": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#biomeDoneNotify": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#sparklingBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#allDoneNotify": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#birdfeederAlert": false,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showPerPlayer": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#traderAlerts": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#acceptSharedTrades": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightTrades": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#macawBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$AdvancedConfig#debugCommands": false,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#countSpawns": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#priceSource": 0,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#gemzieAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#alertSound": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#showBothPrices": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#subtractTax": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#recatchColour": {
+			"value": [
+				255, 
+				255, 
+				85, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#traderBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#uniqueOnly": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#nestColour": {
+			"value": [
+				85, 
+				255, 
+				85, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#encountersInBiomeOnly": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#hotspotAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#showOnHud": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#doomspiralBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$ProfitConfig#enabled": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#shareChannel": 0,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#floorDropColour": {
+			"value": [
+				85, 
+				255, 
+				170, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#troodonWallColour": {
+			"value": [
+				85, 
+				170, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#doomspiralAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightTroodonWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#allButMacawNotify": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#tradeColour": {
+			"value": [
+				85, 
+				255, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showTroodonWalls": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showMoundCount": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showHotspot": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#progressScale": 0.8,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#missingScale": 0.8,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightHardToFind": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showMissing": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#snooperWallColour": {
+			"value": [
+				255, 
+				170, 
+				0, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#recatchHelper": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#moundColour": {
+			"value": [
+				204, 
+				119, 
+				68, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#hotspotBroadcast": 0,
+		"dev.rok.crittermod.client.CritterConfig$AdvancedConfig#showMounds": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#hardToFindColour": {
+			"value": [
+				255, 
+				85, 
+				85, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		},
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#sparklingAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$AlertConfig#macawAlert": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightMounds": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#floorDrops": 2,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#gemzieBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#wumpaBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#highlightHideonwalls": true,
+		"dev.rok.crittermod.client.CritterConfig$PartyConfig#milestoneBroadcast": 1,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#showNests": true,
+		"dev.rok.crittermod.client.CritterConfig$DisplayConfig#hideonwallColour": {
+			"value": [
+				170, 
+				85, 
+				255, 
+				255
+			],
+			"class": "org.polyfrost.compose.render.PolyColor"
+		}
+	},
+	"cloth-config": {
+		"path:category.cloth-config.testing/suggestion_random_int": 10,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/select_a_good_or_bad_option": {
+			"class": "me.shedaniel.clothconfig2.ClothConfigDemo$1DependencyDemoEnum",
+			"value": "OKAY"
+		},
+		"path:category.cloth-config.testing/a_list_of_strings": [
+			"abc", 
+			"xyz"
+		],
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/sub-categories_can_have_requirements_too.../another_example...": true,
+		"path:category.cloth-config.testing/a_list_of_doubles": [
+			1.0, 
+			2.0, 
+			3.0
+		],
+		"path:category.cloth-config.testing/colors/category.cloth-config.testing/colors/an_alpha_color_field_2": -1,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/i_need_a_good_option_and_a_cool_toggle": true,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/i_only_appear_when_cool_is_toggled...": true,
+		"path:category.cloth-config.testing/colors/category.cloth-config.testing/colors/a_color_field": 65535,
+		"path:category.cloth-config.testing/selection_random_int": "10",
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/even_lists": [
+			1, 
+			2, 
+			3
+		],
+		"path:category.cloth-config.testing/cool_key": {
+			"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
+		},
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/sub-categories_can_have_requirements_too.../example_entry": true,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/i_only_work_when_cool_is_toggled...": true,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/i_only_work_when_numbers_are_extreme": true,
+		"path:category.cloth-config.testing/colors/category.cloth-config.testing/colors/an_alpha_color_field": -16711681,
+		"path:category.cloth-config.testing/cool_modifier_key": {
+			"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+			"mods": 2,
+			"keyCodes": [
+				"key.keyboard.o"
+			]
+		},
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/select_something_big_or_small": 50,
+		"path:category.cloth-config.testing/a_list_of_longs": [
+			1, 
+			2, 
+			3
+		],
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/a_cool_toggle": false,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/i_only_work_when_cool_matches_both_of_these_toggles": true,
+		"path:category.cloth-config.testing/dependencies/category.cloth-config.testing/dependencies/i_only_work_when_a_good_option_is_chosen...": true
+	},
+	"cwb": {
+		"path:modmenu.nametranslation.cwb/cwb.options.windowedfullscreentype": "minecraft:maximized",
+		"path:modmenu.nametranslation.cwb/cwb.options.autohidedock": false,
+		"path:modmenu.nametranslation.cwb/cwb.options.fullscreentype": "linux:borderless",
+		"path:modmenu.nametranslation.cwb/cwb.options.pauseonlostfocus": true,
+		"path:modmenu.nametranslation.cwb/cwb.options.pauseonlostfocusduringmultiplayer": true,
+		"path:modmenu.nametranslation.cwb/cwb.options.autohidemenubar": false,
+		"path:modmenu.nametranslation.cwb/cwb.options.borderlessfullscreentype": "linux:borderless",
+		"path:modmenu.nametranslation.cwb/cwb.options.exclusivefullscreentype": "linux:borderless",
+		"path:modmenu.nametranslation.cwb/cwb.options.usedelayedfullscreen": true,
+		"path:modmenu.nametranslation.cwb/cwb.options.usescaledframebuffer": false
+	},
+	"debugify": {
+		"path:debugify.env.client/debugify.basic/mc-217716": true,
+		"path:debugify.env.client/debugify.basic/mc-61489": true,
+		"path:debugify.env.server/debugify.basic/mc-160095": true,
+		"path:debugify.env.server/debugify.basic/mc-7569": true,
+		"path:debugify.env.client/debugify.basic/mc-206540": true,
+		"path:debugify.env.server/debugify.basic/mc-44654": true,
+		"path:debugify.env.server/debugify.basic/mc-221257": true,
+		"path:debugify.env.server/debugify.basic/mc-223153": true,
+		"path:debugify.env.client/debugify.basic/mc-259512": true,
+		"path:debugify.env.client/debugify.basic/mc-197260": true,
+		"path:debugify.env.server/debugify.basic/mc-179072": true,
+		"path:debugify.env.client/debugify.basic/mc-215531": true,
+		"path:debugify.env.client/debugify.basic/mc-90683": true,
+		"path:debugify.env.client/debugify.basic/mc-115092": true,
+		"path:debugify.env.client/debugify.basic/mc-46766": true,
+		"path:debugify.env.server/debugify.basic/mc-232869": true,
+		"path:debugify.env.client/debugify.basic/mc-267376": true,
+		"path:debugify.env.client/debugify.basic/mc-268420": true,
+		"path:debugify.env.client/debugify.basic/mc-116379": true,
+		"path:debugify.env.client/debugify.basic/mc-298558": true,
+		"path:debugify.env.client/debugify.basic/mc-165306": true,
+		"path:debugify.env.client/debugify.basic/mc-251068": true,
+		"path:debugify.env.client/debugify.basic/mc-237493": true,
+		"path:debugify.env.server/debugify.basic/mc-168573": true,
+		"path:debugify.env.client/debugify.basic/mc-165381": true,
+		"path:debugify.env.server/debugify.basic/mc-155509": true,
+		"path:debugify.env.server/debugify.gameplay/mc-136249": true,
+		"path:debugify.env.server/debugify.basic/mc-224729": true,
+		"path:debugify.env.client/debugify.basic/mc-143474": true,
+		"path:debugify.env.server/debugify.basic/mc-187100": true,
+		"path:debugify.env.server/debugify.basic/mc-93018": true,
+		"path:debugify.env.server/debugify.basic/mc-272431": true,
+		"path:debugify.env.client/debugify.basic/mc-35361": true,
+		"path:debugify.env.client/debugify.basic/mc-242809": true,
+		"path:debugify.env.server/debugify.basic/mc-119754": true,
+		"path:debugify.env.client/debugify.basic/mc-57057": true,
+		"path:debugify.env.server/debugify.basic/mc-201374": true,
+		"path:debugify.env.client/debugify.basic/mc-211561": true,
+		"path:debugify.env.server/debugify.basic/mc-177381": true,
+		"path:debugify.env.client/debugify.basic/mc-210318": true,
+		"path:debugify.env.server/debugify.basic/mc-297837": true,
+		"path:debugify.misc/debugify.misc.default_disabled": false,
+		"path:debugify.env.client/debugify.gameplay/mc-159163": true,
+		"path:debugify.env.server/debugify.basic/mc-267125": true,
+		"path:debugify.env.server/debugify.basic/mc-84661": true,
+		"path:debugify.env.server/debugify.basic/mc-245394": true,
+		"path:debugify.env.client/debugify.basic/mc-46737": true,
+		"path:debugify.env.server/debugify.basic/mc-132878": true,
+		"path:debugify.env.server/debugify.basic/mc-264979": true,
+		"path:debugify.env.server/debugify.basic/mc-268617": true,
+		"path:debugify.env.server/debugify.basic/mc-100991": true,
+		"path:debugify.env.client/debugify.basic/mc-79545": true,
+		"path:debugify.env.server/debugify.basic/mc-215530": true,
+		"path:debugify.env.client/debugify.basic/mc-188359": true,
+		"path:debugify.env.server/debugify.basic/mc-123450": true,
+		"path:debugify.env.server/debugify.basic/mc-159283": true,
+		"path:debugify.env.client/debugify.basic/mc-127970": true,
+		"path:debugify.env.server/debugify.basic/mc-89146": true,
+		"path:debugify.env.server/debugify.basic/mc-202637": true,
+		"path:debugify.env.client/debugify.basic/mc-577": true,
+		"path:debugify.env.server/debugify.basic/mc-227337": true,
+		"path:debugify.env.client/debugify.basic/mc-105068": true,
+		"path:debugify.env.server/debugify.basic/mc-226961": true,
+		"path:debugify.env.server/debugify.basic/mc-88371": true,
+		"path:debugify.env.server/debugify.basic/mc-147659": true,
+		"path:debugify.env.server/debugify.basic/mc-271899": true,
+		"path:debugify.env.client/debugify.basic/mc-118740": true,
+		"path:debugify.env.server/debugify.basic/mc-129909": true,
+		"path:debugify.env.server/debugify.basic/mc-121706": true,
+		"path:debugify.env.server/debugify.basic/mc-264285": true,
+		"path:debugify.env.server/debugify.basic/mc-121903": true,
+		"path:debugify.env.client/debugify.basic/mc-80859": true,
+		"path:debugify.env.client/debugify.basic/mc-93384": true,
+		"path:debugify.env.server/debugify.basic/mc-133218": true,
+		"path:debugify.env.server/debugify.basic/mc-263999": true,
+		"path:debugify.env.client/debugify.basic/mc-4490": true,
+		"path:debugify.env.client/debugify.gameplay/mc-231097": true,
+		"path:debugify.env.client/debugify.basic/mc-122477": true,
+		"path:debugify.env.server/debugify.basic/mc-200418": true,
+		"path:debugify.env.server/debugify.basic/mc-94054": true,
+		"path:debugify.env.server/debugify.basic/mc-183990": true,
+		"path:debugify.env.server/debugify.basic/mc-227008": true,
+		"path:debugify.env.client/debugify.basic/mc-59810": false,
+		"path:debugify.env.server/debugify.basic/mc-176806": true,
+		"path:debugify.env.server/debugify.gameplay/mc-8187": true,
+		"path:debugify.env.client/debugify.basic/mc-176559": true,
+		"path:debugify.env.server/debugify.basic/mc-139041": true,
+		"path:debugify.env.server/debugify.basic/mc-231743": true,
+		"path:debugify.env.server/debugify.basic/mc-131562": true,
+		"path:debugify.env.server/debugify.basic/mc-134110": true,
+		"path:debugify.env.client/debugify.basic/mc-280220": true,
+		"path:debugify.env.server/debugify.basic/mc-82263": true,
+		"path:debugify.env.server/debugify.basic/mc-153010": true,
+		"path:debugify.env.server/debugify.gameplay/debugify.gameplay.enable_in_multiplayer": false,
+		"path:debugify.env.server/debugify.basic/mc-170462": true,
+		"path:debugify.env.client/debugify.basic/mc-122627": true,
+		"path:debugify.env.client/debugify.basic/mc-298225": true,
+		"path:debugify.env.server/debugify.basic/mc-158900": true,
+		"path:debugify.env.server/debugify.basic/mc-298066": true,
+		"path:debugify.env.server/debugify.basic/mc-206922": true,
+		"path:debugify.env.client/debugify.gameplay/debugify.gameplay.enable_in_multiplayer": false,
+		"path:debugify.env.server/debugify.basic/mc-30391": true
+	}
+}

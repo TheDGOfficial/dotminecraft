@@ -1,0 +1,88 @@
+{
+  "drafts": {
+    "diana": {
+      "partyType": "diana",
+      "subType": "",
+      "partySize": 6,
+      "note": "",
+      "reqs": {
+        "sbLevel": "488",
+        "tracking": "48",
+        "griffin": "\"MYTHIC\"",
+        "bloodshotBelt": "true",
+        "looting5Blade": "true",
+        "dianaItems": "{\"match\":\"all\",\"picks\":[\"FIRE_FREEZE_STAFF\",\"DEIFIC_SPADE\"]}",
+        "dianaKills": "15000",
+        "magicalPower": "1500",
+        "bph": "500"
+      },
+      "options": {},
+      "wantedRoles": []
+    },
+    "fishing/water": {
+      "partyType": "fishing",
+      "subType": "water",
+      "partySize": 6,
+      "note": "",
+      "reqs": {},
+      "options": {},
+      "wantedRoles": []
+    },
+    "mining/mineshaft": {
+      "partyType": "mining",
+      "subType": "mineshaft",
+      "partySize": 4,
+      "note": "",
+      "reqs": {},
+      "options": {},
+      "wantedRoles": []
+    },
+    "custom": {
+      "partyType": "custom",
+      "subType": "",
+      "partySize": 6,
+      "note": "",
+      "reqs": {},
+      "options": {},
+      "wantedRoles": []
+    },
+    "slayer/revenant": {
+      "partyType": "slayer",
+      "subType": "revenant",
+      "partySize": 4,
+      "note": "",
+      "reqs": {},
+      "options": {},
+      "wantedRoles": []
+    },
+    "safari": {
+      "partyType": "safari",
+      "subType": "",
+      "partySize": 4,
+      "note": "",
+      "reqs": {},
+      "options": {},
+      "wantedRoles": []
+    },
+    "rift/bacte": {
+      "partyType": "rift",
+      "subType": "bacte",
+      "partySize": 6,
+      "note": "",
+      "reqs": {},
+      "options": {},
+      "wantedRoles": []
+    }
+  },
+  "favorites": [],
+  "startWithFavorites": false,
+  "favoritesOnlyOnce": false,
+  "autoRefreshSeconds": 30,
+  "font": "inter",
+  "recombobulated": false,
+  "listFilters": {},
+  "autoInvite": true,
+  "autoRequeue": true,
+  "blockedPlayers": [],
+  "viewerFavorites": []
+}

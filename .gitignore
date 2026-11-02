@@ -6,6 +6,9 @@ realms_persistence.json
 downloads
 .fabric
 
+# Confidental information
+.sbo/sbo-auth.json
+
 # Possibly confidental information
 command_history.txt
 logs

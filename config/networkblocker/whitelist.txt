@@ -20,3 +20,5 @@ lb.odtheking.com
 ws.odtheking.com
 #devs.odtheking.com
 pastebin.com
+hypixel.odtheking.com
+mowojang.seraph.si

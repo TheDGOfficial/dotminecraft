@@ -220,5 +220,24 @@
         "DOUBLE_PLANT": 3
       }
     }
+  ],
+  "BACHELOR_ROSE": [
+    {
+      "quantity": 1,
+      "items": {
+        "COMPACTED_WILD_ROSE": 8,
+        "RED_ROSE": 64
+      }
+    }
+  ],
+  "MANTICORE_CLAW": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_ANCIENT_CLAW": 320,
+        "MANTI_CORE": 1,
+        "ENCHANTED_GOLD_BLOCK": 64
+      }
+    }
   ]
 }
