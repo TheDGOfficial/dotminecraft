@@ -69,7 +69,7 @@
     "42": 2,
     "61": 1,
     "13": 7,
-    "87": 4,
+    "87": 5,
     "3": 1,
     "119": 1,
     "120": 1,
@@ -92,8 +92,6 @@
     "109": 1,
     "77": 1
   },
-  "currentEventAchievements": {
-    "107": true
-  },
-  "lastEventYear": 523
+  "currentEventAchievements": {},
+  "lastEventYear": 525
 }

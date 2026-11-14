@@ -1,7 +1,11 @@
-# Add additional domains to whitelist in this file, one per line
-# Lines starting with # will be ignored.
-#
-# Example:
+# Add additional domains/mods to the whitelist in this file, one per line
+# Lines starting with # are ignored. (use them as comments!)
+# Lines starting with = are treated as modid's.
+# Other lines are treated as domain names.
+# The following default allows connection by any mod to *.minecraft.net, as well as any connection made by vanilla game.
+
+minecraft.net
+=minecraft
 github.com
 api.github.com
 raw.githubusercontent.com
@@ -21,4 +25,5 @@ ws.odtheking.com
 #devs.odtheking.com
 pastebin.com
 hypixel.odtheking.com
-mowojang.seraph.si
+mowojang.matdoes.dev
+api.minecraftservices.com

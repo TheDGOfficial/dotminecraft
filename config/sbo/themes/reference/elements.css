@@ -1,0 +1,754 @@
+/* REFERENCE ONLY, NOT LOADED. A copy of SBO's own CSS (/assets/guilib/css/ua.css), rewritten by SBO so changes here are lost.
+   Copy the rules you want to change into user.css or your own .css theme one folder up. See README.txt here. */
+/*
+ * GuiLib user-agent stylesheet: default styles for every element, like a browser's built-in stylesheet.
+ * Author stylesheets override these (they have a lower cascade priority than any mod stylesheet).
+ */
+
+/*
+ * Theme: every color in this file comes from one of these variables. Override them on :root (= body) to restyle all
+ * built-in controls at once, or on any element to restyle just that subtree.
+ */
+body {
+    /* text */
+    --guilib-text: #f2f3f5;                         /* default text, buttons, inputs */
+    --guilib-text-strong: #ffffff;                  /* selected tabs, segments, chips */
+    --guilib-text-secondary: #dbdee1;               /* toast messages */
+    --guilib-text-muted: #b5bac1;                   /* inactive tabs/segments/chips, slider value, select arrow */
+    --guilib-text-subtle: #80848e;                  /* placeholders, menu shortcuts/headers, empty hints */
+    --guilib-link: #6cb6ff;
+    /* accent */
+    --guilib-accent: #5b8def;                       /* sliders, switches, tabs, focus borders, selected states */
+    --guilib-accent-soft: rgba(91, 141, 239, 0.25); /* selected chip background */
+    --guilib-on-accent: #ffffff;                    /* text and check marks on an accent background */
+    --guilib-on-accent-muted: #e3e5e8;              /* menu shortcut of the highlighted item */
+    --guilib-selection: rgba(91, 141, 239, 0.45);   /* text selection in inputs */
+    /* surfaces */
+    --guilib-surface: #2b2d31;                      /* select menu, modal, color picker, number input buttons */
+    --guilib-surface-2: #1e1f22;                    /* inputs, select, radio, segmented, chips */
+    --guilib-surface-3: #111214;                    /* tooltips, toasts, menus */
+    --guilib-highlight: #3f4248;                    /* highlighted select option */
+    --guilib-tint: rgba(255, 255, 255, 0.06);       /* hover/focus tint on tabs, segments, details */
+    --guilib-tint-strong: rgba(255, 255, 255, 0.08);/* focused segment */
+    --guilib-shade: rgba(0, 0, 0, 0.15);            /* details background */
+    --guilib-backdrop: rgba(0, 0, 0, 0.55);         /* modal backdrop */
+    /* borders */
+    --guilib-border: #4e5058;                       /* inputs, select, menus, modal, chips, radio */
+    --guilib-border-hover: #6d6f78;                 /* hovered input, select, number input */
+    --guilib-border-strong: #80848e;                /* hovered switch, radio, chip */
+    --guilib-border-subtle: #3f4147;                /* tooltips, toasts, menus, tab underline, details, separators */
+    --guilib-divider: rgba(255, 255, 255, 0.15);    /* hr */
+    --guilib-focus: #ffffff;                        /* focus border of switch, radio, chip, slider */
+    /* buttons */
+    --guilib-button: #3c3f45;
+    --guilib-button-hover: #4a4e55;
+    --guilib-button-active: #2f3236;
+    --guilib-button-border: #55595f;
+    /* switch / slider / radio */
+    --guilib-track: #4e5058;
+    --guilib-track-border: #5d6068;
+    --guilib-thumb: #ffffff;                        /* switch/slider thumb, checked radio dot */
+    /* status */
+    --guilib-success: #3ba55d;
+    --guilib-warning: #faa61a;
+    --guilib-danger: #ed4245;                       /* error toast, highlighted danger menu item */
+    --guilib-danger-text: #f47b7d;                  /* danger menu item */
+    /* misc */
+    --guilib-scrollbar-thumb: #ffffff80;
+    --guilib-scrollbar-track: #00000020;
+    --guilib-picker-handle: #ffffff;                /* color picker handles */
+    --guilib-swatch-border: #ffffff55;              /* color input swatch */
+
+    display: block;
+    font-family: inter, minecraft;
+    font-size: 8px;
+    color: var(--guilib-text);
+    scrollbar-color: var(--guilib-scrollbar-thumb) var(--guilib-scrollbar-track);
+}
+
+div, p, section, header, footer, nav, main, aside, article,
+ul, ol, li, h1, h2, h3, h4, pre, hr, scroll, form {
+    display: block;
+}
+
+span, a, strong, b, em, i, small, sub, sup, code, label {
+    display: inline;
+}
+
+/* Tables (like a browser's, at GuiLib's half-size px: 1px spacing and cell padding). */
+table { display: table; border-spacing: 1px; }
+caption { display: table-caption; text-align: center; }
+colgroup { display: table-column-group; }
+col { display: table-column; }
+thead { display: table-header-group; vertical-align: middle; }
+tbody { display: table-row-group; vertical-align: middle; }
+tfoot { display: table-footer-group; vertical-align: middle; }
+tr { display: table-row; vertical-align: inherit; }
+table > tr { vertical-align: middle; } /* browsers wrap these in a tbody */
+td, th { display: table-cell; vertical-align: inherit; padding: 1px; }
+th { font-weight: bold; text-align: center; }
+
+p { margin: 0 0 0.5em 0; }
+h1 { font-size: 2em; font-weight: bold; margin: 0 0 0.3em 0; }
+h2 { font-size: 1.5em; font-weight: bold; margin: 0 0 0.3em 0; }
+h3 { font-size: 1.25em; font-weight: bold; margin: 0 0 0.25em 0; }
+h4 { font-size: 1em; font-weight: bold; margin: 0 0 0.25em 0; }
+
+strong, b { font-weight: bold; }
+em, i { font-style: italic; }
+small { font-size: 0.85em; }
+sub { vertical-align: sub; font-size: 0.75em; }
+sup { vertical-align: super; font-size: 0.75em; }
+code, pre { font-family: minecraft; }
+pre { white-space: pre; }
+
+a { color: var(--guilib-link); cursor: pointer; }
+.guilib-text-link { cursor: pointer; }
+a:hover { text-decoration: underline; }
+
+hr {
+    height: 0;
+    margin: 4px 0;
+    border-top: 1px solid var(--guilib-divider);
+}
+
+scroll { overflow: auto; }
+/* Opt-in: the scrollbar fades out 600 ms after scrolling stops and comes back while scrolling or hovering.
+   Colors come from --guilib-scrollbar-thumb / --guilib-scrollbar-track (a scrollbar-color of your own would win
+   over these rules and keep the scrollbar visible). */
+.guilib-autohide { scrollbar-color: transparent transparent; transition: scrollbar-color 300ms ease 600ms; }
+.guilib-autohide:scrolling, .guilib-autohide:hover {
+    scrollbar-color: var(--guilib-scrollbar-thumb) var(--guilib-scrollbar-track);
+    transition: scrollbar-color 120ms;
+}
+
+button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 3px 8px;
+    background-color: var(--guilib-button);
+    border: 1px solid var(--guilib-button-border);
+    border-radius: 3px;
+    color: var(--guilib-text);
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+}
+button:hover { background-color: var(--guilib-button-hover); }
+button:active { background-color: var(--guilib-button-active); }
+button:focus { border-color: var(--guilib-accent); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+item { width: 16px; height: 16px; }
+player-head { width: 16px; height: 16px; }
+
+/* ---- overlay layer (portals: menus, tooltips, modals) ---- */
+#guilib-overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2147483647;
+    pointer-events: none;
+}
+.guilib-portal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+.guilib-portal > * { pointer-events: auto; }
+
+/* ---- input ---- */
+input {
+    display: inline-block;
+    position: relative;
+    min-width: 80px;
+    padding: 3px 4px;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 3px;
+    color: var(--guilib-text);
+    cursor: text;
+    overflow: hidden;
+    white-space: pre;
+}
+input:hover { border-color: var(--guilib-border-hover); }
+input:focus { border-color: var(--guilib-accent); }
+input:disabled { opacity: 0.5; cursor: not-allowed; }
+/* ---- textarea ---- */
+textarea {
+    display: block;
+    position: relative;
+    min-width: 80px;
+    padding: 3px 4px;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 3px;
+    color: var(--guilib-text);
+    cursor: text;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+textarea:hover { border-color: var(--guilib-border-hover); }
+textarea:focus { border-color: var(--guilib-accent); }
+textarea:disabled { opacity: 0.5; cursor: not-allowed; }
+.guilib-textarea-line { white-space: pre; }
+.guilib-placeholder { color: var(--guilib-text-subtle); }
+.guilib-caret { position: absolute; width: 1px; background-color: currentColor; visibility: hidden; }
+.guilib-selection { position: absolute; display: none; background-color: var(--guilib-selection); }
+
+/* ---- checkbox ---- */
+input[type=checkbox] {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 0;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    overflow: visible;
+    white-space: normal;
+}
+input[type=checkbox]:checked { background-color: var(--guilib-control-accent, var(--guilib-accent)); border-color: var(--guilib-control-accent, var(--guilib-accent)); }
+.guilib-check { font-size: 8px; line-height: 1; font-weight: bold; color: var(--guilib-on-accent); visibility: hidden; }
+input:checked > .guilib-check { visibility: visible; }
+.guilib-checkbox { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; }
+
+/* ---- switch ---- */
+.guilib-switch {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+.guilib-switch-track {
+    display: block;
+    position: relative;
+    flex-shrink: 0;
+    width: 20px;
+    height: 11px;
+    background-color: var(--guilib-track);
+    border: 1px solid var(--guilib-track-border);
+    border-radius: 6px;
+    transition: background-color 150ms ease, border-color 150ms ease;
+}
+.guilib-switch-thumb {
+    display: block;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    width: 7px;
+    height: 7px;
+    background-color: var(--guilib-thumb);
+    border-radius: 50%;
+    transition: transform 150ms ease-out;
+}
+.guilib-switch:hover .guilib-switch-track { border-color: var(--guilib-border-strong); }
+.guilib-switch.checked .guilib-switch-track { background-color: var(--guilib-control-accent, var(--guilib-accent)); border-color: var(--guilib-control-accent, var(--guilib-accent)); }
+.guilib-switch.checked .guilib-switch-thumb { transform: translateX(9px); }
+.guilib-switch:focus .guilib-switch-track { border-color: var(--guilib-focus); }
+.guilib-switch:disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---- slider ---- */
+.guilib-slider {
+    display: inline-block;
+    position: relative;
+    flex-shrink: 0;
+    width: 100px;
+    height: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.guilib-slider-track {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 3px;
+    height: 4px;
+    background-color: var(--guilib-track);
+    border-radius: 2px;
+}
+/* The thumb's center travels along the rail, inset by half the thumb width so the thumb stays inside. */
+.guilib-slider-rail { position: absolute; left: 5px; right: 5px; top: 0; bottom: 0; pointer-events: none; }
+.guilib-slider-fill {
+    position: absolute;
+    left: -5px;
+    top: 3px;
+    height: 4px;
+    background-color: var(--guilib-control-accent, var(--guilib-accent));
+    border-radius: 2px;
+}
+.guilib-slider-thumb {
+    position: absolute;
+    top: 0;
+    width: 10px;
+    height: 10px;
+    margin-left: -5px;
+    background-color: var(--guilib-thumb);
+    border: 2px solid var(--guilib-control-accent, var(--guilib-accent));
+    border-radius: 50%;
+    transition: transform 100ms ease-out;
+}
+.guilib-slider:hover .guilib-slider-thumb, .guilib-slider.dragging .guilib-slider-thumb { transform: scale(1.2); }
+.guilib-slider:focus .guilib-slider-thumb { border-color: var(--guilib-focus); background-color: var(--guilib-control-accent, var(--guilib-accent)); }
+.guilib-slider:disabled { opacity: 0.5; cursor: not-allowed; }
+.guilib-slider:disabled .guilib-slider-thumb { transform: none; }
+.guilib-slider-field { display: inline-flex; align-items: center; gap: 6px; }
+.guilib-slider-value { min-width: 18px; color: var(--guilib-text-muted); white-space: nowrap; }
+.guilib-slider-field.disabled .guilib-slider-value { opacity: 0.5; }
+
+/* ---- select ---- */
+select {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    min-width: 70px;
+    padding: 3px 5px;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 3px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+select:hover { border-color: var(--guilib-border-hover); }
+select:focus, select[open] { border-color: var(--guilib-accent); }
+select:disabled { opacity: 0.5; cursor: not-allowed; }
+.guilib-select-arrow { color: var(--guilib-text-muted); }
+.guilib-select-menu {
+    padding: 2px;
+    background-color: var(--guilib-surface);
+    border: 1px solid var(--guilib-border);
+    border-radius: 3px;
+    max-height: 50vh;
+    overflow: auto;
+}
+.guilib-option { padding: 3px 6px; border-radius: 2px; cursor: pointer; white-space: nowrap; }
+.guilib-option.highlighted { background-color: var(--guilib-highlight); }
+.guilib-option.selected { color: var(--guilib-accent); font-weight: 600; }
+.guilib-option.disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---- tooltip ---- */
+.guilib-tooltip-anchor { display: inline-block; }
+.guilib-tooltip {
+    max-width: 200px;
+    padding: 3px 6px;
+    background-color: var(--guilib-surface-3);
+    border: 1px solid var(--guilib-border-subtle);
+    border-radius: 3px;
+    color: var(--guilib-text);
+    font-size: 7px;
+    pointer-events: none;
+}
+
+/* ---- modal ---- */
+.guilib-modal-backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--guilib-backdrop);
+}
+.guilib-modal {
+    min-width: 140px;
+    max-width: 80vw;
+    max-height: 80vh;
+    overflow: auto;
+    padding: 10px;
+    background-color: var(--guilib-surface);
+    border: 1px solid var(--guilib-border);
+    border-radius: 6px;
+}
+
+/* ---- color picker ---- */
+.guilib-color-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 130px;
+    padding: 6px;
+    background-color: var(--guilib-surface);
+    border: 1px solid var(--guilib-border);
+    border-radius: 4px;
+}
+.guilib-cp-sv { position: relative; height: 80px; border-radius: 3px; cursor: crosshair; }
+.guilib-cp-hue, .guilib-cp-alpha { position: relative; height: 8px; border-radius: 4px; cursor: pointer; }
+.guilib-cp-alpha { background-color: var(--guilib-surface-2); }
+.guilib-cp-handle {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    margin-left: -4px;
+    margin-top: -4px;
+    border: 1px solid var(--guilib-picker-handle);
+    border-radius: 50%;
+    pointer-events: none;
+}
+.guilib-cp-thumb {
+    position: absolute;
+    top: -1px;
+    width: 6px;
+    height: 10px;
+    margin-left: -3px;
+    border: 1px solid var(--guilib-picker-handle);
+    border-radius: 2px;
+    pointer-events: none;
+}
+.guilib-cp-row { display: flex; align-items: center; gap: 5px; }
+.guilib-cp-preview { width: 16px; height: 16px; border: 1px solid var(--guilib-border); border-radius: 3px; flex-shrink: 0; }
+.guilib-cp-hex { flex-grow: 1; min-width: 0; font-family: minecraft; }
+
+.guilib-color-input { gap: 5px; padding: 2px 6px 2px 3px; }
+.guilib-color-swatch { display: inline-block; width: 12px; height: 12px; border: 1px solid var(--guilib-swatch-border); border-radius: 2px; }
+.guilib-color-hex { font-family: minecraft; }
+.guilib-color-popover { pointer-events: auto; }
+
+/* ---- sortable list ---- */
+.guilib-sortable { display: flex; flex-direction: column; }
+.guilib-sortable.horizontal { flex-direction: row; }
+.guilib-sortable-item { cursor: grab; }
+.guilib-sortable.sorting .guilib-sortable-item { transition: transform 120ms ease-out; }
+.guilib-sortable.sorting .guilib-sortable-item.dragging { transition: none; position: relative; z-index: 10; }
+.guilib-sortable.handle .guilib-sortable-item { cursor: default; }
+.guilib-sortable-item:focus-visible { box-shadow: 0 0 0 1px var(--guilib-accent); border-radius: 2px; }
+.guilib-sortable-item.dragging.away { visibility: hidden; }
+.guilib-sortable-item.leaving { pointer-events: none; cursor: default; }
+.guilib-sortable-ghost { opacity: 0.9; cursor: grabbing; }
+.guilib-drag-handle { cursor: grab; }
+.guilib-sortable-item:active, .guilib-drag-handle:active { cursor: grabbing; }
+.guilib-sortable.sorting .guilib-sortable-item.dragging, .guilib-sortable.sorting .dragging .guilib-drag-handle { cursor: grabbing; }
+
+/* ---- radio group ---- */
+.guilib-radio-group { display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.guilib-radio-group.vertical { flex-direction: column; }
+.guilib-radio { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; user-select: none; }
+.guilib-radio-dot {
+    display: block;
+    flex-shrink: 0;
+    width: 10px;
+    height: 10px;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 50%;
+    transition: border-color 120ms ease, border-width 120ms ease;
+}
+.guilib-radio:hover .guilib-radio-dot { border-color: var(--guilib-border-strong); }
+.guilib-radio.checked .guilib-radio-dot { border: 3px solid var(--guilib-control-accent, var(--guilib-accent)); background-color: var(--guilib-thumb); }
+.guilib-radio:focus .guilib-radio-dot { border-color: var(--guilib-focus); }
+.guilib-radio.checked:focus .guilib-radio-dot { border-color: var(--guilib-control-accent, var(--guilib-accent)); background-color: var(--guilib-thumb); }
+.guilib-radio.disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---- segmented buttons ---- */
+.guilib-segmented {
+    display: inline-flex;
+    position: relative;
+    padding: 2px;
+    gap: 2px;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 4px;
+    user-select: none;
+}
+.guilib-segmented.vertical { flex-direction: column; }
+.guilib-segment-indicator {
+    position: absolute;
+    background-color: var(--guilib-control-accent, var(--guilib-accent));
+    border-radius: 3px;
+    transition: left 160ms ease-out, top 160ms ease-out, width 160ms ease-out, height 160ms ease-out;
+}
+.guilib-segment {
+    position: relative;
+    padding: 2px 8px;
+    border-radius: 3px;
+    color: var(--guilib-text-muted);
+    cursor: pointer;
+    white-space: nowrap;
+    text-align: center;
+    transition: color 120ms ease;
+}
+.guilib-segment:hover { color: var(--guilib-text); background-color: var(--guilib-tint); }
+.guilib-segment.selected { color: var(--guilib-text-strong); background-color: transparent; }
+.guilib-segment:focus { background-color: var(--guilib-tint-strong); }
+.guilib-segment.selected:focus { background-color: transparent; }
+.guilib-segment.disabled { opacity: 0.4; cursor: not-allowed; }
+.guilib-segmented.disabled { opacity: 0.5; }
+
+/* ---- chips ---- */
+.guilib-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+.guilib-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 7px;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 8px;
+    color: var(--guilib-text-muted);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: background-color 120ms ease, border-color 120ms ease, color 120ms ease;
+}
+.guilib-chip:hover { border-color: var(--guilib-border-strong); color: var(--guilib-text); }
+.guilib-chip:focus { border-color: var(--guilib-focus); }
+.guilib-chip.selected { background-color: var(--guilib-control-accent-soft, var(--guilib-accent-soft)); border-color: var(--guilib-control-accent, var(--guilib-accent)); color: var(--guilib-text-strong); }
+.guilib-chip-check { display: none; font-weight: bold; color: var(--guilib-control-accent, var(--guilib-accent)); }
+.guilib-chip.selected .guilib-chip-check { display: inline; }
+.guilib-chip.disabled { opacity: 0.5; cursor: not-allowed; }
+
+/* ---- tabs ---- */
+.guilib-tabs { display: flex; flex-direction: column; }
+.guilib-tab-list { display: flex; position: relative; overflow-x: auto; overflow-y: hidden; user-select: none; }
+.guilib-tabs.underline > .guilib-tab-list { border-bottom: 1px solid var(--guilib-border-subtle); }
+.guilib-tab {
+    position: relative;
+    padding: 4px 8px;
+    color: var(--guilib-text-muted);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: color 120ms ease;
+}
+.guilib-tab:hover { color: var(--guilib-text); }
+.guilib-tab.active { color: var(--guilib-text-strong); }
+.guilib-tab:focus { background-color: var(--guilib-tint); }
+.guilib-tab.disabled { opacity: 0.4; cursor: not-allowed; }
+.guilib-tab-indicator {
+    position: absolute;
+    background-color: var(--guilib-control-accent, var(--guilib-accent));
+    transition: left 180ms ease-out, top 180ms ease-out, width 180ms ease-out, height 180ms ease-out;
+}
+.guilib-tabs.underline .guilib-tab-indicator { bottom: 0; height: 2px; border-radius: 1px; }
+.guilib-tabs.pills > .guilib-tab-list { gap: 2px; }
+.guilib-tabs.pills .guilib-tab { padding: 2px 8px; border-radius: 8px; }
+.guilib-tabs.pills .guilib-tab-indicator { border-radius: 8px; }
+.guilib-tab-panel { padding-top: 6px; }
+
+/* ---- collapse / details (accordion) ---- */
+.guilib-collapse { overflow: hidden; }
+/* A flex column doesn't let the children's margins escape, so its height is the full content height. */
+.guilib-collapse-inner { display: flex; flex-direction: column; }
+.guilib-details { border: 1px solid var(--guilib-border-subtle); border-radius: 4px; background-color: var(--guilib-shade); }
+.guilib-details + .guilib-details { margin-top: 3px; }
+.guilib-details-summary {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+}
+.guilib-details-summary:hover { background-color: var(--guilib-tint); }
+.guilib-details-summary:focus { background-color: var(--guilib-tint); }
+.guilib-details-title { flex-grow: 1; min-width: 0; }
+/* A chevron drawn from two borders of a small rotated square: points right, turns down when open. */
+.guilib-details-chevron {
+    display: inline-block;
+    flex-shrink: 0;
+    width: 4px;
+    height: 4px;
+    margin: 0 2px 0 1px;
+    border-right: 1px solid var(--guilib-text-muted);
+    border-bottom: 1px solid var(--guilib-text-muted);
+    transform: rotate(-45deg);
+    transition: transform 200ms ease;
+}
+.guilib-details.open .guilib-details-chevron { transform: rotate(45deg); }
+.guilib-details-content { padding: 2px 8px 6px 8px; }
+.guilib-details.disabled { opacity: 0.5; }
+.guilib-details.disabled .guilib-details-summary { cursor: not-allowed; }
+
+/* ---- toasts ---- */
+.guilib-toasts {
+    position: fixed;
+    right: 8px;
+    bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 4px;
+    pointer-events: none;
+}
+.guilib-toast {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    min-width: 110px;
+    max-width: 200px;
+    padding: 5px 7px;
+    background-color: var(--guilib-surface-3);
+    border: 1px solid var(--guilib-border-subtle);
+    border-radius: 4px;
+    pointer-events: auto;
+    cursor: pointer;
+    animation: guilib-toast-in 180ms ease-out;
+}
+.guilib-toast { align-items: stretch; }
+.guilib-toast-accent { flex-shrink: 0; width: 3px; margin-right: -2px; border-radius: 2px; background-color: var(--guilib-accent); }
+.guilib-toast.success .guilib-toast-accent { background-color: var(--guilib-success); }
+.guilib-toast.warning .guilib-toast-accent { background-color: var(--guilib-warning); }
+.guilib-toast.error .guilib-toast-accent { background-color: var(--guilib-danger); }
+.guilib-toast.leaving { animation: guilib-toast-out 180ms ease-in; opacity: 0; }
+.guilib-toast-body { flex-grow: 1; min-width: 0; }
+.guilib-toast-title { font-weight: bold; margin-bottom: 1px; }
+.guilib-toast-message { color: var(--guilib-text-secondary); }
+.guilib-toast-action { margin-top: 3px; padding: 1px 6px; font-size: 7px; }
+.guilib-toast-close { color: var(--guilib-text-subtle); }
+.guilib-toast:hover .guilib-toast-close { color: var(--guilib-text); }
+@keyframes guilib-toast-in { from { opacity: 0; transform: translateX(24px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes guilib-toast-out { from { opacity: 1; transform: translateX(0); } to { opacity: 0; transform: translateX(24px); } }
+
+/* ---- menu / context menu ---- */
+.guilib-context-anchor { display: block; }
+.guilib-menu {
+    position: fixed;
+    min-width: 90px;
+    padding: 2px;
+    background-color: var(--guilib-surface-3);
+    border: 1px solid var(--guilib-border-subtle);
+    border-radius: 4px;
+    animation: guilib-menu-in 90ms ease-out;
+}
+.guilib-menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 3px 6px;
+    border-radius: 2px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.guilib-menu-item.highlighted { background-color: var(--guilib-accent); color: var(--guilib-on-accent); }
+.guilib-menu-item.danger { color: var(--guilib-danger-text); }
+.guilib-menu-item.danger.highlighted { background-color: var(--guilib-danger); color: var(--guilib-on-accent); }
+.guilib-menu-item.disabled { opacity: 0.45; cursor: not-allowed; }
+.guilib-menu-shortcut { color: var(--guilib-text-subtle); font-size: 7px; }
+.guilib-menu-item.highlighted .guilib-menu-shortcut { color: var(--guilib-on-accent-muted); }
+.guilib-menu-header { padding: 3px 6px 2px 6px; color: var(--guilib-text-subtle); font-size: 7px; font-weight: bold; white-space: nowrap; }
+.guilib-menu-separator { height: 1px; margin: 2px 4px; background-color: var(--guilib-border-subtle); }
+@keyframes guilib-menu-in { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: scale(1); } }
+
+/* ---- range slider ---- */
+.guilib-range-slider .guilib-slider-fill { left: 0; }
+.guilib-range-slider .guilib-slider-thumb.active { z-index: 1; }
+.guilib-range-slider:focus .guilib-slider-thumb { border-color: var(--guilib-control-accent, var(--guilib-accent)); background-color: var(--guilib-thumb); }
+.guilib-slider-thumb:focus { border-color: var(--guilib-focus); background-color: var(--guilib-control-accent, var(--guilib-accent)); z-index: 1; }
+
+/* ---- number input ---- */
+.guilib-number {
+    display: inline-flex;
+    align-items: stretch;
+    background-color: var(--guilib-surface-2);
+    border: 1px solid var(--guilib-border);
+    border-radius: 3px;
+}
+.guilib-number:hover { border-color: var(--guilib-border-hover); }
+.guilib-number:focus-within { border-color: var(--guilib-accent); }
+.guilib-number-input { flex-grow: 1; min-width: 20px; width: 30px; border: none; border-radius: 0; background-color: transparent; }
+.guilib-number-dec, .guilib-number-inc {
+    flex-shrink: 0;
+    width: 13px;
+    padding: 0;
+    background-color: var(--guilib-surface);
+    border: none;
+    border-radius: 0;
+    color: var(--guilib-text-muted);
+    font-weight: bold;
+}
+.guilib-number-dec { border-right: 1px solid var(--guilib-border); border-radius: 2px 0 0 2px; }
+.guilib-number-inc { border-left: 1px solid var(--guilib-border); border-radius: 0 2px 2px 0; }
+.guilib-number-dec:hover, .guilib-number-inc:hover { background-color: var(--guilib-button); color: var(--guilib-text-strong); }
+.guilib-number-dec:active, .guilib-number-inc:active { background-color: var(--guilib-accent); color: var(--guilib-on-accent); }
+.guilib-number-dec:disabled, .guilib-number-inc:disabled { opacity: 0.35; }
+.guilib-number.disabled { opacity: 0.5; }
+
+/* ---- select: search & multiple ---- */
+select.multiple .guilib-select-value { max-width: 140px; overflow: hidden; text-overflow: ellipsis; }
+.guilib-select-search { display: block; width: auto; min-width: 0; margin: 1px 1px 3px 1px; }
+.guilib-select-empty { padding: 3px 6px; color: var(--guilib-text-subtle); font-style: italic; }
+.guilib-option-check {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 9px;
+    height: 9px;
+    margin-right: 4px;
+    border: 1px solid var(--guilib-border);
+    border-radius: 2px;
+    color: transparent;
+    font-size: 7px;
+    font-weight: bold;
+    line-height: 1;
+}
+.guilib-option.selected .guilib-option-check { background-color: var(--guilib-accent); border-color: var(--guilib-accent); color: var(--guilib-on-accent); }
+.guilib-select-menu.multiple .guilib-option.selected { color: var(--guilib-text); font-weight: normal; }
+
+/* GuiLibHud: the box around its content, shrink-to-fit from the top left so the content has its own size. */
+.guilib-hud { position: absolute; left: 0; top: 0; }
+
+/* Metrics overlay (Ctrl + F12 in any GuiLib screen, GuiLib.open(metrics = true)); resets what it inherits. */
+.guilib-metrics {
+    position: fixed; top: 6px; left: 6px; z-index: 1000; width: 150px; max-height: calc(100vh - 12px); overflow-y: auto;
+    padding: 4px 6px 6px; background-color: var(--guilib-surface-3); opacity: 0.95;
+    border: 1px solid var(--guilib-border-subtle); border-radius: 4px;
+    font-family: inter; font-size: 6px; font-weight: normal; font-style: normal; line-height: normal;
+    color: var(--guilib-text); text-align: left; letter-spacing: normal; text-transform: none; white-space: normal;
+}
+.guilib-metrics-head { display: flex; align-items: center; gap: 3px; margin: -4px -6px 2px; padding: 4px 6px 2px; cursor: move; }
+.guilib-metrics.dragging .guilib-metrics-head { cursor: move; }
+.guilib-metrics-head .guilib-metrics-btn { cursor: pointer; }
+.guilib-metrics-title { font-weight: bold; font-size: 7px; }
+.guilib-metrics-info {
+    width: 7px; height: 7px; margin-right: auto; line-height: 7px; text-align: center; flex-shrink: 0;
+    border: 1px solid var(--guilib-text-subtle); border-radius: 4px; color: var(--guilib-text-subtle);
+    font-size: 5px; font-weight: bold;
+}
+.guilib-metrics-btn { font-size: 6px; padding: 1px 3px; }
+.guilib-metrics-section { margin-top: 5px; margin-bottom: 1px; color: var(--guilib-accent); font-weight: bold; }
+.guilib-metrics-row { display: flex; justify-content: space-between; gap: 4px; line-height: 1.35; }
+.guilib-metrics-label { color: var(--guilib-text-muted); white-space: nowrap; }
+.guilib-metrics-value { white-space: nowrap; }
+.guilib-metrics-hint { color: var(--guilib-text-subtle); font-size: 5px; margin-top: 1px; }
+.guilib-metrics-graph {
+    display: flex; align-items: flex-end; height: 22px; margin-top: 2px;
+    background-color: var(--guilib-shade); border-radius: 2px; overflow: hidden;
+}
+.guilib-metrics-bar { flex: 1; min-width: 0; }
+.guilib-metrics-graph.frame .guilib-metrics-bar { background-color: var(--guilib-accent); }
+.guilib-metrics-graph.cpu .guilib-metrics-bar { background-color: var(--guilib-warning); }
+.guilib-metrics-graph.heap .guilib-metrics-bar { background-color: var(--guilib-success); }
+.guilib-metrics-graph.leak .guilib-metrics-bar { background-color: var(--guilib-danger); }
+
+/* CSS inspector (Ctrl + Shift + C in any GuiLib screen): frame around the element under the mouse and a box with its selectors. */
+.guilib-inspector-outline {
+    position: fixed; z-index: 1000; pointer-events: none;
+    border: 1px solid var(--guilib-accent); background-color: var(--guilib-accent-soft);
+}
+.guilib-inspector {
+    position: fixed; left: 6px; right: 6px; bottom: 6px; z-index: 1001; pointer-events: none; max-height: 45vh; overflow: hidden;
+    padding: 4px 6px; background-color: var(--guilib-surface-3); opacity: 0.95;
+    border: 1px solid var(--guilib-border-subtle); border-radius: 4px;
+    font-family: inter; font-size: 6px; font-weight: normal; font-style: normal; line-height: 1.35;
+    color: var(--guilib-text); text-align: left; letter-spacing: normal; text-transform: none; white-space: normal;
+}
+.guilib-inspector.top { top: 6px; bottom: auto; }
+.guilib-inspector-title { font-weight: bold; font-size: 7px; color: var(--guilib-accent); }
+.guilib-inspector-selector { font-weight: bold; color: var(--guilib-text); }
+.guilib-inspector-path { color: var(--guilib-text-muted); }
+.guilib-inspector-section { margin-top: 3px; font-weight: bold; color: var(--guilib-text-muted); }
+.guilib-inspector-rule { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.guilib-inspector-hint { margin-top: 2px; color: var(--guilib-text-subtle); font-size: 5px; }

@@ -42,7 +42,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 22,
@@ -62,7 +63,10 @@
         "King Minos Ls": 1,
         "Manticore Ls": 0,
         "Sphinx Ls": 9
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 458,
@@ -106,7 +110,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 3,
@@ -126,7 +131,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 458,
@@ -170,7 +178,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 2,
@@ -190,7 +199,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 459,
@@ -234,7 +246,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -254,7 +267,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 459,
@@ -298,7 +314,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 33,
@@ -318,7 +335,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 2
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 460,
@@ -362,7 +382,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -382,7 +403,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 460,
@@ -426,7 +450,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 24,
@@ -446,7 +471,10 @@
         "King Minos Ls": 1,
         "Manticore Ls": 1,
         "Sphinx Ls": 3
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 461,
@@ -490,7 +518,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 24,
@@ -510,7 +539,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 4
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 462,
@@ -554,7 +586,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -574,7 +607,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 462,
@@ -618,7 +654,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 24,
@@ -638,7 +675,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 466,
@@ -682,7 +722,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 8,
@@ -702,7 +743,10 @@
         "King Minos Ls": 3,
         "Manticore Ls": 5,
         "Sphinx Ls": 3
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 467,
@@ -746,7 +790,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 12,
@@ -766,7 +811,10 @@
         "King Minos Ls": 4,
         "Manticore Ls": 1,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 468,
@@ -810,7 +858,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 30,
@@ -830,7 +879,10 @@
         "King Minos Ls": 6,
         "Manticore Ls": 9,
         "Sphinx Ls": 18
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 471,
@@ -874,7 +926,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 22,
@@ -894,7 +947,10 @@
         "King Minos Ls": 3,
         "Manticore Ls": 2,
         "Sphinx Ls": 1
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 479,
@@ -938,7 +994,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -958,7 +1015,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 480,
@@ -1002,7 +1062,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -1022,7 +1083,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 480,
@@ -1066,7 +1130,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 12,
@@ -1086,7 +1151,10 @@
         "King Minos Ls": 7,
         "Manticore Ls": 6,
         "Sphinx Ls": 1
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 490,
@@ -1130,7 +1198,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 1,
@@ -1150,7 +1219,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 491,
@@ -1194,7 +1266,8 @@
         "MYTH_THE_FISH": 1,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 59,
@@ -1214,7 +1287,10 @@
         "King Minos Ls": 16,
         "Manticore Ls": 9,
         "Sphinx Ls": 29
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 492,
@@ -1258,7 +1334,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -1278,7 +1355,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 0,
@@ -1322,7 +1402,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 2,
@@ -1342,7 +1423,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 0,
@@ -1386,7 +1470,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -1406,7 +1491,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 0,
@@ -1450,7 +1538,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 29,
@@ -1470,7 +1559,10 @@
         "King Minos Ls": 86,
         "Manticore Ls": 56,
         "Sphinx Ls": 1
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 509,
@@ -1514,7 +1606,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 84,
@@ -1534,7 +1627,10 @@
         "King Minos Ls": 181,
         "Manticore Ls": 176,
         "Sphinx Ls": 2
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 509,
@@ -1578,7 +1674,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -1598,7 +1695,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 510,
@@ -1642,7 +1742,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 23,
@@ -1662,7 +1763,10 @@
         "King Minos Ls": 21,
         "Manticore Ls": 19,
         "Sphinx Ls": 4
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 511,
@@ -1706,7 +1810,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 1,
@@ -1726,7 +1831,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 512,
@@ -1770,7 +1878,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 19,
@@ -1790,7 +1899,10 @@
         "King Minos Ls": 0,
         "Manticore Ls": 0,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 516,
@@ -1834,7 +1946,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 0,
@@ -1854,7 +1967,10 @@
         "King Minos Ls": 1,
         "Manticore Ls": 2,
         "Sphinx Ls": 0
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 517,
@@ -1898,7 +2014,8 @@
         "MYTH_THE_FISH": 0,
         "CoA Coins": 0,
         "COA Start Coins": -1,
-        "CoA Time": -1
+        "CoA Time": -1,
+        "Shuriken": 0
       },
       "mobs": {
         "King Minos": 54,
@@ -1918,71 +2035,214 @@
         "King Minos Ls": 278,
         "Manticore Ls": 165,
         "Sphinx Ls": 3
-      }
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
     },
     {
       "year": 521,
       "items": {
-        "coins": 46733511,
-        "Griffin Feather": 1089,
-        "Mythos Fragment": 151,
-        "Crown of Greed": 1,
-        "Washed-up Souvenir": 33,
+        "coins": 71360114,
+        "Griffin Feather": 1609,
+        "Mythos Fragment": 207,
+        "Crown of Greed": 3,
+        "Washed-up Souvenir": 44,
         "Shimmering Wool": 1,
         "Shimmering Wool Ls": 0,
         "Manti-core": 0,
         "Manti-core Ls": 0,
-        "Chimera": 10,
-        "ChimeraLs": 2,
-        "Brain Food": 3,
+        "Chimera": 16,
+        "ChimeraLs": 3,
+        "Brain Food": 5,
+        "Brain Food LS": 0,
+        "Fateful Stinger": 1,
+        "Fateful Stinger Ls": 0,
+        "Braided Griffin Feather": 0,
+        "Daedalus Stick": 7,
+        "CRETAN_URN": 38,
+        "DWARF_TURTLE_SHELMET": 40,
+        "ANTIQUE_REMEDIES": 60,
+        "CROCHET_TIGER_PLUSHIE": 54,
+        "ENCHANTED_ANCIENT_CLAW": 1466,
+        "ANCIENT_CLAW": 155292,
+        "MINOS_RELIC": 1,
+        "ENCHANTED_GOLD": 77908,
+        "Hilt of Revelations": 248,
+        "Total Burrows": 10943,
+        "scavengerCoins": 4085874,
+        "fishCoins": 34900000,
+        "time": 59423111,
+        "KING_MINOS_SHARD": 68,
+        "SPHINX_SHARD": 442,
+        "MINOTAUR_SHARD": 51,
+        "CRETAN_BULL_SHARD": 76,
+        "HARPY_SHARD": 72,
+        "MYTHOLOGICAL_DYE": 0,
+        "MYTH_THE_FISH": 0,
+        "CoA Coins": 344379760,
+        "COA Start Coins": 656018075,
+        "CoA Time": -1,
+        "Shuriken": 0
+      },
+      "mobs": {
+        "King Minos": 27,
+        "Manticore": 33,
+        "Minos Inquisitor": 176,
+        "Sphinx": 191,
+        "Minos Champion": 528,
+        "Minotaur": 519,
+        "Gaia Construct": 755,
+        "Harpy": 781,
+        "Cretan Bull": 1001,
+        "Stranded Nymph": 1016,
+        "Siamese Lynxes": 1247,
+        "Minos Hunter": 1254,
+        "TotalMobs": 7528,
+        "Minos Inquisitor Ls": 243,
+        "King Minos Ls": 6,
+        "Manticore Ls": 4,
+        "Sphinx Ls": 3
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
+    },
+    {
+      "year": 523,
+      "items": {
+        "coins": 2545944,
+        "Griffin Feather": 61,
+        "Mythos Fragment": 6,
+        "Crown of Greed": 0,
+        "Washed-up Souvenir": 0,
+        "Shimmering Wool": 0,
+        "Shimmering Wool Ls": 0,
+        "Manti-core": 0,
+        "Manti-core Ls": 0,
+        "Chimera": 1,
+        "ChimeraLs": 0,
+        "Brain Food": 1,
         "Brain Food LS": 0,
         "Fateful Stinger": 0,
         "Fateful Stinger Ls": 0,
         "Braided Griffin Feather": 0,
-        "Daedalus Stick": 5,
-        "CRETAN_URN": 25,
-        "DWARF_TURTLE_SHELMET": 27,
-        "ANTIQUE_REMEDIES": 34,
-        "CROCHET_TIGER_PLUSHIE": 41,
-        "ENCHANTED_ANCIENT_CLAW": 951,
-        "ANCIENT_CLAW": 104938,
-        "MINOS_RELIC": 1,
-        "ENCHANTED_GOLD": 53663,
-        "Hilt of Revelations": 168,
-        "Total Burrows": 7444,
-        "scavengerCoins": 2321202,
-        "fishCoins": 21620000,
-        "time": 39990558,
-        "KING_MINOS_SHARD": 47,
-        "SPHINX_SHARD": 302,
-        "MINOTAUR_SHARD": 33,
-        "CRETAN_BULL_SHARD": 39,
-        "HARPY_SHARD": 55,
+        "Daedalus Stick": 0,
+        "CRETAN_URN": 0,
+        "DWARF_TURTLE_SHELMET": 3,
+        "ANTIQUE_REMEDIES": 1,
+        "CROCHET_TIGER_PLUSHIE": 2,
+        "ENCHANTED_ANCIENT_CLAW": 64,
+        "ANCIENT_CLAW": 3527,
+        "MINOS_RELIC": 0,
+        "ENCHANTED_GOLD": 3131,
+        "Hilt of Revelations": 7,
+        "Total Burrows": 356,
+        "scavengerCoins": 26092,
+        "fishCoins": 1336000,
+        "time": 1876410,
+        "KING_MINOS_SHARD": 7,
+        "SPHINX_SHARD": 22,
+        "MINOTAUR_SHARD": 0,
+        "CRETAN_BULL_SHARD": 3,
+        "HARPY_SHARD": 2,
         "MYTHOLOGICAL_DYE": 0,
         "MYTH_THE_FISH": 0,
-        "CoA Coins": 179749675,
-        "COA Start Coins": 491387990,
-        "CoA Time": 39990583
+        "CoA Coins": 18007295,
+        "COA Start Coins": 18007295,
+        "CoA Time": 1876433,
+        "Shuriken": 12
       },
       "mobs": {
-        "King Minos": 18,
-        "Manticore": 22,
-        "Minos Inquisitor": 129,
-        "Sphinx": 129,
-        "Minos Champion": 368,
-        "Minotaur": 352,
-        "Gaia Construct": 529,
-        "Harpy": 549,
-        "Cretan Bull": 660,
-        "Stranded Nymph": 698,
-        "Siamese Lynxes": 846,
-        "Minos Hunter": 814,
-        "TotalMobs": 5114,
-        "Minos Inquisitor Ls": 157,
-        "King Minos Ls": 3,
-        "Manticore Ls": 4,
-        "Sphinx Ls": 2
-      }
+        "King Minos": 3,
+        "Manticore": 1,
+        "Minos Inquisitor": 8,
+        "Sphinx": 9,
+        "Minos Champion": 15,
+        "Minotaur": 18,
+        "Gaia Construct": 23,
+        "Harpy": 20,
+        "Cretan Bull": 28,
+        "Stranded Nymph": 27,
+        "Siamese Lynxes": 45,
+        "Minos Hunter": 35,
+        "TotalMobs": 232,
+        "Minos Inquisitor Ls": 1,
+        "King Minos Ls": 0,
+        "Manticore Ls": 0,
+        "Sphinx Ls": 0
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 0
+    },
+    {
+      "year": 524,
+      "items": {
+        "coins": 965515,
+        "Griffin Feather": 16,
+        "Mythos Fragment": 3,
+        "Crown of Greed": 0,
+        "Washed-up Souvenir": 0,
+        "Shimmering Wool": 0,
+        "Shimmering Wool Ls": 0,
+        "Manti-core": 0,
+        "Manti-core Ls": 0,
+        "Chimera": 1,
+        "ChimeraLs": 0,
+        "Brain Food": 0,
+        "Brain Food LS": 0,
+        "Fateful Stinger": 0,
+        "Fateful Stinger Ls": 0,
+        "Braided Griffin Feather": 0,
+        "Daedalus Stick": 0,
+        "CRETAN_URN": 2,
+        "DWARF_TURTLE_SHELMET": 0,
+        "ANTIQUE_REMEDIES": 1,
+        "CROCHET_TIGER_PLUSHIE": 1,
+        "ENCHANTED_ANCIENT_CLAW": 18,
+        "ANCIENT_CLAW": 1493,
+        "MINOS_RELIC": 1,
+        "ENCHANTED_GOLD": 1311,
+        "Hilt of Revelations": 5,
+        "Total Burrows": 143,
+        "scavengerCoins": 126261,
+        "fishCoins": 538000,
+        "time": 752779,
+        "KING_MINOS_SHARD": 0,
+        "SPHINX_SHARD": 13,
+        "MINOTAUR_SHARD": 0,
+        "CRETAN_BULL_SHARD": 0,
+        "HARPY_SHARD": 0,
+        "MYTHOLOGICAL_DYE": 0,
+        "MYTH_THE_FISH": 0,
+        "CoA Coins": 0,
+        "COA Start Coins": -1,
+        "CoA Time": 752831,
+        "Shuriken": 5
+      },
+      "mobs": {
+        "King Minos": 0,
+        "Manticore": 0,
+        "Minos Inquisitor": 1,
+        "Sphinx": 6,
+        "Minos Champion": 11,
+        "Minotaur": 3,
+        "Gaia Construct": 10,
+        "Harpy": 10,
+        "Cretan Bull": 15,
+        "Stranded Nymph": 18,
+        "Siamese Lynxes": 12,
+        "Minos Hunter": 18,
+        "TotalMobs": 104,
+        "Minos Inquisitor Ls": 0,
+        "King Minos Ls": 0,
+        "Manticore Ls": 0,
+        "Sphinx Ls": 0
+      },
+      "edited": false,
+      "resetCount": 0,
+      "lastTrackedAt": 1794270244473
     }
   ]
 }

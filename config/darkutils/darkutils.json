@@ -72,6 +72,7 @@
   "noLightningBolts": true,
   "noWitherHearts": true,
   "noExplosionParticles": true,
+  "noShadowInTextRendering": true,
   "alwaysPrioritizeRenderThread": true,
   "optimizeExceptions": true,
   "alwaysUseNoErrorContext": true,

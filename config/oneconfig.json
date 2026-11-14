@@ -9,7 +9,7 @@
 	"hudSettingsKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
 	},
-	"uiSoundVolume": 1.0,
+	"uiSoundVolume": 100.0,
 	"enableUIClickSounds": true,
 	"oneConfigKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
@@ -51,17 +51,18 @@
 	"hudCutKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
 	},
+	"uiAmbienceVolume": 100.0,
 	"showPageAnimations": true,
-	"uiAmbienceVolume": 1.0,
 	"hudUndoKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
 	},
-	"hudDragUiOpacity": 0.6,
+	"hudDragUiOpacity": 60.000004,
 	"enableUISliderSounds": true,
 	"profileSwitchToast": true,
 	"hudVisibilityKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
 	},
+	"percentMigrated": true,
 	"pixelGrid": 0,
 	"enableUIAmbience": true,
 	"marqueeSelectionAnimDuration": 150.0,
@@ -78,8 +79,8 @@
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
 	},
 	"showFirstLaunchMessage": false,
-	"showOpeningPageAnimation": false,
 	"enableUIMenuSounds": true,
+	"showOpeningPageAnimation": false,
 	"hudPasteKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind"
 	},

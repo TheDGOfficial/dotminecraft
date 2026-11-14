@@ -1,5 +1,7 @@
 {
-	"activeTheme": "PolyGlass Dark",
+	"animationTime": 0.6,
+	"showPageAnimations": true,
+	"guiOpenAnimation": true,
 	"accentColor": {
 		"value": [
 			43, 
@@ -9,5 +11,22 @@
 		],
 		"class": "org.polyfrost.compose.render.PolyColor"
 	},
-	"animations": true
+	"polyfrostedRenameApplied": false,
+	"pixelGrid": 0,
+	"glassTint": 0,
+	"pageAnimationDuration": 0.3,
+	"soundTheme": 0,
+	"pageOpacity": 88.0,
+	"sidebarOpacity": 80.0,
+	"paletteAccents": "",
+	"uiScale": 100.0,
+	"reduceTransparency": false,
+	"showOpeningPageAnimation": false,
+	"enableBackgroundBlur": true,
+	"activeTheme": "Polyfrosted Dark",
+	"glowOpacity": 25.0,
+	"animations": true,
+	"preferencesMigrated": false,
+	"reducedMotion": false,
+	"guiClosingAnimation": true
 }

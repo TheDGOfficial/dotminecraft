@@ -14440,25 +14440,6 @@
     },
     {
       "blockPos": {
-        "x": 9,
-        "y": 88,
-        "z": 12
-      },
-      "color": "#AA00AAFF",
-      "filled": false,
-      "depth": false,
-      "aabb": {
-        "minX": 0.375,
-        "minY": 0.0,
-        "minZ": 0.375,
-        "maxX": 0.625,
-        "maxY": 1.0,
-        "maxZ": 1.0
-      },
-      "title": "12"
-    },
-    {
-      "blockPos": {
         "x": 27,
         "y": 87,
         "z": 8
@@ -14516,9 +14497,9 @@
     },
     {
       "blockPos": {
-        "x": 10,
-        "y": 91,
-        "z": 12
+        "x": 9,
+        "y": 94,
+        "z": 11
       },
       "color": "#AA00AAFF",
       "filled": false,
@@ -14531,7 +14512,28 @@
         "maxY": 1.0,
         "maxZ": 1.0
       },
-      "title": "forward"
+      "title": "12",
+      "type": "NORMAL"
+    },
+    {
+      "blockPos": {
+        "x": 10,
+        "y": 96,
+        "z": 10
+      },
+      "color": "#AA00AAFF",
+      "filled": false,
+      "depth": false,
+      "aabb": {
+        "minX": 0.0,
+        "minY": 0.0,
+        "minZ": 0.0,
+        "maxX": 1.0,
+        "maxY": 1.0,
+        "maxZ": 1.0
+      },
+      "title": "forward",
+      "type": "NORMAL"
     }
   ],
   "Ice Path": [],

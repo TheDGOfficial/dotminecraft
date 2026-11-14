@@ -1,10 +1,26 @@
 {
-	"flipTopOptionOrder": false,
+	"uiAmbienceVolume": 100.0,
+	"hudUndoKeybind": {
+		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+		"keyCodes": [
+			"key.keyboard.z"
+		],
+		"mods": 2
+	},
+	"hudDragUiOpacity": 60.0,
+	"enableUISliderSounds": true,
+	"profileSwitchToast": true,
 	"searchDistance": 2,
+	"hudVisibilityKeybind": {
+		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+		"keyCodes": [
+			"key.keyboard.h"
+		],
+		"mods": 2
+	},
+	"percentMigrated": false,
 	"marqueeSelectionAnim": true,
-	"pageAnimationDuration": 0.3,
-	"pageOpacity": 88.0,
-	"sidebarOpacity": 80.0,
+	"enableUIAmbience": true,
 	"keybindClosesGui": false,
 	"hudSettingsKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
@@ -13,8 +29,17 @@
 		],
 		"mods": 2
 	},
-	"uiSoundVolume": 1.0,
+	"marqueeSelectionAnimDuration": 150.0,
+	"rememberLastPage": 1,
+	"uiSoundVolume": 100.0,
 	"enableUIClickSounds": true,
+	"hudRedoKeybind": {
+		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+		"keyCodes": [
+			"key.keyboard.z"
+		],
+		"mods": 3
+	},
 	"oneConfigKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
 		"keyCodes": [
@@ -38,8 +63,16 @@
 	},
 	"instantSearch": true,
 	"enableUIMusicDucking": true,
-	"guiOpenAnimation": true,
+	"pauseGame": false,
 	"hudEditorTourSeen": false,
+	"hudCopyKeybind": {
+		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+		"keyCodes": [
+			"key.keyboard.c"
+		],
+		"mods": 2
+	},
+	"showFirstLaunchMessage": true,
 	"hudLockKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
 		"keyCodes": [
@@ -49,8 +82,22 @@
 	},
 	"showKeybindHints": true,
 	"timeBeforeReset": 15.0,
-	"uiScale": 100.0,
 	"restoreHudEditor": false,
+	"enableUIMenuSounds": true,
+	"hudPasteKeybind": {
+		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+		"keyCodes": [
+			"key.keyboard.v"
+		],
+		"mods": 2
+	},
+	"hudRedoAltKeybind": {
+		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
+		"keyCodes": [
+			"key.keyboard.y"
+		],
+		"mods": 2
+	},
 	"openingBehavior": -1,
 	"showOptionActionButtons": true,
 	"hudSelectAllKeybind": {
@@ -60,7 +107,6 @@
 		],
 		"mods": 2
 	},
-	"glowOpacity": 25.0,
 	"searchKeybind": {
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
 		"keyCodes": [
@@ -78,64 +124,6 @@
 		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
 		"keyCodes": [
 			"key.keyboard.x"
-		],
-		"mods": 2
-	},
-	"showPageAnimations": true,
-	"uiAmbienceVolume": 1.0,
-	"hudUndoKeybind": {
-		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
-		"keyCodes": [
-			"key.keyboard.z"
-		],
-		"mods": 2
-	},
-	"hudDragUiOpacity": 0.6,
-	"enableUISliderSounds": true,
-	"profileSwitchToast": true,
-	"hudVisibilityKeybind": {
-		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
-		"keyCodes": [
-			"key.keyboard.h"
-		],
-		"mods": 2
-	},
-	"pixelGrid": 0,
-	"enableUIAmbience": true,
-	"marqueeSelectionAnimDuration": 150.0,
-	"enableBackgroundBlur": true,
-	"rememberLastPage": 1,
-	"hudRedoKeybind": {
-		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
-		"keyCodes": [
-			"key.keyboard.z"
-		],
-		"mods": 3
-	},
-	"guiClosingAnimation": true,
-	"animationTime": 0.6,
-	"pauseGame": false,
-	"hudCopyKeybind": {
-		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
-		"keyCodes": [
-			"key.keyboard.c"
-		],
-		"mods": 2
-	},
-	"showFirstLaunchMessage": true,
-	"showOpeningPageAnimation": false,
-	"enableUIMenuSounds": true,
-	"hudPasteKeybind": {
-		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
-		"keyCodes": [
-			"key.keyboard.v"
-		],
-		"mods": 2
-	},
-	"hudRedoAltKeybind": {
-		"class": "org.polyfrost.oneconfig.api.ui.v1.keybind.OneConfigKeybind",
-		"keyCodes": [
-			"key.keyboard.y"
 		],
 		"mods": 2
 	},

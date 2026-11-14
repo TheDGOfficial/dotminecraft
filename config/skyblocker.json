@@ -224,8 +224,8 @@
       "maximumAddedLag": 100
     },
     "searchOverlay": {
-      "enableBazaar": true,
-      "enableAuctionHouse": true,
+      "enableBazaar": false,
+      "enableAuctionHouse": false,
       "enableIronmanAuctionHouse": false,
       "enableMuseum": false,
       "keepPreviousSearches": false,
@@ -233,16 +233,8 @@
       "historyLength": 3,
       "enableCommands": false,
       "commandAutocomplete": false,
-      "bazaarHistory": [
-        "Scorched Power Crystal",
-        "Soulflow",
-        "Jungle Log"
-      ],
-      "auctionHistory": [
-        "Washed-up Souvenir",
-        "Dwarf Turtle Shelmet",
-        "Antique Remedies"
-      ],
+      "bazaarHistory": [],
+      "auctionHistory": [],
       "museumHistory": []
     },
     "bazaarQuickQuantities": {
@@ -359,14 +351,14 @@
     "salvageHelper": false,
     "onlyHighlightDonatedItems": false,
     "sellableItemsHighlighter": false,
-    "bloodCampHelper": true,
+    "bloodCampHelper": false,
     "playerSecretsTracker": false,
     "classBasedPlayerGlow": false,
     "starredMobGlow": false,
     "starredMobBoundingBoxes": false,
     "highlightDoorKeys": false,
     "allowDroppingProtectedItems": false,
-    "hideSoulweaverSkulls": true,
+    "hideSoulweaverSkulls": false,
     "dungeonMap": {
       "enableMap": false,
       "fancyMap": false,
@@ -390,16 +382,16 @@
     },
     "puzzleSolvers": {
       "solveTicTacToe": true,
-      "solveThreeWeirdos": true,
-      "creeperSolver": true,
+      "solveThreeWeirdos": false,
+      "creeperSolver": false,
       "waterboardOneFlow": false,
       "previewWaterPath": false,
       "previewLeverEffects": false,
-      "blazeSolver": true,
+      "blazeSolver": false,
       "solveBoulder": false,
       "solveIceFill": false,
       "solveSilverfish": true,
-      "solveTrivia": true,
+      "solveTrivia": false,
       "solveTeleportMaze": false
     },
     "theProfessor": {
@@ -423,13 +415,13 @@
       "blockIncorrectClicks": false
     },
     "devices": {
-      "solveSimonSays": true,
+      "solveSimonSays": false,
       "solveLightsOn": true,
       "solveArrowAlign": false,
       "solveTargetPractice": false
     },
     "goldor": {
-      "enableGoldorWaypoints": true,
+      "enableGoldorWaypoints": false,
       "waypointType": "HIGHLIGHT"
     },
     "terminalHud": {
@@ -445,17 +437,17 @@
       "enableSecretWaypoints": false,
       "waypointType": "HIGHLIGHT",
       "adaptiveBoxSize": false,
-      "showSecretText": true,
+      "showSecretText": false,
       "enableEntranceWaypoints": false,
-      "enableSuperboomWaypoints": true,
-      "enableChestWaypoints": true,
-      "enableItemWaypoints": true,
-      "enableBatWaypoints": true,
-      "enableWitherWaypoints": true,
-      "enableRedstoneKeyWaypoints": true,
-      "enableLeverWaypoints": true,
+      "enableSuperboomWaypoints": false,
+      "enableChestWaypoints": false,
+      "enableItemWaypoints": false,
+      "enableBatWaypoints": false,
+      "enableWitherWaypoints": false,
+      "enableRedstoneKeyWaypoints": false,
+      "enableLeverWaypoints": false,
       "enableFairySoulWaypoints": false,
-      "enableStonkWaypoints": true,
+      "enableStonkWaypoints": false,
       "enableAotvWaypoints": false,
       "enablePearlWaypoints": false,
       "enablePrinceWaypoints": false,
@@ -482,7 +474,7 @@
       "sendBatMessage": false
     },
     "doorHighlight": {
-      "enableDoorHighlight": true,
+      "enableDoorHighlight": false,
       "doorHighlightType": "OUTLINED_HIGHLIGHT"
     },
     "dungeonScore": {
@@ -491,10 +483,10 @@
       "enableDungeonScore270Sound": true,
       "dungeonScore270Message": "270 Score Reached!",
       "enableDungeonScore300Message": true,
-      "enableDungeonScore300Title": true,
-      "enableDungeonScore300Sound": true,
+      "enableDungeonScore300Title": false,
+      "enableDungeonScore300Sound": false,
       "dungeonScore300Message": "300 Score Reached!",
-      "enableDungeonCryptsMessage": true,
+      "enableDungeonCryptsMessage": false,
       "dungeonCryptsMessageThreshold": 250,
       "dungeonCryptsMessage": "Crypts: [crypts]/5",
       "enableScoreHUD": false,
@@ -556,7 +548,7 @@
       "enableControlHelper": false,
       "enableTenacityHelper": false
     },
-    "extendNetherFog": true
+    "extendNetherFog": false
   },
   "mining": {
     "enableDrillFuel": false,
@@ -691,7 +683,7 @@
       "hideColdOverlay": false
     },
     "floorDrops": {
-      "highlightFloorDrops": true,
+      "highlightFloorDrops": false,
       "floorDropHighlightColor": -425955
     }
   },

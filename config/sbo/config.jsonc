@@ -20,10 +20,10 @@
         "showArrowSubGuesses": true,
         // Shows "Possible" text on sub guesses in addition to the block highlight. Might increase visual clutter in exchange of making sub guesses more visible.
         "showTextOnSubGuess": true,
-        // Shows a title to use spade when the arrow guess fails to solve the burrow. This might sometimes show wrongfully on a second solve attempt if the first was successful and second failed for any reason.
-        "showTitleWhenFailure": true,
-        // Shows a title to use spade when the burrow chain is complete and there's no more guesses or burrows at least 90 blocks nearby, which will usually point to a new Start burrow to hold up your concurrent chains.
+        // Shows a title to use spade when the burrow chain is complete and there's no more guesses or burrows at least 90 blocks nearby, which will usually point to a new Start burrow to hold up your concurrent chains. Recommended to keep it enabled.
         "showTitleWhenChainEnds": true,
+        // Shows a title to use spade when the arrow guess fails to solve the next burrow's block from the arrow particles. This might sometimes show wrongfully even if a later attempt of the solver succeeded and added a waypoint. Recommended to keep it disabled, as the title is useless most of the time, since arrow guess automatically runs again next tick when particles are handled again.
+        "showTitleWhenFailure": true,
         // Gives the last burrow of a chain its own color, also while it is still a spade or arrow guess. Known once you dig the burrow before it.
         "highlightChainEnds": true,
         /*
@@ -37,6 +37,20 @@
         "ongoingChainsDisplay": true,
         // Only shows Pending Start and Active waypoint amount, never showing internal state mismatch issues aimed at users that want to troubleshoot/debug mod issues.
         "simpleChainsOverlayMode": false,
+        // When you finish a chain and using your spade there finds no new chain, it shows a location within your specified distance from your last burrow to stand and use spade for new chain discovery. Works with any amount of chains you have. The guess line to spade guess locations is prioritized over any other burrow type. Spade guess locations can be 5 blocks further than your set limit per chain you lose.
+        "spadeGuessOptimizer": true,
+        /*
+         * How many blocks away from the chain's last burrow you're willing to go for a place to use your spade.
+         * Range: 10 - 150
+         */
+        "optimizerDetour": 35,
+        // After starting your game, a lobby swap or /sboclearburrows, shows places across the hub to use your spade until you discover 7 chains. The guess line and warp key go to them during the process until 3 spade guesses in a row fail to discover a new chain, which then the feature stops and redirects you to your guess burrows.
+        "lookForMaxChains": true,
+        /*
+         * Color of the place to stand and use your spade to find a new chain.
+         * [Color Format: RGB]
+         */
+        "SpadeGuessOptimizerColor": -23040,
         // Fixes an Hypixel issue where using the Ancestral, Archaic or the Deific spade sometimes would play a bugged Minecraft music that does not end and could be scary for people. This does the exact same thing SkyHanni option under the same name does, which is to cancel the bugged music from playing, until Hypixel fixes the issue server-side.
         "muteBuggedSpadeSounds": true
     },
@@ -366,6 +380,12 @@
             "lootshare"
         ],
         /*
+         * The trackers that take as little space as possible: a few lines with short names and several entries per line, only the rare mobs and the main loot, no prices or percentages. Works with the legacy and the new look. In the inventory the full tracker is shown, to hide lines and change the view or sort.
+         * Lootshare counts are added after a +, in the stats after a /.
+         * Valid Values: loot, mobs, stats
+         */
+        "compactTrackers": [],
+        /*
          * Font of the trackers with the new look. Minecraft has better performance (about 30% less work per frame than Inter), Inter looks smoother.
          * Valid Values: minecraft, inter
          */
@@ -382,6 +402,16 @@
             "chains",
             "lootshare"
         ],
+        /*
+         * How dark the box behind the trackers is, in percent (78 is the normal look). Lower lets more of the game through, about 30% still keeps the text readable.
+         * Range: 10 - 100
+         */
+        "trackerBackgroundOpacity": 78,
+        /*
+         * The trackers with the new look whose text gets a black outline instead of the shadow, readable on any ground even without a box. Slightly more work per frame: the text is drawn five times.
+         * Valid Values: loot, mobs, stats, coa, chains, lootshare
+         */
+        "trackerOutline": [],
         /*
          * Where the loot prices come from, hover an option for what it does.
          * Valid Values: market, npc_items, npc_only

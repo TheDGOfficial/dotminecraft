@@ -471,7 +471,10 @@
     "sharpDoneAlert": true,
     "simonThrottleTicks": 1,
     "simonProgressMsg": "/pc Simon Says {percent}",
-    "simonResetMsg": "/pc Simon Says Reset"
+    "simonResetMsg": "/pc Simon Says Reset",
+    "simonSays": true,
+    "simonBlockWrong": true,
+    "simonProgressSend": true
   },
   "starredMobHighlight": {
     "color": -16711681,
@@ -531,7 +534,7 @@
     "clickSoundPitch": 2.0,
     "inOrderDrawNumbers": true,
     "soundOnClick": true,
-    "throttleTicks": -1
+    "throttleTicks": 1
   },
   "terracottaTimer": {
     "enabled": true,
@@ -859,7 +862,7 @@
     "lines": 100,
     "enabled": true,
     "keepHistory": true,
-    "extraLines": true,
+    "extraLines": false,
     "msgOnCopy": false,
     "copyKey": 1
   },

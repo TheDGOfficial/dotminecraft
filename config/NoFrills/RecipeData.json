@@ -239,5 +239,24 @@
         "ENCHANTED_GOLD_BLOCK": 64
       }
     }
+  ],
+  "DEMONLORD_GAUNTLET": [
+    {
+      "quantity": 1,
+      "items": {
+        "ENCHANTED_GLOWSTONE": 64,
+        "MOLTEN_POWDER": 96,
+        "ENCHANTED_RABBIT_HIDE": 192
+      }
+    }
+  ],
+  "POLTERGEIST_PITCHFORK": [
+    {
+      "quantity": 1,
+      "items": {
+        "ECTOPLASM": 3,
+        "BEJEWELED_HANDLE": 2
+      }
+    }
   ]
 }

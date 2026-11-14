@@ -75,7 +75,7 @@
       "DungeonF5": {},
       "DungeonF6": {},
       "DungeonF7": {
-        "§2Blood Open": 25.652,
+        "§2Blood Open": 21.674,
         "§bBlood Clear": 54.12,
         "§dPortal Entry": 3.64,
         "§5Maxor": 18.865,
@@ -91,7 +91,7 @@
         "§bBlood Clear": 49.125,
         "§dPortal Entry": 3.727,
         "§cBonzo\u0027s Sike": 12.651,
-        "§4Cleared": 10.159,
+        "§4Cleared": 6.74,
         "§1Total": 99.55
       },
       "DungeonM2": {
@@ -127,7 +127,7 @@
       },
       "DungeonM6": {
         "§2Blood Open": 16.554,
-        "§bBlood Clear": 51.042,
+        "§bBlood Clear": 47.344,
         "§dPortal Entry": 2.512,
         "§cTerracottas": 38.82,
         "§aGiants": 9.895,
@@ -143,7 +143,7 @@
         "§6Terminals": 59.198,
         "§7Goldor": 7.635,
         "§cNecron": 30.652,
-        "§4Cleared": 31.721,
+        "§4Cleared": 31.015,
         "§1Total": 324.418
       },
       "Keybind": "key.keyboard.unknown"
@@ -300,9 +300,9 @@
   },
   {
     "name": "Door Highlight",
-    "enabled": false,
+    "enabled": true,
     "settings": {
-      "Announce Key Spawn": true,
+      "Announce Key Spawn": false,
       "Door Highlight Color": "#FF5555CC",
       "Openable Door Color": "#55FF55CC",
       "Wither Color": "#000000CC",
@@ -781,19 +781,19 @@
   },
   {
     "name": "Render Optimizer",
-    "enabled": false,
+    "enabled": true,
     "settings": {
-      "Hide Falling Blocks": true,
-      "Hide Lightning": true,
+      "Hide Falling Blocks": false,
+      "Hide Lightning": false,
       "Hide Experience Orbs": true,
-      "Hide Death Animation": true,
+      "Hide Death Animation": false,
       "Hide Armor Stands": false,
       "Hide Explosion Particles": false,
       "Hide Archer Passive": true,
       "Hide Healer Fairy": true,
       "Hide Soul Weaver": true,
       "Hide Tentacle Head": true,
-      "Hide Fire Overlay": true,
+      "Hide Fire Overlay": false,
       "Keybind": "key.keyboard.unknown"
     }
   },
@@ -945,7 +945,7 @@
     "name": "Click GUI",
     "enabled": false,
     "settings": {
-      "Click GUI Size": 2,
+      "Click GUI Size": 1.5,
       "Chat notifications": true,
       "Color": "#3296DCFF",
       "API url": "https://hypixel.odtheking.com/",
@@ -981,8 +981,8 @@
           "extended": true
         },
         "M4": {
-          "x": 640,
-          "y": 0,
+          "x": 860,
+          "y": 9,
           "extended": true
         }
       },
@@ -1092,7 +1092,7 @@
       "Ice Fill Solver": true,
       "Ice Fill Color": "#FF55FFFF",
       "Use Optimized Patterns": false,
-      "Blaze Solver": false,
+      "Blaze Solver": true,
       "Blaze Solver Next Line": true,
       "Blaze Solver Line": 2,
       "Blaze Solver Lines Width": 2.0,
@@ -1103,17 +1103,17 @@
       "Other Color": "#FFFFFF4C",
       "Send Complete": false,
       "Hide Blazes": true,
-      "Creeper Beams Solver": false,
+      "Creeper Beams Solver": true,
       "Beams Style": "FILLED_OUTLINE",
-      "Beams Tracer": false,
+      "Beams Tracer": true,
       "Beams Color Alpha": 0.7,
-      "Weirdos Solver": false,
+      "Weirdos Solver": true,
       "Weirdos Correct Color": "#55FF55B2",
       "Weirdos Wrong Color": "#FF5555B2",
       "Weirdos Style": "FILLED_OUTLINE",
-      "Quiz Solver": false,
+      "Quiz Solver": true,
       "Quiz Color": "#55FF55BF",
-      "Quiz Depth": false,
+      "Quiz Depth": true,
       "Quiz Timer Hud": {
         "x": 10,
         "y": 10,
@@ -1129,9 +1129,13 @@
       "PuzzlePBs": {
         "Teleport Maze": 5.854,
         "Three Weirdos": 2.657,
-        "Water Board": 16.965,
+        "Water Board": 16.731,
         "Boulder": 3.615,
-        "Ice Fill": 25.266
+        "Ice Fill": 25.028,
+        "Higher Blaze": 16.41,
+        "Creeper Beams": 15.455,
+        "Lower Blaze": 12.722,
+        "Quiz": 26.305
       }
     }
   },
@@ -1139,14 +1143,14 @@
     "name": "Blood Camp",
     "enabled": true,
     "settings": {
-      "Move alert": true,
+      "Move alert": false,
       "Move HUD": {
         "x": 10,
         "y": 10,
         "scale": 2.0,
         "enabled": false
       },
-      "Blood Camp Assist": false,
+      "Blood Camp Assist": true,
       "Spawn Color": "#FF5555FF",
       "Final Color": "#00AAAAFF",
       "Position Color": "#55FF55FF",
@@ -1332,7 +1336,7 @@
   },
   {
     "name": "Terminals Status",
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "Term Info": {
         "x": 10,
@@ -1344,7 +1348,7 @@
       "Style": "Full",
       "Waypoint color": "#FFFF55FF",
       "Through Walls": true,
-      "Hide Default": true,
+      "Hide Default": false,
       "Keybind": "key.keyboard.unknown"
     }
   },

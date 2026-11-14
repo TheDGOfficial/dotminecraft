@@ -166,7 +166,7 @@
           "cloud_fog_percent": 100
         },
         "minecraft:the_nether": {
-          "distance_chunks": 0,
+          "distance_chunks": 3,
           "start_percent": 100,
           "shape_mode": "VANILLA",
           "cloud_fog_percent": 100
