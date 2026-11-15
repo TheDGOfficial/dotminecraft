@@ -65,19 +65,19 @@
       "done": true
     },
     {
-      "timestamp": 1794235994134,
-      "area": "Moonglade Marsh",
-      "x": -604,
-      "y": 112,
-      "z": 9,
-      "done": true
-    },
-    {
       "timestamp": 1794236224985,
       "area": "Moonglade Marsh",
       "x": -663,
       "y": 114,
       "z": -79,
+      "done": true
+    },
+    {
+      "timestamp": 1794698729419,
+      "area": "Moonglade Marsh",
+      "x": -604,
+      "y": 112,
+      "z": 9,
       "done": true
     }
   ]

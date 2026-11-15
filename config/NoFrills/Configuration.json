@@ -91,7 +91,7 @@
     "bindingColor": -16711936,
     "boundColor": -16711681,
     "enabled": true,
-    "keybind": 260,
+    "keybind": "key.keyboard.insert",
     "data": {
       "hotbar1": {
         "last": 27,
@@ -145,8 +145,8 @@
     "sound": true,
     "enabled": true,
     "style": "Custom",
-    "custom6": 82,
-    "custom7": 70,
+    "custom6": "key.keyboard.r",
+    "custom7": "key.keyboard.f",
     "soundIdentifier": "entity.horse.armor",
     "volume": 0.7,
     "pitch": 1.0,
@@ -241,50 +241,68 @@
     "data": {
       "binds": [
         {
-          "key": 82,
+          "key": "key.keyboard.r",
           "command": "/stats",
           "enabled": true,
           "modifier": "Any",
-          "name": "Equipment Menu"
+          "name": "Equipment Menu",
+          "classFilterList": [],
+          "islandFilterList": [],
+          "allowInGui": false
         },
         {
-          "key": 72,
+          "key": "key.keyboard.h",
           "command": "/wd",
           "enabled": true,
           "modifier": "Any",
-          "name": "Wardrobe Menu"
+          "name": "Wardrobe Menu",
+          "classFilterList": [],
+          "islandFilterList": [],
+          "allowInGui": false
         },
         {
-          "key": 86,
+          "key": "key.keyboard.v",
           "command": "/pets",
           "enabled": true,
           "modifier": "Any",
-          "name": "Pets Menu"
+          "name": "Pets Menu",
+          "classFilterList": [],
+          "islandFilterList": [],
+          "allowInGui": false
         },
         {
-          "key": 269,
+          "key": "key.keyboard.end",
           "command": "/pc In Tunnel",
           "enabled": true,
           "modifier": "Any",
           "name": "Tunnel Announce",
-          "islandFilter": "catacombs"
+          "classFilterList": [],
+          "islandFilterList": [
+            "catacombs"
+          ],
+          "allowInGui": false
         },
         {
-          "key": 268,
+          "key": "key.keyboard.home",
           "command": "/pc At Core!",
           "enabled": true,
           "modifier": "Any",
           "name": "Core Announce",
-          "islandFilter": "catacombs"
+          "classFilterList": [],
+          "islandFilterList": [
+            "catacombs"
+          ],
+          "allowInGui": false
         },
         {
           "name": "Loadout Menu",
-          "key": 70,
+          "key": "key.keyboard.f",
           "command": "/ld",
           "enabled": true,
           "allowInGui": false,
           "modifier": "Any",
-          "islandFilter": ""
+          "classFilterList": [],
+          "islandFilterList": []
         }
       ]
     },
@@ -505,10 +523,10 @@
     "message": "/pc Leaped to {name}!",
     "scale": 3.0,
     "enabled": true,
-    "firstKey": 49,
-    "secondKey": 50,
-    "thirdKey": 51,
-    "fourthKey": 52
+    "firstKey": "key.keyboard.1",
+    "secondKey": "key.keyboard.2",
+    "thirdKey": "key.keyboard.3",
+    "fourthKey": "key.keyboard.4"
   },
   "terminalSolvers": {
     "panes": true,
@@ -864,7 +882,7 @@
     "keepHistory": true,
     "extraLines": false,
     "msgOnCopy": false,
-    "copyKey": 1
+    "copyKey": "key.mouse.right"
   },
   "hitboxFix": {
     "enabled": true
@@ -923,7 +941,7 @@
     "enabled": true,
     "protectStarred": true,
     "protectUUID": true,
-    "uuidKey": -1,
+    "uuidKey": "key.keyboard.unknown",
     "data": {
       "uuids": [
         "e5653a16-b30e-4758-ae1c-211b9c878711",
@@ -1246,10 +1264,10 @@
   },
   "loadoutKeybinds": {
     "enabled": true,
-    "editBindKey": 260,
+    "editBindKey": "key.keyboard.insert",
     "data": {
-      "82": "RCM",
-      "70": "LCM"
+      "key.keyboard.r": "RCM",
+      "key.keyboard.f": "LCM"
     },
     "sound": "block.note_block.cow_bell",
     "volume": 1.0,
@@ -1337,5 +1355,9 @@
     "obtainedSoundPitch": 1.0,
     "enabled": true,
     "radius": true
+  },
+  "customTitleContainer": {
+    "scale": 1.0,
+    "gridPrecision": 5
   }
 }

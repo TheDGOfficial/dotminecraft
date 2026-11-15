@@ -478,11 +478,11 @@
       "doorHighlightType": "OUTLINED_HIGHLIGHT"
     },
     "dungeonScore": {
-      "enableDungeonScore270Message": true,
-      "enableDungeonScore270Title": true,
-      "enableDungeonScore270Sound": true,
+      "enableDungeonScore270Message": false,
+      "enableDungeonScore270Title": false,
+      "enableDungeonScore270Sound": false,
       "dungeonScore270Message": "270 Score Reached!",
-      "enableDungeonScore300Message": true,
+      "enableDungeonScore300Message": false,
       "enableDungeonScore300Title": false,
       "enableDungeonScore300Sound": false,
       "dungeonScore300Message": "300 Score Reached!",

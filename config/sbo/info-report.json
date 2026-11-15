@@ -12,7 +12,7 @@
                 },
                 {
                     "id": "nofrills",
-                    "version": "0.4.15"
+                    "version": "0.4.16"
                 }
             ]
         },
@@ -20,12 +20,20 @@
             "target": "net.minecraft.client.renderer.entity.EntityRenderer",
             "mods": [
                 {
+                    "id": "birdaddon",
+                    "version": "0.0.14"
+                },
+                {
+                    "id": "odin",
+                    "version": "0.4.1"
+                },
+                {
                     "id": "polydium",
-                    "version": "1.4.7"
+                    "version": "1.4.10"
                 },
                 {
                     "id": "nofrills",
-                    "version": "0.4.15"
+                    "version": "0.4.16"
                 },
                 {
                     "id": "render-chest",
@@ -37,11 +45,7 @@
                 },
                 {
                     "id": "entityculling",
-                    "version": "1.12.0"
-                },
-                {
-                    "id": "odin",
-                    "version": "0.4.1"
+                    "version": "1.12.1"
                 },
                 {
                     "id": "darkutils",
@@ -50,10 +54,6 @@
                 {
                     "id": "owo",
                     "version": "0.13.1+26.2"
-                },
-                {
-                    "id": "birdaddon",
-                    "version": "0.0.14"
                 },
                 {
                     "id": "sodium",
@@ -78,7 +78,7 @@
                 },
                 {
                     "id": "nofrills",
-                    "version": "0.4.15"
+                    "version": "0.4.16"
                 }
             ]
         }

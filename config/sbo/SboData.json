@@ -70,9 +70,9 @@
   "lastStatsProfile": "Orange",
   "cloudSync": {
     "d5c721ce1b124f719c1d0f4e36829f99": {
-      "version": 174,
-      "counter": 1794586315748,
-      "hash": "7eV+V8RcqNUMg2LAwtcm2z8gv/qPybtK1VIYrushhNU\u003d",
+      "version": 175,
+      "counter": 1794684130025,
+      "hash": "AgvDYn25WvEzQKJJq7gm8NBmrUKGQ7iKJaI67c+RW8A\u003d",
       "autoSync": true,
       "premium": true
     }
@@ -94,6 +94,8 @@
   "badgeAnimationsInChat": "all",
   "badgeLooksOfOthers": true,
   "badgeSizesOfOthers": true,
+  "badgeLineSize": 1.0,
+  "badgeNameSize": 1.0,
   "badgeAccess": {
     "d5c721ce1b124f719c1d0f4e36829f99": true
   },
