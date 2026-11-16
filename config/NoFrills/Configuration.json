@@ -1333,7 +1333,7 @@
     "scale": 1.0,
     "gridPrecision": 5,
     "enabled": true,
-    "added": true,
+    "added": false,
     "x": 0.6202075195312503,
     "y": 0.9651432291666666,
     "shadow": false
